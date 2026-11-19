@@ -1,0 +1,74 @@
+/* Scoped to TrueTrip. Native Apple typography and quiet, neutral surfaces. */
+.tt-block, .tt-banner {
+  --tt-ink: #1d1d1f;
+  --tt-secondary: #6e6e73;
+  --tt-blue: #0071e3;
+  --tt-line: rgba(0, 0, 0, .09);
+  box-sizing: border-box;
+  color: var(--tt-ink);
+  font: 400 13px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", sans-serif;
+  letter-spacing: -.012em;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+  text-align: left;
+}
+.tt-block {
+  margin: 10px 0 6px;
+  padding: 18px 20px;
+  border: 1px solid var(--tt-line);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .035);
+  overflow-wrap: anywhere;
+}
+.tt-card-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.tt-block .tt-head { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; color: var(--tt-ink); font-size: 12px; font-weight: 600; letter-spacing: -.01em; }
+.tt-card-header .tt-head { margin-bottom: 0; }
+.tt-block .tt-head::before { content: "↗"; display: inline-grid; place-items: center; width: 19px; height: 19px; border-radius: 6px; color: #fff; background: var(--tt-blue); font-size: 14px; line-height: 1; }
+.tt-mode { padding: 2px 8px; border-radius: 20px; background: #f5f5f7; color: #6e6e73; font-size: 11px; font-weight: 500; }
+.tt-accommodation { margin-bottom: 10px; padding-bottom: 12px; border-bottom: 1px solid var(--tt-line); }
+.tt-accommodation strong { font-weight: 600; }
+.tt-tax-note { margin-top: 3px; font-size: 12px; }
+.tt-data-row { margin-top: 7px; }
+.tt-block .tt-muted { color: var(--tt-secondary); font-weight: 400; }
+.tt-block .tt-ratings { color: #515154; font-size: 12px; }
+.tt-block .tt-warn { color: #8a590a; }
+.tt-block .tt-over { margin-top: 8px; color: #b42318; font-size: 12px; }
+.tt-block a { color: #0068d1; text-decoration: none; text-underline-offset: 3px; }
+.tt-block a:hover { text-decoration: underline; }
+.tt-block .tt-total { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--tt-line); font-weight: 500; }
+.tt-primary-total { font-size: 14px; letter-spacing: -.02em; }
+.tt-primary-total b { margin-left: 2px; font-size: 21px; font-weight: 600; letter-spacing: -.035em; }
+.tt-total > .tt-muted { font-size: 12px; }
+.tt-banner { position: sticky; top: 10px; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: 9px 12px; margin: 0 0 14px; padding: 13px 16px; border: 1px solid var(--tt-line); border-radius: 16px; background: rgba(255, 255, 255, .96); box-shadow: 0 4px 20px rgba(0, 0, 0, .065); -webkit-backdrop-filter: blur(20px) saturate(160%); backdrop-filter: blur(20px) saturate(160%); }
+.tt-banner > b { color: var(--tt-ink); font-size: 15px; font-weight: 650; letter-spacing: -.035em; }
+.tt-status { flex: 1 1 200px; min-width: 0; color: var(--tt-secondary); font-size: 12px; overflow-wrap: anywhere; }
+.tt-banner button, .tt-search { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 32px; padding: 6px 11px; border: 1px solid transparent; border-radius: 9px; font: 500 12px/1.45 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", sans-serif; letter-spacing: -.01em; cursor: pointer; transition: background-color .15s ease, border-color .15s ease; }
+.tt-banner .tt-sort, .tt-banner .tt-sort-time { background: var(--tt-blue); color: #fff; }
+.tt-banner .tt-sort:hover:not(:disabled), .tt-banner .tt-sort-time:hover:not(:disabled) { background: #0077ed; }
+.tt-banner .tt-restore, .tt-banner .tt-settings { background: #f5f5f7; color: var(--tt-ink); border-color: rgba(0, 0, 0, .045); }
+.tt-banner .tt-restore:hover:not(:disabled), .tt-banner .tt-settings:hover:not(:disabled) { background: #eaeaec; }
+.tt-banner button:disabled { background: #f0f0f2; border-color: transparent; color: #85858b; cursor: default; }
+.tt-banner .tt-notes { flex-basis: 100%; color: #6e6e73; font-size: 12px; }
+.tt-banner .tt-notes:empty { display: none; }
+.tt-banner .tt-notes ul { margin: 2px 0 0; padding-left: 18px; }
+.tt-banner .tt-warn { color: #8a590a; }
+.tt-rank { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; padding: 1px 6px; border-radius: 6px; background: #eef5fe; color: #0068d1; font-size: 11px; font-weight: 600; }
+.tt-block.tt-deferred { display: flex; align-items: center; gap: 12px; padding: 11px 16px; box-shadow: none; background: #fafafa; }
+.tt-deferred > .tt-muted { font-size: 11px; }
+.tt-search { background: #fff; border-color: #d8e7fa; color: #0068d1; }
+.tt-search svg { flex: none; }
+.tt-search:hover:not(:disabled) { background: #f0f6fe; border-color: #aacbf2; }
+.tt-search:disabled { color: #6e6e73; background: #f5f5f7; border-color: transparent; cursor: wait; }
+.tt-block a:focus-visible, .tt-banner button:focus-visible, .tt-search:focus-visible { outline: 3px solid rgba(0, 113, 227, .45); outline-offset: 3px; }
+@media (max-width: 640px) {
+  .tt-block { padding: 14px; border-radius: 13px; }
+  .tt-banner { top: 6px; padding: 12px; border-radius: 13px; gap: 8px; }
+  .tt-status { flex-basis: calc(100% - 90px); }
+  .tt-banner button { flex: 1 1 auto; }
+  .tt-card-header { margin-bottom: 10px; }
+  .tt-primary-total b { font-size: 19px; }
+}
+@media (prefers-reduced-motion: reduce) { .tt-banner button, .tt-search { transition: none; } }
+
+.tt-tax-retry { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; font-size: 12px; }

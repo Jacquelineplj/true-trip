@@ -1,0 +1,20 @@
+{
+  "startedAt": "2026-11-17T00:40:49.224Z",
+  "live": true,
+  "checks": [
+    "MV3 service worker loaded; real extension storage configured",
+    "30 cards read with name, price, hotel URL",
+    "At most one TrueTrip block per hotel card",
+    "3 real provider results rendered by installed extension",
+    "Cheapest availability-table room and taxes rendered on search cards",
+    "Sort puts enriched cards first and assigns three ranks",
+    "Card and banner restored after DOM replacement; sort still works"
+  ],
+  "blocks": [
+    "\n      Added by TrueTrip\n      Lowest-priced room on hotel page: $41 + $7 taxes/fees sourceExcluded: 2.75 % Municipality fee, 5.7 % TAX, 8 % City tax · Calculated from the displayed price and charges\n      Parking: estimated off-site $50.50/night × 1 = $50.50 (no on-site parking; average of 2 valid hotel quotes in this search)\n      Rides to your anchors: $43-$81, about 0.4 h total travel (MIT Media Lab: 7 min · Boston Convention and Exhibition Center: 5 min)\n      Ratings: Booking 8.4 · Google n/a · Tripadvisor n/a\n      True trip cost (drive): about $106 · if you skip the car: $118\n      \n      ",
+    "\n      Added by TrueTrip\n      Lowest-priced room on hotel page: $154 + $25 taxes/fees sourceExcluded: 16.45 % TAX · Calculated from the displayed price and charges\n      Parking: $59/night x 1 = $59 (valet; GPT web search) source\n      Rides to your anchors: $47-$89, about 0.5 h total travel (MIT Media Lab: 7 min · Boston Convention and Exhibition Center: 8 min)\n      Ratings: Booking 7.9 · Google n/a · Tripadvisor n/a\n      True trip cost (drive): about $248 · if you skip the car: $257\n      \n      ",
+    "\n      Added by TrueTrip\n      Lowest-priced room on hotel page: $314 + $52 taxes/fees sourceIncluded: $5 Service charge per night, $25 Destination charge per night Excluded: 2.75 % local city tax, 6.5 % TAX, 7.2 % City tax · Calculated from the displayed price and charges\n      Parking: $42/night x 1 = $42 (self; GPT web search) source\n      Rides to your anchors: $43-$80, about 0.4 h total travel (MIT Media Lab: 10 min · Boston Convention and Exhibition Center: 2 min)\n      Ratings: Booking 9 · Google n/a · Tripadvisor n/a\n      True trip cost (drive): about $416 · if you skip the car: $435\n      \n      "
+  ],
+  "statusText": "3 hotels enriched",
+  "passed": true
+}

@@ -1,0 +1,156 @@
+{
+  "startedAt": "2026-11-17T22:40:28.934Z",
+  "live": true,
+  "undated": false,
+  "targetCards": 3,
+  "ratings": false,
+  "checks": [
+    "MV3 service worker loaded; real extension storage configured",
+    "25 cards read with name, price, hotel URL",
+    "At most one TrueTrip block per hotel card",
+    "3 real provider results rendered by installed extension",
+    "Cheapest availability-table room and taxes rendered on search cards",
+    "Sort puts enriched cards first and assigns three ranks",
+    "Card and banner restored after DOM replacement; sort still works",
+    "Restore original Booking order after sorting and DOM replacement",
+    "No extra tabs created in extension browser during tax lookups"
+  ],
+  "enrichmentReadyMs": 12091,
+  "taxesReadyMs": 14698,
+  "ratingCoverage": {
+    "google": 0,
+    "tripadvisor": 0,
+    "googleTravel": 0
+  },
+  "extraUserBrowserTabs": 0,
+  "blocks": [
+    "\n      TrueTripDrive\n      Lowest-priced room on hotel page: $95 + $11 taxes/fees source ↗Tax not included in room price; added above\n      Parking: $30/night x 1 = $30 (self; GPT web search) source\n      Rides to your anchors: estimated $70-$131, about 0.8 h total travel (MIT Media Lab: 10 min · Boston Convention and Exhibition Center: 12 min)\n      Ratings: Booking 7.6 · Google n/a · Tripadvisor n/a\n      True trip cost (drive): about $151 · if you skip the car: $222\n      \n      ",
+    "\n      TrueTripDrive\n      Lowest-priced room on hotel page: $242 + $40 taxes/fees source ↗Tax not included in room price; added above\n      Parking: $70/night x 1 = $70 (valet; GPT web search) source\n      Rides to your anchors: estimated $47-$89, about 0.5 h total travel (MIT Media Lab: 7 min · Boston Convention and Exhibition Center: 8 min)\n      Ratings: Booking 8.5 · Google n/a · Tripadvisor n/a\n      True trip cost (drive): about $362 · if you skip the car: $360\n      \n      ",
+    "\n      TrueTripDrive\n      Lowest-priced room on hotel page: $97 + $16 taxes/fees source ↗Tax not included in room price; added above\n      Parking: $27/night x 1 = $27 (self; GPT web search) source\n      Rides to your anchors: estimated $66-$124, about 0.7 h total travel (MIT Media Lab: 14 min · Boston Convention and Exhibition Center: 7 min)\n      Ratings: Booking 7.9 · Google n/a · Tripadvisor n/a\n      True trip cost (drive): about $154 · if you skip the car: $222\n      \n      "
+  ],
+  "statusText": "3 hotels · anchors: MIT Media Lab, Boston Convention and Exhibition Center · drive · $20/h",
+  "passed": true,
+  "elapsedMs": 16688,
+  "requests": [
+    {
+      "endpoint": "/health",
+      "startedAt": "2026-11-17T22:40:33.409Z",
+      "startedMs": 1794955233409,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 384
+    },
+    {
+      "endpoint": "/health",
+      "startedAt": "2026-11-17T22:40:38.749Z",
+      "startedMs": 1794955238749,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 3
+    },
+    {
+      "endpoint": "hotel-html",
+      "startedAt": "2026-11-17T22:40:38.755Z",
+      "startedMs": 1794955238755,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 2253
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:40:38.756Z",
+      "startedMs": 1794955238756,
+      "hotel": "Hampton Inn Boston Logan Airport",
+      "status": 200,
+      "durationMs": 16
+    },
+    {
+      "endpoint": "hotel-html",
+      "startedAt": "2026-11-17T22:40:38.756Z",
+      "startedMs": 1794955238756,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 2836
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:40:38.756Z",
+      "startedMs": 1794955238756,
+      "hotel": "The Westin Copley Place, Boston",
+      "status": 200,
+      "durationMs": 32
+    },
+    {
+      "endpoint": "hotel-html",
+      "startedAt": "2026-11-17T22:40:38.757Z",
+      "startedMs": 1794955238757,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 2829
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:40:38.757Z",
+      "startedMs": 1794955238757,
+      "hotel": "DoubleTree by Hilton Hotel Boston Bayside",
+      "status": 200,
+      "durationMs": 40
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:40:38.984Z",
+      "startedMs": 1794955238984,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 41
+    },
+    {
+      "endpoint": "/reprice",
+      "startedAt": "2026-11-17T22:40:42.525Z",
+      "startedMs": 1794955242525,
+      "hotel": "Hampton Inn Boston Logan Airport",
+      "status": 200,
+      "durationMs": 10
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:40:42.691Z",
+      "startedMs": 1794955242691,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 4
+    },
+    {
+      "endpoint": "/reprice",
+      "startedAt": "2026-11-17T22:40:43.001Z",
+      "startedMs": 1794955243001,
+      "hotel": "DoubleTree by Hilton Hotel Boston Bayside",
+      "status": 200,
+      "durationMs": 3
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:40:43.165Z",
+      "startedMs": 1794955243165,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 3
+    },
+    {
+      "endpoint": "/reprice",
+      "startedAt": "2026-11-17T22:40:43.605Z",
+      "startedMs": 1794955243605,
+      "hotel": "The Westin Copley Place, Boston",
+      "status": 200,
+      "durationMs": 7
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:40:43.766Z",
+      "startedMs": 1794955243766,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 2
+    }
+  ]
+}

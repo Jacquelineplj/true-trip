@@ -1,0 +1,1289 @@
+{
+  "reference": "validation/parking-reference.json",
+  "at": "2026-11-16T19:18:31.240Z",
+  "input": "fixtures/boston-parking-audit.json",
+  "rows": [
+    {
+      "id": "card-0",
+      "name": "Hampton Inn Boston Logan Airport",
+      "elapsedMs": 27215,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.08834,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/boslahx-hampton-boston-logan-airport/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/boslahx-hampton-boston-logan-airport/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Hampton-Inn-Boston-Logan-Airport.h578419.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-1",
+      "name": "Omni Boston Hotel at the Seaport",
+      "elapsedMs": 24191,
+      "claim": {
+        "parking_fee_per_night": 60,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies",
+        "source_quote": "Overnight Self-Park | $60",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:14:57.017Z",
+        "sourceUrl": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies",
+        "contentHash": "79f2f06836c844a360e6ed6e5a7a377f7ef9debbb80e3befefb51049a6d786a0",
+        "method": "browser",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.08433799999999998,
+      "attempts": [
+        {
+          "url": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies",
+          "status": "ok",
+          "fee": 60,
+          "type": "self"
+        }
+      ],
+      "verified": {
+        "status": "ok",
+        "perNight": 60,
+        "type": "self",
+        "sourceUrl": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies",
+        "quote": "Overnight Self-Park | $60",
+        "reason": "confidence high"
+      }
+    },
+    {
+      "id": "card-2",
+      "name": "Hilton Boston Logan Airport",
+      "elapsedMs": 27261,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.08488240000000001,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://expedia.com/Seaport-District-hotels-Hilton-Boston-Logan-Airport.h281536.Hotel-information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-3",
+      "name": "The Westin Copley Place, Boston",
+      "elapsedMs": 28748,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0844268,
+      "attempts": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://marriott.com/hotels/fact-sheet/feature-1/boswi-the-westin-copley-place-boston",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-The-Westin-Copley-Place.h4443.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://ca.hotels.com/ho105311/the-westin-copley-place-boston-a-marriott-hotel-boston-united-states-of-america/",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-4",
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "elapsedMs": 17849,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.06451040000000001,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-5",
+      "name": "citizenM Boston Back Bay",
+      "elapsedMs": 17834,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0628302,
+      "attempts": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/boszb-citizenm-boston-back-bay/overview/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-CitizenM-Boston-Back-Bay.h96998829.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.citizenm.com/nl/hotels/amerika/boston/back-bay-hotel",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-6",
+      "name": "DoubleTree by Hilton Hotel Boston Bayside",
+      "elapsedMs": 28318,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.10646359999999999,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/boschdt-doubletree-boston-bayside/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/boschdt-doubletree-boston-bayside/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-DoubleTree-By-Hilton-Hotel-Boston-Bayside.h296419.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.travelocity.com/Boston-Hotels-DoubleTree-By-Hilton-Hotel-Boston-Bayside.h296419.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-7",
+      "name": "Embassy Suites Boston at Logan Airport",
+      "elapsedMs": 18630,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.06262390000000001,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/bosapes-embassy-suites-boston-at-logan-airport/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/bosapes-embassy-suites-boston-at-logan-airport/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://expedia.com/Seaport-District-hotels-Embassy-Suites-Boston-Logan-Airport.h908619.Hotel-information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-8",
+      "name": "DoubleTree by Hilton Hotel Boston - Downtown",
+      "elapsedMs": 28285,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0843813,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/boscodt-doubletree-boston-downtown/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/boscodt-doubletree-boston-downtown/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-DoubleTree-By-Hilton-Boston-Downtown.h470888.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.travelocity.com/Boston-Hotels-DoubleTree-By-Hilton-Boston-Downtown.h470888.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-9",
+      "name": "The Atlas Hotel Boston Cambridge",
+      "elapsedMs": 33895,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0885902,
+      "attempts": [
+        {
+          "url": "https://www.theatlashotel.com/faq/",
+          "error": "page identity does not match requested hotel",
+          "title": "FAQs & Guest Information | The Atlas Hotel Boston",
+          "textLength": 31761
+        },
+        {
+          "url": "https://www.theatlashotel.com/",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-The-Atlas-Hotel.h118784552.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hotels.com/ho3802105664",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-10",
+      "name": "Wyndham Boston Beacon Hill",
+      "elapsedMs": 44350,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0655101,
+      "attempts": [
+        {
+          "url": "https://www.wyndhamhotels.com/wyndham/boston-massachusetts/wyndham-boston-beacon-hill",
+          "error": "page identity does not match requested hotel",
+          "title": "404 - Page Not Found",
+          "textLength": 8665
+        },
+        {
+          "url": "https://www.wyndhamhotels.com/wyndham/boston-massachusetts/wyndham-boston-beacon-hill/overview",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.wyndhamhotels.com/wyndham/boston-massachusetts/wyndham-boston-beacon-hill/services-amenities",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.wyndhamhotels.com/en-ca/wyndham/boston-massachusetts/wyndham-boston-beacon-hill/services-amenities",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.wyndhamhotels.com/es-xl/wyndham/boston-massachusetts/wyndham-boston-beacon-hill/services-amenities",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.wyndhamhotels.com/en-uk/wyndham/boston-massachusetts/wyndham-boston-beacon-hill/services-amenities",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.wyndhamhotels.com/zh-cn/wyndham/boston-massachusetts/wyndham-boston-beacon-hill/services-amenities",
+          "error": "page identity does not match requested hotel",
+          "title": "温德姆波士顿灯塔山酒店 服务和设施",
+          "textLength": 25878
+        },
+        {
+          "url": "https://www.wyndhamhotels.com/wyndham/boston-massachusetts/wyndham-boston-beacon-hill/overview",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-11",
+      "name": "Hotel AKA Back Bay",
+      "elapsedMs": 30572,
+      "claim": {
+        "parking_fee_per_night": 68,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.stayaka.com/hotel-aka-backbay/faq",
+        "source_quote": "On-property valet parking is available for $68 per vehicle, per night.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:16:24.630Z",
+        "sourceUrl": "https://www.stayaka.com/hotel-aka-backbay/faq",
+        "contentHash": "f52919895fbe7e2d615cafa23b4498b8887d9e48a1986c6746f357053a991eb0",
+        "method": "http",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.1077738,
+      "attempts": [
+        {
+          "url": "https://www.stayaka.com/hotel-aka-backbay",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.stayaka.com/hotel-aka-backbay/amenities",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.stayaka.com/hotel-aka-backbay/faq",
+          "status": "ok",
+          "fee": 68,
+          "type": "valet"
+        }
+      ],
+      "verified": {
+        "status": "ok",
+        "perNight": 68,
+        "type": "valet",
+        "sourceUrl": "https://www.stayaka.com/hotel-aka-backbay/faq",
+        "quote": "On-property valet parking is available for $68 per vehicle, per night.",
+        "reason": "confidence high"
+      }
+    },
+    {
+      "id": "card-12",
+      "name": "Hampton by Hilton at the Boston Seaport District",
+      "elapsedMs": 20262,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0650769,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/bosbahx-hampton-boston-seaport-district/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/bosbahx-hampton-boston-seaport-district/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/boston-hotels-hampton-inn-boston-seaport.h55421972.hotel-information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Hampton-Inn-Boston-Seaport.h55421972.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-13",
+      "name": "Hampton Inn & Suites Boston Crosstown Center",
+      "elapsedMs": 23692,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.10490830000000001,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/boshshx-hampton-suites-boston-crosstown-center/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/boshshx-hampton-suites-boston-crosstown-center/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Hampton-Inn-Suites-Boston-Crosstown-Center.h1071878.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-14",
+      "name": "Boston Lodge and Suites",
+      "elapsedMs": 16628,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0625491,
+      "attempts": [
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.bostonlodgesuites.us/policies.html",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-15",
+      "name": "The Verb Hotel",
+      "elapsedMs": 18692,
+      "claim": {
+        "parking_fee_per_night": 73,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.theverbhotel.com/faq",
+        "source_quote": "Valet parking only ($73 overnight fee-limited availability, first come first serve, rates subject to change)",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:16:49.410Z",
+        "sourceUrl": "https://www.theverbhotel.com/faq",
+        "contentHash": "8549fb5917b59820f5421124100427b2eb17450ee5da142cf1fd24b504ef5f2f",
+        "method": "http",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.08159899999999999,
+      "attempts": [
+        {
+          "url": "https://www.theverbhotel.com/faq",
+          "status": "ok",
+          "fee": 73,
+          "type": "valet"
+        }
+      ],
+      "verified": {
+        "status": "ok",
+        "perNight": 73,
+        "type": "valet",
+        "sourceUrl": "https://www.theverbhotel.com/faq",
+        "quote": "Valet parking only ($73 overnight fee-limited availability, first come first serve, rates subject to change)",
+        "reason": "confidence high"
+      }
+    },
+    {
+      "id": "card-16",
+      "name": "Hotel Commonwealth",
+      "elapsedMs": 16128,
+      "claim": {
+        "parking_fee_per_night": 75,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.hotelcommonwealth.com/faq/",
+        "source_quote": "Yes , we offer on-site valet parking at a cost of $75 per vehicle per night.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:17:03.333Z",
+        "sourceUrl": "https://www.hotelcommonwealth.com/faq/",
+        "contentHash": "7bbd91f68c52cba5b93d834faee3005563a33c28ca800b2a39074f74a86825ed",
+        "method": "http",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0810804,
+      "attempts": [
+        {
+          "url": "https://www.hotelcommonwealth.com/faq/",
+          "status": "ok",
+          "fee": 75,
+          "type": "valet"
+        }
+      ],
+      "verified": {
+        "status": "ok",
+        "perNight": 75,
+        "type": "valet",
+        "sourceUrl": "https://www.hotelcommonwealth.com/faq/",
+        "quote": "Yes , we offer on-site valet parking at a cost of $75 per vehicle per night.",
+        "reason": "confidence high"
+      }
+    },
+    {
+      "id": "card-17",
+      "name": "Hilton Boston Park Plaza",
+      "elapsedMs": 27540,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0877301,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/bossrhh-hilton-boston-park-plaza/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/bossrhh-hilton-boston-park-plaza/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.travelocity.com/Boston-Hotels-Boston-Park-Plaza.h4215.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.tripster.com/detail/boston-park-plaza",
+          "status": "ok",
+          "fee": 42,
+          "type": "self"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-18",
+      "name": "The Midtown Hotel MOD Collection by Sonesta",
+      "elapsedMs": 26065,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0876103,
+      "attempts": [
+        {
+          "url": "https://www.sonesta.com/hotels/ma1895-midtown-hotel-mod-collection-sonesta",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Midtown-Hotel.h2898.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-19",
+      "name": "Hyatt Place Boston/Seaport District",
+      "elapsedMs": 18785,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0698983,
+      "attempts": [
+        {
+          "url": "https://www.hyatt.com/hyatt-place/en-US/boszs-hyatt-place-boston-seaport-district/faqs",
+          "error": "page identity does not match requested hotel",
+          "title": "",
+          "textLength": 0
+        },
+        {
+          "url": "https://www.expedia.com/boston-hotels-hyatt-place-bostonseaport-district.h46521349.hotel-information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-20",
+      "name": "Hyatt Regency Boston Harbor",
+      "elapsedMs": 25352,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.08444090000000001,
+      "attempts": [
+        {
+          "url": "https://www.hyatt.com/hyatt-regency/en-US/bosha-hyatt-regency-boston-harbor/hotel-info",
+          "error": "page identity does not match requested hotel",
+          "title": "",
+          "textLength": 0
+        },
+        {
+          "url": "https://www.hyatt.com/hyatt-regency/en-US/bosha-hyatt-regency-boston-harbor",
+          "error": "page identity does not match requested hotel",
+          "title": "",
+          "textLength": 0
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Hyatt-Regency-Boston-Harbor.h26283.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://resortfeechecker.com/26283-resort_fee_hyatt_regency_boston_harbor.html",
+          "status": "ok",
+          "fee": 49,
+          "type": "self"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-21",
+      "name": "Yotel Boston",
+      "elapsedMs": 15852,
+      "claim": {
+        "parking_fee_per_night": 80,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://helpcenter.yotel.com/hc/en-gb/articles/7005937612445-Is-there-parking-at-the-hotel-at-YOTEL-Boston",
+        "source_quote": "Valet parking is in front of the hotel on Seaport Blvd and is $80 per night with unlimited in and out privileges until 3pm on day of departure.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:17:31.727Z",
+        "sourceUrl": "https://helpcenter.yotel.com/hc/en-gb/articles/7005937612445-Is-there-parking-at-the-hotel-at-YOTEL-Boston",
+        "contentHash": "fd12d1319c83716535e4a27794ddf177710023cb35e7f7715b4201edf6a98612",
+        "method": "browser",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0626341,
+      "attempts": [
+        {
+          "url": "https://www.yotel.com/de/faq/YOTEL-Boston/Parking",
+          "error": "page identity does not match requested hotel",
+          "title": "FAQ | YOTEL",
+          "textLength": 3544
+        },
+        {
+          "url": "https://helpcenter.yotel.com/hc/en-gb/articles/7005937612445-Is-there-parking-at-the-hotel-at-YOTEL-Boston",
+          "status": "ok",
+          "fee": 80,
+          "type": "valet"
+        }
+      ],
+      "verified": {
+        "status": "ok",
+        "perNight": 80,
+        "type": "valet",
+        "sourceUrl": "https://helpcenter.yotel.com/hc/en-gb/articles/7005937612445-Is-there-parking-at-the-hotel-at-YOTEL-Boston",
+        "quote": "Valet parking is in front of the hotel on Seaport Blvd and is $80 per night with unlimited in and out privileges until 3pm on day of departure.",
+        "reason": "confidence high"
+      }
+    },
+    {
+      "id": "card-22",
+      "name": "Hilton Boston Back Bay",
+      "elapsedMs": 27764,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0891934,
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/bosbhhh-hilton-boston-back-bay/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/bosbhhh-hilton-boston-back-bay/hotel-info/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Hilton-Boston-Back-Bay.h5928.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-23",
+      "name": "Holiday Inn Express Boston by IHG",
+      "elapsedMs": 17181,
+      "claim": {
+        "parking_fee_per_night": 20,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/boston/boshj/hoteldetail",
+        "source_quote": "At Holiday Inn Express Boston, self-parking is available for a daily rate of 20 USD .",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:17:48.915Z",
+        "sourceUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/boston/boshj/hoteldetail",
+        "contentHash": "fe29ec5fd3e4418533eeff42c3a57ac482f535550fa20949fd59ba110584aed2",
+        "method": "http",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.08689829999999998,
+      "attempts": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/boston/boshj/hoteldetail",
+          "status": "ok",
+          "fee": 20,
+          "type": "self"
+        }
+      ],
+      "verified": {
+        "status": "ok",
+        "perNight": 20,
+        "type": "self",
+        "sourceUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/boston/boshj/hoteldetail",
+        "quote": "At Holiday Inn Express Boston, self-parking is available for a daily rate of 20 USD .",
+        "reason": "confidence high"
+      }
+    },
+    {
+      "id": "card-24",
+      "name": "Copley Square Hotel, a FOUND Hotel",
+      "elapsedMs": 31719,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0865855,
+      "attempts": [
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Copley-Square-Hotel.h16067.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.copleysquarehotel.com/",
+          "error": "page identity does not match requested hotel",
+          "title": "Boston Hotels | Copley Square Hotel | Boston",
+          "textLength": 297
+        },
+        {
+          "url": "https://www.copleysquarehotel.com/contact",
+          "error": "page identity does not match requested hotel",
+          "title": "Contact Us | Copley Square Hotel",
+          "textLength": 410
+        },
+        {
+          "url": "https://lookup.hotels.com/ho114172/copley-square-hotel-boston-united-states-of-america",
+          "error": "page identity does not match requested hotel",
+          "title": "404 - Page Not Found",
+          "textLength": 20
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-25",
+      "name": "Charles River Inn",
+      "elapsedMs": 20565,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0822292,
+      "attempts": [
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Charles-River-Inn.h119965204.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-26",
+      "name": "Bay Village Suites",
+      "elapsedMs": 16033,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.061198300000000004,
+      "attempts": [
+        {
+          "url": "https://www.expedia.com/Rooms-At-Premier-Suites-Bay-Village.h92422919.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.booking.com/hotel/us/bay-village-suites.html?label=gen173nr-10CAso7AFCEmJheS12aWxsYWdlLXN1aXRlc0gJWARoiQKIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4Auqt7dcGwAIB0gIkZjE3ZWIxNjAtYjRmMy00YThmLWIxMjMtYzFhMTA1YzNmNTlj2AIB4AIB&sid=836d4cb0ea062d7c7e4d523598b098f4&dist=0&keep_landing=1&sb_price_type=total&type=total&chal_t=1794856682918&force_referer=",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-27",
+      "name": "Kasa Boston at Fenway",
+      "elapsedMs": 14213,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "none",
+        "source_url": "https://kasa.com/properties/kasa-boston-at-fenway",
+        "source_quote": "No Kasa parking at this property",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:18:20.131Z",
+        "sourceUrl": "https://kasa.com/properties/kasa-boston-at-fenway",
+        "contentHash": "c82c67f85b7d18ebf88030de8ab793a5e9a2ab251e840f030bcecc7deb8ce41a",
+        "method": "http",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.06657590000000001,
+      "attempts": [
+        {
+          "url": "https://kasa.com/properties/kasa-boston-at-fenway",
+          "status": "none",
+          "fee": null,
+          "type": "none"
+        }
+      ],
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "none",
+        "sourceUrl": "https://kasa.com/properties/kasa-boston-at-fenway",
+        "quote": "No Kasa parking at this property",
+        "reason": "hotel reports no on-site parking; off-site cost unknown"
+      }
+    },
+    {
+      "id": "card-28",
+      "name": "Temple Place Suites 2+3",
+      "elapsedMs": 13993,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0648289,
+      "attempts": [
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Temple-Place-Suites.h45791512.Hotel-Information",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "card-29",
+      "name": "Kasa at Boston Common",
+      "elapsedMs": 18545,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "none",
+        "source_url": "https://kasa.com/properties/kasa-at-boston-common",
+        "source_quote": "No Kasa parking at this property",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:18:31.101Z",
+        "sourceUrl": "https://kasa.com/properties/kasa-at-boston-common",
+        "contentHash": "bb65274b245df72048ed3aeeed3c0e7869525ad8e967ed9936b6dde61d4340b2",
+        "method": "http",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.1025894,
+      "attempts": [
+        {
+          "url": "https://kasa.com/properties/kasa-at-boston-common",
+          "status": "none",
+          "fee": null,
+          "type": "none"
+        }
+      ],
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "none",
+        "sourceUrl": "https://kasa.com/properties/kasa-at-boston-common",
+        "quote": "No Kasa parking at this property",
+        "reason": "hotel reports no on-site parking; off-site cost unknown"
+      }
+    }
+  ],
+  "found": 6,
+  "total": 30,
+  "costUsd": 2.412297,
+  "referenceChecks": [
+    {
+      "name": "Hampton Inn Boston Logan Airport",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Omni Boston Hotel at the Seaport",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hilton Boston Logan Airport",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "The Westin Copley Place, Boston",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "citizenM Boston Back Bay",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "DoubleTree by Hilton Hotel Boston Bayside",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Embassy Suites Boston at Logan Airport",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "DoubleTree by Hilton Hotel Boston - Downtown",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "The Atlas Hotel Boston Cambridge",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Wyndham Boston Beacon Hill",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Hotel AKA Back Bay",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hampton by Hilton at the Boston Seaport District",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Hampton Inn & Suites Boston Crosstown Center",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Boston Lodge and Suites",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "The Verb Hotel",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hotel Commonwealth",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hilton Boston Park Plaza",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "The Midtown Hotel MOD Collection by Sonesta",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Hyatt Place Boston/Seaport District",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Hyatt Regency Boston Harbor",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Yotel Boston",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hilton Boston Back Bay",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Holiday Inn Express Boston by IHG",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Copley Square Hotel, a FOUND Hotel",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Charles River Inn",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Bay Village Suites",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Kasa Boston at Fenway",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Temple Place Suites 2+3",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Kasa at Boston Common",
+      "accepted": false,
+      "correct": null
+    }
+  ],
+  "scored": 6,
+  "correct": 6,
+  "accuracy": 1,
+  "resolved": 8,
+  "numericCoverage": 0.2,
+  "resolutionCoverage": 0.26666666666666666,
+  "qualityPassed": false
+}

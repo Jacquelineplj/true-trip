@@ -1,0 +1,6 @@
+{
+  "at": "2026-11-17T03:04:28.490Z",
+  "method": "Real demo/content script, intercepted nonresponding health endpoint; no AI calls.",
+  "status": "signal timed out — run npm run server in the truetrip folder, then reload.",
+  "passed": true
+}

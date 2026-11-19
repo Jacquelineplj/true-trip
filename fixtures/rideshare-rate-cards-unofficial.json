@@ -1,0 +1,66 @@
+{
+  "note": "UNOFFICIAL third-party UberX rate cards, collected 2026-11-18 for reference only. Uber does not publish a per-city rider rate card (its help pages only say time and distance rates vary by city and product), and these sources disagree with each other. NOT used by core/fare.js. Tested against 12 real Boston UberX list prices (fixtures/uber-quotes-boston-2026-11-18.json), every Boston card below underestimates by 2.3x to 2.8x when used as is.",
+  "bostonCheck": {
+    "method": "fare = max(minimum, base + perMinute*min + perMile*miles + bookingFee); compared with 12 real list prices. looMaeAfterScaleUsd = leave-one-out mean absolute error after fitting one scale factor.",
+    "results": [
+      {"card": "core/fare.js shape (2.75, 0.36/min, 1.45/mi, 2.95)", "realOverCardMedian": 1.71, "looMaeAfterScaleUsd": 3.96},
+      {"card": "ridester (from search snippet)", "realOverCardMedian": 2.31, "looMaeAfterScaleUsd": 4.03},
+      {"card": "ridewise uber-fare-calculator-2026", "realOverCardMedian": 2.45, "looMaeAfterScaleUsd": 4.48},
+      {"card": "taxifarefinder (from search snippet)", "realOverCardMedian": 2.82, "looMaeAfterScaleUsd": 4.89},
+      {"card": "uphail (from search snippet)", "realOverCardMedian": 2.62, "looMaeAfterScaleUsd": 5.13}
+    ]
+  },
+  "sources": [
+    {
+      "name": "RideWise: Uber Fare Estimate 2026",
+      "url": "https://getridewise.com/blog/uber-fare-calculator-2026",
+      "updated": "2026-09-21",
+      "methodology": "Page says figures come from its own 'RideWise regional rate card', September 2026.",
+      "product": "UberX",
+      "rows": [
+        {"city": "Boston", "baseFare": 2.00, "perMile": 1.48, "perMinute": 0.30, "bookingFee": 2.40, "minimumFare": 7.25},
+        {"city": "New York", "baseFare": 2.55, "perMile": 1.75, "perMinute": 0.35, "bookingFee": 2.75, "minimumFare": 8.00},
+        {"city": "San Francisco", "baseFare": 2.20, "perMile": 1.55, "perMinute": 0.30, "bookingFee": 2.45, "minimumFare": 7.50},
+        {"city": "Chicago", "baseFare": 1.70, "perMile": 1.35, "perMinute": 0.28, "bookingFee": 2.30, "minimumFare": 6.75},
+        {"city": "Los Angeles", "baseFare": 1.65, "perMile": 1.35, "perMinute": 0.26, "bookingFee": 2.30, "minimumFare": 6.50},
+        {"city": "Washington DC", "baseFare": 1.85, "perMile": 1.45, "perMinute": 0.28, "bookingFee": 2.35, "minimumFare": 7.00},
+        {"city": "Seattle", "baseFare": 1.80, "perMile": 1.40, "perMinute": 0.27, "bookingFee": 2.30, "minimumFare": 7.00},
+        {"city": "Miami", "baseFare": 1.50, "perMile": 1.20, "perMinute": 0.22, "bookingFee": 2.20, "minimumFare": 6.00},
+        {"city": "Las Vegas", "baseFare": 1.55, "perMile": 1.28, "perMinute": 0.25, "bookingFee": 2.25, "minimumFare": 6.50},
+        {"city": "Austin", "baseFare": 1.45, "perMile": 1.22, "perMinute": 0.24, "bookingFee": 2.15, "minimumFare": 6.10},
+        {"city": "Denver", "baseFare": 1.45, "perMile": 1.15, "perMinute": 0.22, "bookingFee": 2.15, "minimumFare": 6.00},
+        {"city": "Atlanta", "baseFare": 1.40, "perMile": 1.12, "perMinute": 0.21, "bookingFee": 2.15, "minimumFare": 5.85}
+      ]
+    },
+    {
+      "name": "RideWise: Uber Rates 2026, Price Per Mile",
+      "url": "https://getridewise.com/blog/uber-cost-per-mile",
+      "updated": "2026-03-05",
+      "methodology": "Page says rates are sourced from published Uber and Lyft rate cards and checked against user receipts; not independently confirmed here.",
+      "product": "UberX",
+      "rows": [
+        {"city": "Boston", "baseFare": 2.00, "perMile": 1.28, "perMinute": 0.28, "bookingFee": 2.85, "minimumFare": null},
+        {"city": "New York", "baseFare": 2.55, "perMile": 2.50, "perMinute": 0.35, "bookingFee": 2.95, "minimumFare": null},
+        {"city": "San Francisco", "baseFare": 2.50, "perMile": 1.55, "perMinute": 0.32, "bookingFee": 3.00, "minimumFare": null},
+        {"city": "Chicago", "baseFare": 2.20, "perMile": 1.10, "perMinute": 0.22, "bookingFee": 2.70, "minimumFare": null},
+        {"city": "Los Angeles", "baseFare": 1.50, "perMile": 1.20, "perMinute": 0.22, "bookingFee": 2.80, "minimumFare": null},
+        {"city": "Washington DC", "baseFare": 1.85, "perMile": 1.32, "perMinute": 0.26, "bookingFee": 2.90, "minimumFare": null},
+        {"city": "Seattle", "baseFare": 1.80, "perMile": 1.45, "perMinute": 0.28, "bookingFee": 2.85, "minimumFare": null},
+        {"city": "Miami", "baseFare": 1.25, "perMile": 1.05, "perMinute": 0.18, "bookingFee": 2.75, "minimumFare": null},
+        {"city": "Las Vegas", "baseFare": 1.50, "perMile": 1.18, "perMinute": 0.20, "bookingFee": 2.70, "minimumFare": null},
+        {"city": "Austin", "baseFare": 1.00, "perMile": 1.00, "perMinute": 0.16, "bookingFee": 2.60, "minimumFare": null},
+        {"city": "Denver", "baseFare": 1.30, "perMile": 1.08, "perMinute": 0.20, "bookingFee": 2.65, "minimumFare": null},
+        {"city": "Atlanta", "baseFare": 1.20, "perMile": 1.02, "perMinute": 0.16, "bookingFee": 2.70, "minimumFare": null}
+      ]
+    },
+    {
+      "name": "Other Boston figures, read from search-result summaries only (pages not opened)",
+      "product": "UberX",
+      "rows": [
+        {"city": "Boston", "source": "https://estimate.ridester.com/cities/Boston", "baseFare": 2.10, "perMile": 0.88, "perMinute": 0.36, "bookingFee": 1.85, "minimumFare": 6.85},
+        {"city": "Boston", "source": "https://www.taxifarefinder.com/main.php?city=Uber-X-Boston-MA", "baseFare": 2.00, "perMile": 1.29, "perMinute": 0.20, "bookingFee": null, "minimumFare": 6.60},
+        {"city": "Boston", "source": "https://uphail.com/us/ma/boston/", "baseFare": 2.18, "perMile": 0.92, "perMinute": 0.38, "bookingFee": null, "minimumFare": 7.54}
+      ]
+    }
+  ]
+}

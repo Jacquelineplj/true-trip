@@ -1,0 +1,107 @@
+{
+  "at": "2026-11-17T22:16:43.133Z",
+  "method": "Replay of the actual first-audit Westin Google Travel quote, explicitly attributed to Tripadvisor instead of incorrectly assigned to Google. Not a new network query.",
+  "input": {
+    "matched_name": "The Westin Copley Place, Boston",
+    "confidence": "high",
+    "google": null,
+    "tripadvisor": {
+      "rating": 4.2,
+      "source_url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA",
+      "source_quote": "\"Tripadvisor 4.2/5 · 5,173 reviews\""
+    }
+  },
+  "result": {
+    "google": null,
+    "tripadvisor": {
+      "rating": 4.2,
+      "reviews": null,
+      "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+      "sourceUrl": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+      "sourceQuote": "\"Tripadvisor 4.2/5 · 5,173 reviews\"",
+      "matchedName": "The Westin Copley Place, Boston",
+      "source": "llm-search (unverified)",
+      "via": "Google Travel",
+      "confidence": "high"
+    },
+    "rejections": {
+      "google": "No supported 1–5 rating found",
+      "tripadvisor": null
+    },
+    "llm": {
+      "provider": "openai",
+      "usage": null,
+      "webSearchCalls": null
+    },
+    "citations": [],
+    "sources": [
+      {
+        "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-or20-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-or40-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AADhDEhMI1MDe09uAlgMV-yatBh1bMALg&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgOEgcI6g8QBRgPGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?gsas=1&ts=Gj8KIRIfCg0vZy8xMWZrNG03OWMwOg5IYXJ2YXJkIFNxdWFyZRIaEhQKBwjqDxACGA8SBwjqDxACGBAYATICEAAqBQoDCgET&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgDEgcI6g8QCBgEGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d89617-Reviews-or4570-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&rp=OAHCAhwiGg0AAEVDEhMIjvCY_sCSjQMVqbJ_BB0sKhys&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAO5CEhMIq4yHzrORjgMVEE8tBB03ZSng&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AgK5DEhMItaOflr-UiAMVKpfCCB02Mw97&ts=CAEaBAoCGgAqCQoFOgNVU0QaAA&utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?q=Back+Bay&ts=CAEaIgoCGgASHBIUCgcI6g8QBRgPEgcI6g8QBRgVGAYyAhAAOAEqBAoAGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.in/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.ca/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      },
+      {
+        "url": "https://www.google.com.sv/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&gl=us&gsas=1&hl=en&rp=OAE&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+      },
+      {
+        "url": "https://www.tripadvisor.com.au/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+      }
+    ]
+  },
+  "passed": true
+}

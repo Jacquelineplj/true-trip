@@ -1,0 +1,37 @@
+{
+  "at": "2026-11-17T03:08:01.674Z",
+  "method": "Installed Chrome extension on real Booking.com; 12 hotels, ratings enabled, actual provider requests, mixed warm caches. Separate fresh browser profile.",
+  "passed": true,
+  "elapsedMs": 18861,
+  "enrichmentReadyMs": 16657,
+  "taxesReadyMs": 16672,
+  "taxed": 12,
+  "extraUserBrowserTabs": 0,
+  "requests": {
+    "/health": {
+      "count": 2,
+      "maxMs": 92,
+      "errors": []
+    },
+    "hotel-html": {
+      "count": 12,
+      "maxMs": 2251,
+      "errors": []
+    },
+    "/enrich-one": {
+      "count": 12,
+      "maxMs": 5170,
+      "errors": []
+    },
+    "/notes": {
+      "count": 13,
+      "maxMs": 28,
+      "errors": []
+    },
+    "/reprice": {
+      "count": 12,
+      "maxMs": 8,
+      "errors": []
+    }
+  }
+}

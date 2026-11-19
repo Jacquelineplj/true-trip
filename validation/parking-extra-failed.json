@@ -1,0 +1,179 @@
+{
+  "reference": "validation/parking-extra-reference.json",
+  "at": "2026-11-16T19:10:00.717Z",
+  "input": "fixtures/boston-parking-extra.json",
+  "rows": [
+    {
+      "id": "holdout-1",
+      "name": "Aloft Boston Seaport District",
+      "elapsedMs": 25172,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0689658,
+      "attempts": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/bosal-aloft-boston-seaport-district/overview/",
+          "error": "page identity does not match requested hotel"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Aloft-Boston-Seaport-District.h11263952.Hotel-Information",
+          "error": "page identity does not match requested hotel"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "holdout-2",
+      "name": "Element Boston Seaport District",
+      "elapsedMs": 36747,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.06344910000000001,
+      "attempts": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/bosel-element-boston-seaport-district/overview/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.marriott.com/hotels/fact-sheet/travel/bosel-element-boston-seaport-district",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://m.booking.com/hotel/us/element-boston-seaport.html?label=gen173nr-10CAso7AFCFmVsZW1lbnQtYm9zdG9uLXNlYXBvcnRICVgEaIkCiAEBmAEzuAEHyAEM2AED6AEB-AEBiAIBqAIBuALpqe3XBsACAdICJGFkNzJkMTcyLTA4ZWMtNDdiZi04YzJlLTVlNWE1N2EwMTJkN9gCAeACAQ&sid=979e71f3faedae252b12c881265f7dc0&dist=0&keep_landing=1&sb_price_type=total&type=total&chal_t=1794856169538&force_referer=",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://m.booking.com/hotel/us/element-boston-seaport.html?label=gen173nr-10CAso7AFCFmVsZW1lbnQtYm9zdG9uLXNlYXBvcnRICVgEaIkCiAEBmAEzuAEHyAEM2AED6AEB-AEBiAIBqAIBuALpqe3XBsACAdICJGFkNzJkMTcyLTA4ZWMtNDdiZi04YzJlLTVlNWE1N2EwMTJkN9gCAeACAQ&sid=979e71f3faedae252b12c881265f7dc0&dist=0&keep_landing=1&sb_price_type=total&type=total&chal_t=1794856169538&force_referer=#hp_pol",
+          "error": "page identity does not match requested hotel"
+        },
+        {
+          "url": "https://m.booking.com/content-moderation-policy/overview-page.html?label=gen173nr-10CAso7AFCFmVsZW1lbnQtYm9zdG9uLXNlYXBvcnRICVgEaIkCiAEBmAEzuAEHyAEM2AED6AEB-AEBiAIBqAIBuALpqe3XBsACAdICJGFkNzJkMTcyLTA4ZWMtNDdiZi04YzJlLTVlNWE1N2EwMTJkN9gCAeACAQ&amp;sid=a83c6d04697924456bf05546da65da10&amp;aid=304142",
+          "error": "page identity does not match requested hotel"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "holdout-3",
+      "name": "Boston Marriott Copley Place",
+      "elapsedMs": 26421,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.0633042,
+      "attempts": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/bosco-boston-marriott-copley-place/overview/",
+          "error": "page identity does not match requested hotel"
+        },
+        {
+          "url": "https://www.marriott.com/BOSCO",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Boston-Marriott-Copley-Place.h22961.Hotel-Information",
+          "error": "page identity does not match requested hotel"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    },
+    {
+      "id": "holdout-4",
+      "name": "Renaissance Boston Seaport District",
+      "elapsedMs": 31630,
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": 0.06404099999999999,
+      "attempts": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/boswf-renaissance-boston-seaport-district/overview/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.marriott.com/en-us/hotels/boswf-renaissance-boston-seaport-district/rooms/",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        },
+        {
+          "url": "https://www.marriott.com/about/privacy.mi",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.marriott.com/about/privacy.mi",
+          "error": "source returned an access/error page"
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      }
+    }
+  ],
+  "found": 0,
+  "total": 4,
+  "costUsd": 0.2597601,
+  "referenceChecks": [
+    {
+      "name": "Aloft Boston Seaport District",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Element Boston Seaport District",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Boston Marriott Copley Place",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Renaissance Boston Seaport District",
+      "accepted": false,
+      "correct": null
+    }
+  ],
+  "scored": 0,
+  "correct": 0,
+  "accuracy": null,
+  "resolved": 0,
+  "numericCoverage": 0,
+  "resolutionCoverage": 0,
+  "qualityPassed": false
+}

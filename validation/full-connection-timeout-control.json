@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-17T03:09:42.825Z",
+  "installedExtension": true,
+  "method": "Real demo/content script, intercepted nonresponding health endpoint; no AI calls.",
+  "elapsedMs": 5428,
+  "intercepted": 1,
+  "status": "TrueTrip request failed: signal timed out. Local server: http://localhost:8787 — run npm run server in the truetrip folder, then reload.",
+  "passed": true
+}

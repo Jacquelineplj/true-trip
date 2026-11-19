@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-11-16",
+  "method": "Additional four properties outside original 30; reference amounts independently read from official Marriott pages via web research. Same-brand supplemental test, not a citywide generalization.",
+  "rows": [
+    {
+      "name": "Aloft Boston Seaport District",
+      "fee": 54,
+      "type": "valet",
+      "quality": "primary",
+      "url": "https://www.marriott.com/en-us/hotels/bosal-aloft-boston-seaport-district/overview/"
+    },
+    {
+      "name": "Element Boston Seaport District",
+      "fee": 54,
+      "type": "valet",
+      "quality": "primary",
+      "url": "https://www.marriott.com/en-us/hotels/bosel-element-boston-seaport-district/overview/"
+    },
+    {
+      "name": "Boston Marriott Copley Place",
+      "fee": 75,
+      "type": "self",
+      "quality": "primary",
+      "url": "https://www.marriott.com/en-us/hotels/bosco-boston-marriott-copley-place/overview/"
+    },
+    {
+      "name": "Renaissance Boston Seaport District",
+      "fee": 65,
+      "type": "valet",
+      "quality": "primary",
+      "url": "https://www.marriott.com/en-us/hotels/boswf-renaissance-boston-seaport-district/overview/"
+    }
+  ]
+}

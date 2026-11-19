@@ -1,0 +1,225 @@
+[
+  {
+    "phase": "fresh",
+    "url": "https://www.booking.com/searchresults.html?ss=Boston&ssne=Boston&ssne_untouched=Boston&chal_t=1794955556463&force_referer=",
+    "inputs": [
+      {
+        "name": "privacy_type_no_date=4",
+        "type": "checkbox",
+        "value": "privacy_type_no_date=4"
+      }
+    ],
+    "dateFields": [
+      {
+        "testid": "date-display-field-start",
+        "text": "Check-in date",
+        "datetime": null,
+        "date": null,
+        "aria": null
+      },
+      {
+        "testid": "date-display-field-end",
+        "text": "Check-out date",
+        "datetime": null,
+        "date": null,
+        "aria": null
+      },
+      {
+        "text": "1",
+        "datetime": null,
+        "date": "2026-11-01",
+        "aria": "Sunday, November 1, 2026"
+      },
+      {
+        "text": "2",
+        "datetime": null,
+        "date": "2026-11-02",
+        "aria": "Monday, November 2, 2026"
+      },
+      {
+        "text": "3",
+        "datetime": null,
+        "date": "2026-11-03",
+        "aria": "Tuesday, November 3, 2026"
+      },
+      {
+        "text": "4",
+        "datetime": null,
+        "date": "2026-11-04",
+        "aria": "Wednesday, November 4, 2026"
+      },
+      {
+        "text": "5",
+        "datetime": null,
+        "date": "2026-11-05",
+        "aria": "Thursday, November 5, 2026"
+      },
+      {
+        "text": "6",
+        "datetime": null,
+        "date": "2026-11-06",
+        "aria": "Friday, November 6, 2026"
+      },
+      {
+        "text": "7",
+        "datetime": null,
+        "date": "2026-11-07",
+        "aria": "Saturday, November 7, 2026"
+      },
+      {
+        "text": "8",
+        "datetime": null,
+        "date": "2026-11-08",
+        "aria": "Sunday, November 8, 2026"
+      },
+      {
+        "text": "9",
+        "datetime": null,
+        "date": "2026-11-09",
+        "aria": "Monday, November 9, 2026"
+      },
+      {
+        "text": "10",
+        "datetime": null,
+        "date": "2026-11-10",
+        "aria": "Tuesday, November 10, 2026"
+      }
+    ],
+    "cards": [
+      {
+        "name": "Harborside Inn",
+        "checkin": null,
+        "checkout": null,
+        "selectedCurrency": null
+      },
+      {
+        "name": "Club Quarters Hotel Faneuil Hall, Boston",
+        "checkin": null,
+        "checkout": null,
+        "selectedCurrency": null
+      },
+      {
+        "name": "The Newbury Boston",
+        "checkin": null,
+        "checkout": null,
+        "selectedCurrency": null
+      },
+      {
+        "name": "citizenM Boston Back Bay",
+        "checkin": null,
+        "checkout": null,
+        "selectedCurrency": null
+      }
+    ]
+  },
+  {
+    "phase": "dated",
+    "url": "https://www.booking.com/searchresults.html?ss=Boston&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&selected_currency=USD",
+    "inputs": [],
+    "dateFields": [
+      {
+        "testid": "date-display-field-start",
+        "text": "Thu, Dec 10",
+        "datetime": null,
+        "date": null,
+        "aria": null
+      },
+      {
+        "testid": "date-display-field-end",
+        "text": "Fri, Dec 11",
+        "datetime": null,
+        "date": null,
+        "aria": null
+      }
+    ],
+    "cards": [
+      {
+        "name": "Hampton Inn Boston Logan Airport",
+        "price": "$95",
+        "nights": "1 night, 2 adults",
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-11",
+        "selectedCurrency": null
+      },
+      {
+        "name": "The Westin Copley Place, Boston",
+        "price": "$207",
+        "nights": "1 night, 2 adults",
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-11",
+        "selectedCurrency": null
+      },
+      {
+        "name": "Hilton Boston Logan Airport",
+        "price": "$201",
+        "nights": "1 night, 2 adults",
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-11",
+        "selectedCurrency": null
+      },
+      {
+        "name": "The Midtown Hotel MOD Collection by Sonesta",
+        "price": "$135",
+        "nights": "1 night, 2 adults",
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-11",
+        "selectedCurrency": null
+      }
+    ]
+  },
+  {
+    "phase": "session",
+    "url": "https://www.booking.com/searchresults.html?ss=Boston&ssne=Boston&ssne_untouched=Boston",
+    "inputs": [],
+    "dateFields": [
+      {
+        "testid": "date-display-field-start",
+        "text": "Thu, Dec 10",
+        "datetime": null,
+        "date": null,
+        "aria": null
+      },
+      {
+        "testid": "date-display-field-end",
+        "text": "Fri, Dec 11",
+        "datetime": null,
+        "date": null,
+        "aria": null
+      }
+    ],
+    "cards": [
+      {
+        "name": "Hampton Inn Boston Logan Airport",
+        "price": "$95",
+        "nights": "1 night, 2 adults",
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-11",
+        "selectedCurrency": null
+      },
+      {
+        "name": "The Westin Copley Place, Boston",
+        "price": "$207",
+        "nights": "1 night, 2 adults",
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-11",
+        "selectedCurrency": null
+      },
+      {
+        "name": "Hilton Boston Logan Airport",
+        "price": "$201",
+        "nights": "1 night, 2 adults",
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-11",
+        "selectedCurrency": null
+      },
+      {
+        "name": "The Midtown Hotel MOD Collection by Sonesta",
+        "price": "$135",
+        "nights": "1 night, 2 adults",
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-11",
+        "selectedCurrency": null
+      }
+    ]
+  }
+]

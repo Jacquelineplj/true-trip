@@ -1,0 +1,12 @@
+{
+  "context": { "city": "Boston, Massachusetts, United States", "checkin": "2026-12-10", "checkout": "2026-12-11", "currency": "USD",
+    "note": "Hotel names and addresses are real so parking search and geocoding work; prices and scores are illustrative one-night totals captured by hand, not live Booking data." },
+  "hotels": [
+    { "id": "h1", "name": "Boston Marriott Copley Place", "address": "110 Huntington Avenue, Back Bay, Boston", "price": 289, "priceIncludesTaxes": true, "bookingScore": 8.6, "bookingReviews": 3104, "distanceText": "1.4 km from downtown" },
+    { "id": "h2", "name": "The Westin Copley Place, Boston", "address": "10 Huntington Avenue, Back Bay, Boston", "price": 305, "priceIncludesTaxes": true, "bookingScore": 8.5, "bookingReviews": 2210, "distanceText": "1.3 km from downtown" },
+    { "id": "h3", "name": "Hilton Boston Logan Airport", "address": "One Hotel Drive, East Boston, Boston", "price": 219, "priceIncludesTaxes": true, "bookingScore": 8.2, "bookingReviews": 4120, "distanceText": "4.5 km from downtown" },
+    { "id": "h4", "name": "Hyatt Regency Boston / Cambridge", "address": "575 Memorial Drive, Cambridge", "price": 239, "priceIncludesTaxes": true, "bookingScore": 8.3, "bookingReviews": 1980, "distanceText": "4 km from downtown" },
+    { "id": "h5", "name": "Omni Boston Hotel at the Seaport", "address": "450 Summer Street, Seaport District, Boston", "price": 329, "priceIncludesTaxes": true, "bookingScore": 9.0, "bookingReviews": 2605, "distanceText": "1.8 km from downtown" },
+    { "id": "h6", "name": "The Verb Hotel", "address": "1271 Boylston Street, Fenway, Boston", "price": 249, "priceIncludesTaxes": true, "bookingScore": 9.1, "bookingReviews": 1472, "distanceText": "2.6 km from downtown" }
+  ]
+}

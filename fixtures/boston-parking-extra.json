@@ -1,0 +1,23 @@
+{
+  "context": {
+    "city": "Boston"
+  },
+  "hotels": [
+    {
+      "id": "holdout-1",
+      "name": "Aloft Boston Seaport District"
+    },
+    {
+      "id": "holdout-2",
+      "name": "Element Boston Seaport District"
+    },
+    {
+      "id": "holdout-3",
+      "name": "Boston Marriott Copley Place"
+    },
+    {
+      "id": "holdout-4",
+      "name": "Renaissance Boston Seaport District"
+    }
+  ]
+}

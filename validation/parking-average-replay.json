@@ -1,0 +1,525 @@
+{
+  "at": "2026-11-16T21:38:35.947Z",
+  "method": "Replay prior real GPT-4o parking responses; fixture room prices and synthetic test routes, no new live lookup or traffic validation",
+  "parkingAverage": {
+    "perNight": 51.05,
+    "sampleSize": 22
+  },
+  "estimated": [
+    {
+      "name": "citizenM Boston Back Bay",
+      "parking": {
+        "status": "estimated",
+        "perNight": 51.05,
+        "type": "none",
+        "sourceUrl": "https://citizenmbostonbackbay.bookresorts.com/faq/",
+        "quote": "“There is no on‑site parking; guests are directed to nearby paid parking services such as SpotHero.”",
+        "reason": "No on-site parking; estimated off-site parking from 22 valid hotel quotes in this search",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "searchedAt": "2026-11-16T21:30:38.490Z",
+          "sourceUrl": "https://citizenmbostonbackbay.bookresorts.com/faq/",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "usage": {
+            "input_tokens": 17698,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 2432
+            },
+            "output_tokens": 80,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17778
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 3232
+        },
+        "estimated": true,
+        "estimate": {
+          "method": "search-average",
+          "sampleSize": 22,
+          "perNight": 51.05
+        }
+      },
+      "costDrive": {
+        "mode": "drive",
+        "total": {
+          "low": 221.05,
+          "high": 221.05,
+          "mid": 221.05
+        },
+        "breakdown": {
+          "room": 170,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.03333333333333333,
+          "timeCost": 0,
+          "parking": 51.05,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.03333333333333333,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Boston Lodge and Suites",
+      "parking": {
+        "status": "estimated",
+        "perNight": 51.05,
+        "type": "none",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2",
+        "quote": "No onsite parking available",
+        "reason": "No on-site parking; estimated off-site parking from 22 valid hotel quotes in this search",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "searchedAt": "2026-11-16T21:30:51.125Z",
+          "sourceUrl": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2",
+          "webSearchCalls": 1,
+          "citations": [
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2&utm_source=openai",
+              "title": "Boston Lodge and Suites - Check Latest Reviews 2026 - Expedia"
+            },
+            {
+              "url": "https://www.hotels.com/ho683656928/boston-lodge-and-suites-boston-united-states-of-america/?utm_source=openai",
+              "title": "Boston Lodge and Suites in Boston - Book on Hotels.com"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2&utm_source=openai"
+            },
+            {
+              "url": "https://www.hotels.com/ho683656928/boston-lodge-and-suites-boston-united-states-of-america/?utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "usage": {
+            "input_tokens": 17436,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 1920
+            },
+            "output_tokens": 311,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17747
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 3708
+        },
+        "estimated": true,
+        "estimate": {
+          "method": "search-average",
+          "sampleSize": 22,
+          "perNight": 51.05
+        }
+      },
+      "costDrive": {
+        "mode": "drive",
+        "total": {
+          "low": 298.05,
+          "high": 298.05,
+          "mid": 298.05
+        },
+        "breakdown": {
+          "room": 247,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.03333333333333333,
+          "timeCost": 0,
+          "parking": 51.05,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.03333333333333333,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Bay Village Suites",
+      "parking": {
+        "status": "estimated",
+        "perNight": 51.05,
+        "type": "none",
+        "sourceUrl": "https://www.expedia.com/Rooms-At-Premier-Suites-Bay-Village.h92422919.Hotel-Information?equalTargetTab=tab-1",
+        "quote": "This guest house doesn’t offer parking.",
+        "reason": "No on-site parking; estimated off-site parking from 22 valid hotel quotes in this search",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "searchedAt": "2026-11-16T21:31:03.615Z",
+          "sourceUrl": "https://www.expedia.com/Rooms-At-Premier-Suites-Bay-Village.h92422919.Hotel-Information?equalTargetTab=tab-1",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "usage": {
+            "input_tokens": 17550,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 2176
+            },
+            "output_tokens": 103,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17653
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 2893
+        },
+        "estimated": true,
+        "estimate": {
+          "method": "search-average",
+          "sampleSize": 22,
+          "perNight": 51.05
+        }
+      },
+      "costDrive": {
+        "mode": "drive",
+        "total": {
+          "low": 239.05,
+          "high": 239.05,
+          "mid": 239.05
+        },
+        "breakdown": {
+          "room": 188,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.03333333333333333,
+          "timeCost": 0,
+          "parking": 51.05,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.03333333333333333,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Kasa Boston at Fenway",
+      "parking": {
+        "status": "estimated",
+        "perNight": 51.05,
+        "type": "none",
+        "sourceUrl": "https://kasa.com/properties/kasa-boston-at-fenway",
+        "quote": "No Kasa parking at this property",
+        "reason": "No on-site parking; estimated off-site parking from 22 valid hotel quotes in this search",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "searchedAt": "2026-11-16T21:31:05.198Z",
+          "sourceUrl": "https://kasa.com/properties/kasa-boston-at-fenway",
+          "webSearchCalls": 1,
+          "citations": [
+            {
+              "url": "https://kasa.com/properties/kasa-boston-at-fenway?utm_source=openai",
+              "title": "Kasa Boston at Fenway"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://kasa.com/properties/kasa-boston-at-fenway?utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "usage": {
+            "input_tokens": 17491,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 2432
+            },
+            "output_tokens": 252,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17743
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 4239
+        },
+        "estimated": true,
+        "estimate": {
+          "method": "search-average",
+          "sampleSize": 22,
+          "perNight": 51.05
+        }
+      },
+      "costDrive": {
+        "mode": "drive",
+        "total": {
+          "low": 375.05,
+          "high": 375.05,
+          "mid": 375.05
+        },
+        "breakdown": {
+          "room": 324,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.03333333333333333,
+          "timeCost": 0,
+          "parking": 51.05,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.03333333333333333,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Temple Place Suites 2+3",
+      "parking": {
+        "status": "estimated",
+        "perNight": 51.05,
+        "type": "none",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Temple-Place-Suites.h45791512.Hotel-Information",
+        "quote": "How much is parking? This property doesn’t offer parking.",
+        "reason": "No on-site parking; estimated off-site parking from 22 valid hotel quotes in this search",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "searchedAt": "2026-11-16T21:31:05.536Z",
+          "sourceUrl": "https://www.expedia.com/Boston-Hotels-Temple-Place-Suites.h45791512.Hotel-Information",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "usage": {
+            "input_tokens": 17486,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 2432
+            },
+            "output_tokens": 101,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17587
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 2414
+        },
+        "estimated": true,
+        "estimate": {
+          "method": "search-average",
+          "sampleSize": 22,
+          "perNight": 51.05
+        }
+      },
+      "costDrive": {
+        "mode": "drive",
+        "total": {
+          "low": 232.05,
+          "high": 232.05,
+          "mid": 232.05
+        },
+        "breakdown": {
+          "room": 181,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.03333333333333333,
+          "timeCost": 0,
+          "parking": 51.05,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.03333333333333333,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Kasa at Boston Common",
+      "parking": {
+        "status": "estimated",
+        "perNight": 51.05,
+        "type": "none",
+        "sourceUrl": "https://kasa.com/properties/kasa-at-boston-common",
+        "quote": "Our property does not have on‑site parking",
+        "reason": "No on-site parking; estimated off-site parking from 22 valid hotel quotes in this search",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "searchedAt": "2026-11-16T21:31:07.775Z",
+          "sourceUrl": "https://kasa.com/properties/kasa-at-boston-common",
+          "webSearchCalls": 1,
+          "citations": [
+            {
+              "url": "https://kasa.com/properties/kasa-at-boston-common?utm_source=openai",
+              "title": "Kasa at Boston Common | Kasa"
+            },
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-Kasa-At-Boston-Common.h128427831.Hotel-Information?rfrr=HOT.HIS.question.link.click&utm_source=openai",
+              "title": "Kasa At Boston Common Reviews, Deals & Photos 2026 - Expedia.com"
+            },
+            {
+              "url": "https://www.booking.com/hotel/us/kasa-at-boston-common.en-gb.html?utm_source=openai",
+              "title": "Kasa at Boston Common, Boston (updated prices 2027)"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://kasa.com/properties/kasa-at-boston-common?utm_source=openai"
+            },
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-Kasa-At-Boston-Common.h128427831.Hotel-Information?rfrr=HOT.HIS.question.link.click&utm_source=openai"
+            },
+            {
+              "url": "https://www.booking.com/hotel/us/kasa-at-boston-common.en-gb.html?utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-2024-08-06",
+          "usage": {
+            "input_tokens": 17089,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 2176
+            },
+            "output_tokens": 305,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17394
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 4156
+        },
+        "estimated": true,
+        "estimate": {
+          "method": "search-average",
+          "sampleSize": 22,
+          "perNight": 51.05
+        }
+      },
+      "costDrive": {
+        "mode": "drive",
+        "total": {
+          "low": 355.05,
+          "high": 355.05,
+          "mid": 355.05
+        },
+        "breakdown": {
+          "room": 304,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.03333333333333333,
+          "timeCost": 0,
+          "parking": 51.05,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.03333333333333333,
+        "days": 1,
+        "nights": 1
+      }
+    }
+  ],
+  "flagged": [
+    "Wyndham Boston Beacon Hill",
+    "Copley Square Hotel, a FOUND Hotel"
+  ],
+  "passed": true
+}

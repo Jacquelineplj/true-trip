@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>TrueTrip settings</title>
+<style>
+  html { background: #f5f5f7; color-scheme: light; }
+  body { box-sizing: border-box; font: 14px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", sans-serif; letter-spacing: -.015em; color: #1d1d1f; max-width: 640px; margin: 32px auto; padding: 28px; background: #fff; border: 1px solid rgba(0,0,0,.07); border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,.035); -webkit-font-smoothing: antialiased; }
+  h1 { font-size: 24px; font-weight: 600; letter-spacing: -.04em; margin: 0 0 8px; }
+  label { display: block; margin: 16px 0 5px; font-weight: 500; font-size: 13px; }
+  input, textarea { accent-color: #0071e3; }
+  input[type=text], input[type=number], textarea { width: 100%; padding: 9px 11px; border: 1px solid #d8d8dc; border-radius: 9px; font: inherit; background: #fff; color: inherit; box-sizing: border-box; }
+  input:focus-visible, textarea:focus-visible, button:focus-visible { outline: 3px solid rgba(0,113,227,.3); outline-offset: 2px; }
+  .row { display: flex; gap: 16px; } .row > div { flex: 1; min-width: 0; }
+  .row > div > label:first-child { min-height: 42px; display: flex; align-items: flex-end; }
+  .hint { color: #6e6e73; font-size: 12px; }
+  button { margin-top: 24px; background: #0071e3; color: #fff; border: 0; border-radius: 9px; padding: 9px 18px; font: 500 13px/1.5 -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; }
+  button:hover { background: #0077ed; }
+  #saved { margin-left: 10px; color: #6e6e73; font-size: 12px; }
+  @media(max-width: 600px) { body { margin: 12px; padding: 20px; } .row { flex-wrap: wrap; } .row > div { flex-basis: 140px; } }
+</style></head>
+<body>
+  <h1>TrueTrip settings</h1>
+  <p class="hint">Set once; the block on every Booking.com card uses these. The local server must be running (<code>npm run server</code> in the truetrip folder).</p>
+  <label>Anchors (1-3, one per line or separated by ;)</label>
+  <textarea id="anchors" rows="3"></textarea>
+  <div class="hint">Where you need to go each day: conference venue, office, campus. Add the city if the name is ambiguous.</div>
+  <div class="row">
+    <div><label>Getting around</label>
+      <label style="font-weight:400"><input type="radio" name="mode" value="drive"> Car (parking counts)</label>
+      <label style="font-weight:400"><input type="radio" name="mode" value="ride"> No car (rides count)</label></div>
+    <div><label>Value of your time ($/hour)</label><input id="timeValue" type="number" min="0" step="1"></div>
+  </div>
+  <div class="row">
+    <div><label>Round trips per anchor per day</label><input id="roundTrips" type="number" min="1" step="1"></div>
+    <div><label>Max commute (min, 0 = none)</label><input id="maxCommuteMin" type="number" min="0" step="5"></div>
+    <div><label>Budget for the trip ($, 0 = none)</label><input id="budget" type="number" min="0" step="10"></div>
+  </div>
+  <label><input id="parking" type="checkbox"> Look up parking fees</label>
+  <div class="hint">When a hotel has no on-site parking, also search public parking within about 1 km. If no usable public rate is found, include a clearly labeled $50/night default estimate.</div>
+  <label><input id="ratings" type="checkbox"> Load ratings</label>
+  <div class="hint">Include Google and Tripadvisor ratings in hotel lookups. Off by default to save cost.</div>
+  <label><input id="deepSearch" type="checkbox"> Search deeper</label>
+  <div class="hint">If the hotel's on-site parking price is still unknown, try one parking-only GPT-4o-mini search targeting Expedia and Hotels.com. This may increase the page cost. Off by default.</div>
+  <label><input id="enabled" type="checkbox"> Enabled on Booking.com results</label>
+  <div class="row">
+    <div><label>Auto-search hotels per page</label><input id="maxCards" type="number" min="1" max="50"></div>
+    <div><label>Server URL</label><input id="serverUrl" type="text"></div>
+  </div>
+  <button id="save">Save</button><span id="saved"></span>
+  <script src="economy-settings.js"></script><script src="options.js"></script>
+</body></html>

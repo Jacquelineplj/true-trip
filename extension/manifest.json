@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "TrueTrip",
+  "version": "0.5.18",
+  "description": "Adds parking, commute to your anchors, cross-platform ratings and the true trip cost to Booking.com results.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:8787/*",
+    "http://127.0.0.1:8787/*",
+    "https://*.booking.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TrueTrip"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.booking.com/searchresults*",
+        "https://*.booking.com/searchresults*",
+        "http://localhost:8787/demo*",
+        "http://127.0.0.1:8787/demo*"
+      ],
+      "js": [
+        "economy-settings.js",
+        "reader.js",
+        "hotel-tax-reader.js",
+        "tax-lookup.js",
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

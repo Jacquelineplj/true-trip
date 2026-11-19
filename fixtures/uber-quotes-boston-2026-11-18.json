@@ -1,0 +1,19 @@
+{
+  "note": "UberX quotes read by hand from m.uber.com on Wed 2026-11-18, about 3:10-3:35 PM local, pickup now. listUsd is the standard (struck-through) price; shownUsd is what one account saw after its own promotion and is not used for calibration. durationMin and distanceKm are the OSRM values TrueTrip used for the same leg (out/boston-drive.json). One snapshot: no rush hour, night or weekend coverage.",
+  "city": "Boston",
+  "product": "UberX",
+  "quotes": [
+    {"from": "Boston Marriott Copley Place", "to": "MIT Media Lab", "durationMin": 7.0, "distanceKm": 3.53, "listUsd": 17.94, "shownUsd": 10.60},
+    {"from": "Boston Marriott Copley Place", "to": "Boston Convention and Exhibition Center", "durationMin": 8.6, "distanceKm": 3.89, "listUsd": 25.96, "shownUsd": 15.41},
+    {"from": "The Westin Copley Place, Boston", "to": "MIT Media Lab", "durationMin": 7.1, "distanceKm": 3.43, "listUsd": 17.96, "shownUsd": 10.61},
+    {"from": "The Westin Copley Place, Boston", "to": "Boston Convention and Exhibition Center", "durationMin": 8.0, "distanceKm": 3.59, "listUsd": 22.95, "shownUsd": 13.60},
+    {"from": "Hilton Boston Logan Airport", "to": "MIT Media Lab", "durationMin": 12.7, "distanceKm": 8.04, "listUsd": 31.94, "shownUsd": 23.74},
+    {"from": "Hilton Boston Logan Airport", "to": "Boston Convention and Exhibition Center", "durationMin": 8.0, "distanceKm": 5.20, "listUsd": 31.95, "shownUsd": 23.75},
+    {"from": "Hyatt Regency Boston / Cambridge", "to": "MIT Media Lab", "durationMin": 4.1, "distanceKm": 2.37, "listUsd": 9.94, "shownUsd": 6.28},
+    {"from": "Hyatt Regency Boston / Cambridge", "to": "Boston Convention and Exhibition Center", "durationMin": 12.7, "distanceKm": 8.04, "listUsd": 29.95, "shownUsd": 17.80},
+    {"from": "Omni Boston Hotel at the Seaport", "to": "MIT Media Lab", "durationMin": 10.4, "distanceKm": 5.02, "listUsd": 23.94, "shownUsd": 14.20},
+    {"from": "Omni Boston Hotel at the Seaport", "to": "Boston Convention and Exhibition Center", "durationMin": 1.4, "distanceKm": 0.39, "listUsd": 10.94, "shownUsd": 6.40},
+    {"from": "The Verb Hotel", "to": "MIT Media Lab", "durationMin": 6.2, "distanceKm": 2.99, "listUsd": 12.96, "shownUsd": 11.41},
+    {"from": "The Verb Hotel", "to": "Boston Convention and Exhibition Center", "durationMin": 11.3, "distanceKm": 5.14, "listUsd": 30.95, "shownUsd": 18.40}
+  ]
+}

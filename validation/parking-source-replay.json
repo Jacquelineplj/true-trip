@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-16T19:18:41.446Z",
+  "method": "Replay archived actual fetched text through final identity and parent-section guards; no new network reads",
+  "rows": [
+    {
+      "name": "Omni Boston Hotel at the Seaport",
+      "identity": true,
+      "status": "ok",
+      "fee": 60,
+      "type": "self",
+      "unchanged": true
+    },
+    {
+      "name": "Hotel AKA Back Bay",
+      "identity": true,
+      "status": "ok",
+      "fee": 68,
+      "type": "valet",
+      "unchanged": true
+    },
+    {
+      "name": "The Verb Hotel",
+      "identity": true,
+      "status": "ok",
+      "fee": 73,
+      "type": "valet",
+      "unchanged": true
+    },
+    {
+      "name": "Hotel Commonwealth",
+      "identity": true,
+      "status": "ok",
+      "fee": 75,
+      "type": "valet",
+      "unchanged": true
+    },
+    {
+      "name": "Yotel Boston",
+      "identity": true,
+      "status": "ok",
+      "fee": 80,
+      "type": "valet",
+      "unchanged": true
+    },
+    {
+      "name": "Holiday Inn Express Boston by IHG",
+      "identity": true,
+      "status": "ok",
+      "fee": 20,
+      "type": "self",
+      "unchanged": true
+    },
+    {
+      "name": "Kasa Boston at Fenway",
+      "identity": true,
+      "status": "none",
+      "fee": null,
+      "type": "none",
+      "unchanged": true
+    },
+    {
+      "name": "Kasa at Boston Common",
+      "identity": true,
+      "status": "none",
+      "fee": null,
+      "type": "none",
+      "unchanged": true
+    }
+  ],
+  "passed": true
+}

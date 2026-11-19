@@ -1,0 +1,246 @@
+{
+  "at": "2026-11-16T19:43:45.794Z",
+  "provider": "openai",
+  "model": "gpt-5.4-mini",
+  "rows": [
+    {
+      "name": "Omni Boston Hotel at the Seaport",
+      "claim": {
+        "parking_fee_per_night": 60,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies",
+        "source_quote": "Overnight Self-Park | $60",
+        "confidence": "high"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:43:57.189Z",
+        "sourceUrl": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies",
+        "contentHash": "79f2f06836c844a360e6ed6e5a7a377f7ef9debbb80e3befefb51049a6d786a0",
+        "method": "browser",
+        "tier": "primary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 8769,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 194,
+          "output_tokens_details": {
+            "reasoning_tokens": 100
+          },
+          "total_tokens": 8963
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4915
+      },
+      "attempts": [
+        {
+          "url": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies",
+          "status": "ok",
+          "fee": 60,
+          "type": "self"
+        }
+      ],
+      "verified": {
+        "status": "ok",
+        "perNight": 60,
+        "type": "self",
+        "sourceUrl": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies",
+        "quote": "Overnight Self-Park | $60",
+        "reason": "confidence high"
+      },
+      "referenceMatch": true
+    },
+    {
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "claim": {
+        "parking_fee_per_night": 25,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information",
+        "source_quote": "Uncovered self parking on site (USD 25 per day)",
+        "confidence": "medium"
+      },
+      "evidence": {
+        "version": 3,
+        "status": "fetched",
+        "fetchedAt": "2026-11-16T19:44:15.535Z",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information",
+        "contentHash": "a81cf064c559332dad702d5594d32ab7b608d2236bbc67f548cf8b1994cee692",
+        "method": "browser",
+        "tier": "secondary",
+        "propertyMatched": true
+      },
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 12782,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 331,
+          "output_tokens_details": {
+            "reasoning_tokens": 186
+          },
+          "total_tokens": 13113
+        },
+        "webSearchCalls": 2,
+        "latencyMs": 5321
+      },
+      "attempts": [
+        {
+          "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-location/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/",
+          "error": "page identity does not match requested hotel",
+          "title": "",
+          "textLength": 32
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information",
+          "status": "ok",
+          "fee": 25,
+          "type": "self"
+        }
+      ],
+      "verified": {
+        "status": "ok",
+        "perNight": 25,
+        "type": "self",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information",
+        "quote": "Uncovered self parking on site (USD 25 per day)",
+        "reason": "confidence medium"
+      },
+      "referenceMatch": true
+    },
+    {
+      "name": "The Westin Copley Place, Boston",
+      "claim": null,
+      "provider": "source-verified",
+      "requiresEvidence": true,
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 8776,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 187,
+          "output_tokens_details": {
+            "reasoning_tokens": 71
+          },
+          "total_tokens": 8963
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3977
+      },
+      "attempts": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://www.expedia.com/Boston-Hotels-The-Westin-Copley-Place.h4443.Hotel-Information",
+          "error": "source returned an access/error page"
+        },
+        {
+          "url": "https://ca.hotels.com/ho105311/the-westin-copley-place-boston-a-marriott-hotel-boston-united-states-of-america/",
+          "status": "unknown",
+          "fee": null,
+          "type": null
+        }
+      ],
+      "error": "No current, matching on-site parking evidence could be retrieved",
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no claim"
+      },
+      "referenceMatch": null
+    }
+  ],
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviews": 2370,
+      "url": "https://www.google.com/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?gsas=1&ts=Gj8KIRIfCg0vZy8xMWZrNG03OWMwOg5IYXJ2YXJkIFNxdWFyZRIaEhQKBwjqDxACGA8SBwjqDxACGBAYATICEAAqBQoDCgET",
+      "matchedName": "Omni Boston Hotel at the Seaport",
+      "source": "llm-search (unverified)",
+      "confidence": "high"
+    },
+    "tripadvisor": {
+      "rating": 4.6,
+      "reviews": 3088,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html",
+      "matchedName": "Omni Boston Hotel at the Seaport",
+      "source": "llm-search (unverified)",
+      "confidence": "high"
+    },
+    "costUsd": null,
+    "llm": {
+      "provider": "openai",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 8788,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 2432
+        },
+        "output_tokens": 261,
+        "output_tokens_details": {
+          "reasoning_tokens": 68
+        },
+        "total_tokens": 9049
+      },
+      "webSearchCalls": 1
+    },
+    "citations": []
+  },
+  "apiPassed": true,
+  "scored": 2,
+  "correct": 2,
+  "numericCoverage": 0.6666666666666666,
+  "limitation": "Three-property migration smoke test only. Not a citywide accuracy/coverage evaluation.",
+  "passed": true,
+  "ratingsSupersededBy": "openai-ratings.json; final guards reject opaque Google entities and unsourced platform links"
+}

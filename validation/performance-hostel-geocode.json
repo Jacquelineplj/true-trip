@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-17T00:40:57.796Z",
+  "elapsedMs": 2,
+  "location": {
+    "lat": 42.3511012,
+    "lon": -71.0633625,
+    "label": "HI Boston, 19, Stuart Street, Downtown Crossing, Downtown, Boston, Suffolk County, Massachusetts, 02111, United States",
+    "kind": "hostel",
+    "provider": "nominatim",
+    "query": "HI Boston Hostel, Boston"
+  },
+  "passed": true
+}

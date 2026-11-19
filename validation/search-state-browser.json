@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-17T05:50:16.500Z",
+  "method": "Real content script on local demo; fixture enrichment responses and real /notes. No AI calls.",
+  "undatedNoQueries": true,
+  "unpricedCardsNotQueued": true,
+  "latePricesProcessed": true,
+  "failureSurvivesRedraw": true,
+  "searchResetClearsResults": true,
+  "staleResultsIgnored": true,
+  "requests": 10,
+  "passed": true
+}

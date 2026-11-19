@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-16T19:46:16.454Z",
+  "google": null,
+  "tripadvisor": {
+    "rating": 4.6,
+    "reviews": 3088,
+    "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html",
+    "matchedName": "Omni Boston Hotel at the Seaport",
+    "source": "llm-search (unverified)",
+    "confidence": "high"
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 8662,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 4480
+      },
+      "output_tokens": 255,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 8917
+    },
+    "webSearchCalls": 1
+  },
+  "error": null,
+  "sourceCount": 15,
+  "note": "Searched ratings remain unverified; opaque Google entities and URLs absent from API sources are rejected."
+}

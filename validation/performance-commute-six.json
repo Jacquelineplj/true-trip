@@ -1,0 +1,885 @@
+{
+  "at": "2026-11-16T21:55:59.494Z",
+  "elapsedMs": 3622,
+  "status": 200,
+  "health": {
+    "ok": true,
+    "parking": "gpt-web-search",
+    "llm": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "concurrency": {
+        "limit": 6,
+        "active": 0,
+        "queued": 0,
+        "peak": 5
+      },
+      "configured": true
+    },
+    "ratings": {
+      "google": false,
+      "tripadvisor": false,
+      "fallback": "llm"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Omni Boston Hotel at the Seaport",
+      "location": {
+        "lat": 42.347003,
+        "lon": -71.0426225,
+        "label": "Omni Boston at the Seaport, 450 Summer Street, Boston, Massachusetts",
+        "provider": "photon",
+        "estimated": false
+      },
+      "commute": [
+        {
+          "anchor": "MIT Media Lab, 75 Amherst St, Cambridge MA",
+          "durationMin": 10.398333333333333,
+          "distanceKm": 5.019100000000001,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 14.24,
+            "high": 26.81,
+            "mid": 16.76,
+            "tested": true
+          }
+        },
+        {
+          "anchor": "Boston Convention and Exhibition Center",
+          "durationMin": 1.3933333333333333,
+          "distanceKm": 0.392,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 7.23,
+            "high": 13.6,
+            "mid": 8.5,
+            "tested": true
+          }
+        }
+      ],
+      "parking": {
+        "status": "ok",
+        "perNight": 60,
+        "type": "self",
+        "sourceUrl": "https://www.omnihotels.com/hotels/boston-seaport",
+        "quote": "Overnight Self-Park | $60",
+        "reason": "GPT web search; not independently verified",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "searchedAt": "2026-11-16T21:55:26.176Z",
+          "sourceUrl": "https://www.omnihotels.com/hotels/boston-seaport",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [
+            {
+              "url": "https://www.omnihotels.com/hotels/boston-seaport?utm_source=openai"
+            },
+            {
+              "url": "https://www.omnihotels.com/en/hotels/boston-seaport?utm_source=openai"
+            },
+            {
+              "url": "https://www.omnihotels.com/hotels/boston-seaport/property-details/policies?utm_source=openai"
+            },
+            {
+              "url": "https://bookings.omnihotels.com/offer/boston-seaport/invest-in-others-room-block-2026?utm_source=openai"
+            },
+            {
+              "url": "https://bookings.omnihotels.com/offer/boston-seaport/hnc-main-2-sub-block?utm_source=openai"
+            },
+            {
+              "url": "https://bookings.omnihotels.com/offer/boston-seaport/rhino-federated-computing-room-block?utm_source=openai"
+            },
+            {
+              "url": "https://bookings.omnihotels.com/offer/boston-seaport/boston-triathlon-room-block?utm_source=openai"
+            },
+            {
+              "url": "https://bookings.omnihotels.com/offer/boston-seaport/kauffman-wedding-room-block?utm_source=openai"
+            },
+            {
+              "url": "https://bookings.omnihotels.com/offer/boston-seaport/hms-hsdm-reunion-2027?utm_source=openai"
+            },
+            {
+              "url": "https://bookings.omnihotels.com/offer/boston-seaport/lamonica-sheehan-wedding-room-block?utm_source=openai"
+            },
+            {
+              "url": "https://bookings.omnihotels.com/offer/boston-seaport/2026-bentley-family-weekend-room-block?utm_source=openai"
+            },
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-Omni-Boston-Hotel-At-The-Seaport-Artist-Tower-Experience.h136090913.Hotel-Information?utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": true,
+        "costUsd": 0,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9010,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 65,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9075
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 2002
+        }
+      },
+      "cost": {
+        "mode": "drive",
+        "total": {
+          "low": 318.86,
+          "high": 318.86,
+          "mid": 318.86
+        },
+        "breakdown": {
+          "room": 251,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.39305555555555555,
+          "timeCost": 7.86,
+          "parking": 60,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.39305555555555555,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "location": {
+        "lat": 42.3897529,
+        "lon": -71.0122151,
+        "label": "Hilton Garden Inn Boston Logan Airport, 100 Boardman Street, Boston, Massachusetts",
+        "provider": "photon",
+        "estimated": false
+      },
+      "commute": [
+        {
+          "anchor": "MIT Media Lab, 75 Amherst St, Cambridge MA",
+          "durationMin": 13.351666666666667,
+          "distanceKm": 9.1264,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 19.1,
+            "high": 35.96,
+            "mid": 22.48,
+            "tested": true
+          }
+        },
+        {
+          "anchor": "Boston Convention and Exhibition Center",
+          "durationMin": 10.643333333333334,
+          "distanceKm": 7.9866,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 17.06,
+            "high": 32.12,
+            "mid": 20.07,
+            "tested": true
+          }
+        }
+      ],
+      "parking": {
+        "status": "ok",
+        "perNight": 25,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/",
+        "quote": "Self-parking: $25.00 per day",
+        "reason": "GPT web search; not independently verified",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "searchedAt": "2026-11-16T21:55:27.849Z",
+          "sourceUrl": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [
+            {
+              "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/en-gb/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/offers/park-go-2000000053/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/en-gb/hotels/boslogi-hilton-garden-inn-boston-logan-airport/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/es/hotels/boslogi-hilton-garden-inn-boston-logan-airport/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/vi/hotels/boslogi-hilton-garden-inn-boston-logan-airport/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/?sa=X&ved=2ahUKEwizorX0u-H9AhXWmWQKHSBBAqoQyK4DegQIAxBv&utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/nl/hotels/boslogi-hilton-garden-inn-boston-logan-airport/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/offers/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/?arrivalDate=2026-10-24&departureDate=2026-10-25&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=&utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-location/?arrivalDate=2026-10-02&departureDate=2026-10-03&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=&utm_source=openai"
+            },
+            {
+              "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-location/?arrivalDate=2026-09-23&departureDate=2026-09-24&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=&utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": true,
+        "costUsd": 0,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9008,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 75,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9083
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 1611
+        }
+      },
+      "cost": {
+        "mode": "drive",
+        "total": {
+          "low": 171,
+          "high": 171,
+          "mid": 171
+        },
+        "breakdown": {
+          "room": 130,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.7998333333333334,
+          "timeCost": 16,
+          "parking": 25,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.7998333333333334,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "The Verb Hotel",
+      "location": {
+        "lat": 42.3453384,
+        "lon": -71.0967798,
+        "label": "The Verb Hotel, 1271 Boylston Street, Boston, Massachusetts",
+        "provider": "photon",
+        "estimated": false
+      },
+      "commute": [
+        {
+          "anchor": "MIT Media Lab, 75 Amherst St, Cambridge MA",
+          "durationMin": 6.183333333333334,
+          "distanceKm": 2.994,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 10.84,
+            "high": 20.4,
+            "mid": 12.75,
+            "tested": true
+          }
+        },
+        {
+          "anchor": "Boston Convention and Exhibition Center",
+          "durationMin": 11.276666666666667,
+          "distanceKm": 5.1411999999999995,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 14.68,
+            "high": 27.63,
+            "mid": 17.27,
+            "tested": true
+          }
+        }
+      ],
+      "parking": {
+        "status": "ok",
+        "perNight": 73,
+        "type": "valet",
+        "sourceUrl": "https://www.theverbhotel.com/faq/",
+        "quote": "Valet parking only ($73 overnight fee-limited availability, first come first serve, rates subject to change)",
+        "reason": "GPT web search; not independently verified",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "searchedAt": "2026-11-16T21:55:57.692Z",
+          "sourceUrl": "https://www.theverbhotel.com/faq/",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [
+            {
+              "url": "https://www.theverbhotel.com/faq/?utm_source=openai"
+            },
+            {
+              "url": "https://www.theverbhotel.com/faq?utm_source=openai"
+            },
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-The-Verb-Hotel.h25280.Hotel-Information?utm_source=openai"
+            },
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-The-Verb-Hotel.h25280.Hotel-Information?equalTargetTab=tab-2&utm_source=openai"
+            },
+            {
+              "url": "https://www.hotel-ami.com/h-167178-I/the-verb-hotel-boston-in-boston.htm?utm_source=openai"
+            },
+            {
+              "url": "https://www.hotel-ami.com/h-167178-FIN/the-verb-hotel-boston-in-boston.htm?utm_source=openai"
+            },
+            {
+              "url": "https://www.hotel-ami.com/h-167178-SWE/the-verb-hotel-boston-in-boston.htm?utm_source=openai"
+            },
+            {
+              "url": "https://www.hotel-ami.com/h-167178-NO/the-verb-hotel-boston-in-boston.htm?utm_source=openai"
+            },
+            {
+              "url": "https://thefenway.com/locations/the-verb-hotel-lot/?utm_source=openai"
+            },
+            {
+              "url": "https://bostonhotels.com/hotel/the-verb-hotel?utm_source=openai"
+            },
+            {
+              "url": "https://www.klook.com/en-US/hotels/detail/428211-the-verb-hotel/?utm_source=openai"
+            },
+            {
+              "url": "https://www.bookonline.com/hotel/the-verb-hotel-ma?utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9000,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 85,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9085
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 1779
+        }
+      },
+      "cost": {
+        "mode": "drive",
+        "total": {
+          "low": 339.64,
+          "high": 339.64,
+          "mid": 339.64
+        },
+        "breakdown": {
+          "room": 255,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.5820000000000001,
+          "timeCost": 11.64,
+          "parking": 73,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.5820000000000001,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Hotel Commonwealth",
+      "location": {
+        "lat": 42.348593,
+        "lon": -71.0953263,
+        "label": "Hotel Commonwealth, 500 Commonwealth Avenue, Boston, Massachusetts",
+        "provider": "photon",
+        "estimated": false
+      },
+      "commute": [
+        {
+          "anchor": "MIT Media Lab, 75 Amherst St, Cambridge MA",
+          "durationMin": 5.295,
+          "distanceKm": 2.6233,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 10.17,
+            "high": 19.14,
+            "mid": 11.96,
+            "tested": true
+          }
+        },
+        {
+          "anchor": "Boston Convention and Exhibition Center",
+          "durationMin": 10.663333333333332,
+          "distanceKm": 5.0043999999999995,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 14.33,
+            "high": 26.97,
+            "mid": 16.86,
+            "tested": true
+          }
+        }
+      ],
+      "parking": {
+        "status": "ok",
+        "perNight": 75,
+        "type": "valet",
+        "sourceUrl": "https://www.hotelcommonwealth.com/directions/",
+        "quote": "Hotel Commonwealth is pleased to work with LAZ Parking to offer our guests secure onsite valet parking at the cost of $75 overnight and $40 day rates for hotel functions.",
+        "reason": "GPT web search; not independently verified",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "searchedAt": "2026-11-16T21:55:57.565Z",
+          "sourceUrl": "https://www.hotelcommonwealth.com/directions/",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [
+            {
+              "url": "https://www.hotelcommonwealth.com/directions/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hotelcommonwealth.com/offer/park-stay-package/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hotelcommonwealth.com/offer/worth-the-drive/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hotelcommonwealth.com/faq/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hotelcommonwealth.com/registration-page/?utm_source=openai"
+            },
+            {
+              "url": "https://www.hotelcommonwealth.com/market-segment-landing-page-pharma/?utm_source=openai"
+            },
+            {
+              "url": "https://www.tripadvisor.com/FAQ_Answers-g60745-d258705-t1597475-Is_there_parking.html?utm_source=openai"
+            },
+            {
+              "url": "https://www.tripadvisor.com/Hotel_Feature-g60745-d258705-zft12116-Hotel_Commonwealth.html?utm_source=openai"
+            },
+            {
+              "url": "https://www.tripadvisor.com/FAQ_Answers-g60745-d258705-t2407167-What_is_the_fee_for_parking.html?utm_source=openai"
+            },
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-Hotel-Commonwealth.h894999.Hotel-Information?msockid=0d4fcc2cb1c066d0367dda59b015671a&utm_source=openai"
+            },
+            {
+              "url": "https://www.google.com/travel/hotels/entity/ChcI05bP_IuTuNVZGgsvZy8xdGwweWJ4YxAB?rp=OAHCAhwiGg0AAHlDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+            },
+            {
+              "url": "https://www.bostonvacay.com/listings/hotel-commonwealth?utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 8998,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 97,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9095
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 1650
+        }
+      },
+      "cost": {
+        "mode": "drive",
+        "total": {
+          "low": 323.64,
+          "high": 323.64,
+          "mid": 323.64
+        },
+        "breakdown": {
+          "room": 238,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.5319444444444444,
+          "timeCost": 10.64,
+          "parking": 75,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.5319444444444444,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Hotel AKA Back Bay",
+      "location": {
+        "lat": 42.3492011,
+        "lon": -71.072394,
+        "label": "Hotel AKA Back Bay, 154 Berkeley Street, Boston, MA 02116",
+        "provider": "photon",
+        "estimated": false
+      },
+      "commute": [
+        {
+          "anchor": "MIT Media Lab, 75 Amherst St, Cambridge MA",
+          "durationMin": 6.483333333333333,
+          "distanceKm": 3.2066,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 11.14,
+            "high": 20.97,
+            "mid": 13.11,
+            "tested": true
+          }
+        },
+        {
+          "anchor": "Boston Convention and Exhibition Center",
+          "durationMin": 6.708333333333333,
+          "distanceKm": 3.0643000000000002,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 11.09,
+            "high": 20.88,
+            "mid": 13.05,
+            "tested": true
+          }
+        }
+      ],
+      "parking": {
+        "status": "ok",
+        "perNight": 68,
+        "type": "valet",
+        "sourceUrl": "https://www.stayaka.com/hotel-aka-backbay/faq",
+        "quote": "On-property valet parking is available for $68 per vehicle, per night. Available 24-hours daily.",
+        "reason": "GPT web search; not independently verified",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "searchedAt": "2026-11-16T21:55:57.755Z",
+          "sourceUrl": "https://www.stayaka.com/hotel-aka-backbay/faq",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [
+            {
+              "url": "https://www.stayaka.com/hotel-aka-backbay/exclusives?utm_source=openai"
+            },
+            {
+              "url": "https://backbayapp.stayaka.com/faqs?utm_source=openai"
+            },
+            {
+              "url": "https://www.stayaka.com/hotel-aka-backbay/faq?utm_source=openai"
+            },
+            {
+              "url": "https://backbayapp.stayaka.com/services?utm_source=openai"
+            },
+            {
+              "url": "https://www.bostonvacay.com/listings/aka-back-bay?utm_source=openai"
+            },
+            {
+              "url": "https://en.parkopedia.com/parking/garage/hotel_aka_back_bay/02116/boston/?utm_source=openai"
+            },
+            {
+              "url": "https://www.klook.com/en-US/hotels/detail/285564-hotel-aka-back-bay/?utm_source=openai"
+            },
+            {
+              "url": "https://bostonhotels.com/hotel/hotel-aka-back-bay?utm_source=openai"
+            },
+            {
+              "url": "https://magellanluxuryhotels.com/boston/hotel-aka-back-bay/?utm_source=openai"
+            },
+            {
+              "url": "https://www.bookonline.com/hotel/hotel-aka-back-bay-boston?utm_source=openai"
+            },
+            {
+              "url": "https://www.bookonline.com/hotel/hotel-aka-back-bay-boston-contact-us?utm_source=openai"
+            },
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-Hotel-AKA-Back-Bay.h1070718.Hotel-Information?equalTargetTab=tab-1&utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9002,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 78,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9080
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 1841
+        }
+      },
+      "cost": {
+        "mode": "drive",
+        "total": {
+          "low": 392.79,
+          "high": 392.79,
+          "mid": 392.79
+        },
+        "breakdown": {
+          "room": 316,
+          "tax": 0,
+          "fees": 0,
+          "travelHours": 0.43972222222222224,
+          "timeCost": 8.79,
+          "parking": 68,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [],
+        "travelHours": 0.43972222222222224,
+        "days": 1,
+        "nights": 1
+      }
+    },
+    {
+      "name": "Hotel Ivy Boston Common",
+      "location": {
+        "lat": 42.3499628,
+        "lon": -71.0663948,
+        "label": "Hotel Ivy Boston Common, 78 Charles Street South, Boston, MA 02116",
+        "provider": "photon",
+        "estimated": false
+      },
+      "commute": [
+        {
+          "anchor": "MIT Media Lab, 75 Amherst St, Cambridge MA",
+          "durationMin": 6.863333333333333,
+          "distanceKm": 3.4137,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 11.47,
+            "high": 21.59,
+            "mid": 13.5,
+            "tested": true
+          }
+        },
+        {
+          "anchor": "Boston Convention and Exhibition Center",
+          "durationMin": 5.878333333333333,
+          "distanceKm": 2.6789,
+          "estimated": false,
+          "provider": "osrm",
+          "fare": {
+            "low": 10.43,
+            "high": 19.64,
+            "mid": 12.28,
+            "tested": true
+          }
+        }
+      ],
+      "parking": {
+        "status": "flagged",
+        "perNight": 26,
+        "type": "self",
+        "sourceUrl": "https://www.hotelivyboston.com/contact/",
+        "quote": "We do not have onsite parking. There are nearby garages within walking distance and our team can point you to the best options.",
+        "reason": "quoted evidence does not state this fee",
+        "evidence": {
+          "status": "searched",
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "searchedAt": "2026-11-16T21:55:57.771Z",
+          "sourceUrl": "https://www.hotelivyboston.com/contact/",
+          "webSearchCalls": 1,
+          "citations": [],
+          "sources": [
+            {
+              "url": "https://www.hotelivyboston.com/contact/?utm_source=openai"
+            },
+            {
+              "url": "https://www.qantas.com/hotels/properties/312865-found-hotel-boston-common?utm_source=openai"
+            },
+            {
+              "url": "https://www.orbitz.com/Boston-Hotels-Found-Hotel-Boston-Common.h15746.Hotel-Information?utm_source=openai"
+            },
+            {
+              "url": "https://reservations.arestravel.com/hotel/single/15041/5730?utm_source=openai"
+            },
+            {
+              "url": "https://www.expedia.com/Boston-Hotels-Found-Hotel-Boston-Common.h15746.Hotel-Information?equalTargetTab=tab-4&utm_source=openai"
+            },
+            {
+              "url": "https://www.reservationcounter.com/hotels/show/60068a9/hotel-ivy-boston-common?utm_source=openai"
+            },
+            {
+              "url": "https://www.google.com/travel/hotels/entity/ChgIuOfEo7X1nceMARoLL2cvMXRnOGtyNXgQAQ?rp=OAHCAhwiGg0AALhCEhMIhMHIv8XHlAMVK6QDAB3RRTwh&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgVEgcI6g8QBRgWGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+            },
+            {
+              "url": "https://www.google.com/travel/hotels/entity/ChgIuOfEo7X1nceMARoLL2cvMXRnOGtyNXgQAQ?g2lb=4306835&rp=OAHCAhwiGg0AgIVDEhMIx5fc4cbuhQMVbI2rBx1psQWA&ts=CAEaIAoCGgASGhIUCgcI6A8QBRgGEgcI6A8QBRgHGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+            },
+            {
+              "url": "https://www.google.com/travel/hotels/entity/ChgIuOfEo7X1nceMARoLL2cvMXRnOGtyNXgQAQ?gsas=1&ts=GkwKLhIsCgkvbS8wMjEzYno6H0lzYWJlbGxhIFN0ZXdhcnQgR2FyZG5lciBNdXNldW0SGhIUCgcI6g8QAhgPEgcI6g8QAhgQGAEyAhAAKgUKAwoBEw&utm_source=openai"
+            },
+            {
+              "url": "https://www.google.com/travel/hotels/entity/ChgIuOfEo7X1nceMARoLL2cvMXRnOGtyNXgQAQ?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+            },
+            {
+              "url": "https://www.travelocity.com/Boston-Hotels-Found-Hotel-Boston-Common.h15746.Hotel-Information?utm_source=openai"
+            },
+            {
+              "url": "https://www.google.com.jm/travel/hotels/entity/ChgIuOfEo7X1nceMARoLL2cvMXRnOGtyNXgQAQ?rp=OAHCAhwiGg0AAPJCEhMIwZjE7NTjlgMVr0x_AB2yKhOo&ts=CAESCgoCCAMKAggDEAAaIAoCGgASGhIUCgcI6g8QCxgFEgcI6g8QCxgKGAUyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+            }
+          ],
+          "independentlyVerified": false
+        },
+        "provider": "gpt-web-search",
+        "cached": false,
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9018,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 69,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9087
+          },
+          "webSearchCalls": 1,
+          "latencyMs": 1857
+        }
+      },
+      "cost": {
+        "mode": "drive",
+        "total": null,
+        "breakdown": {
+          "room": 229,
+          "tax": null,
+          "fees": 0,
+          "travelHours": 0.4247222222222222,
+          "timeCost": 8.49,
+          "parking": null,
+          "rides": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        "unknowns": [
+          "taxes and fees",
+          "parking fee"
+        ],
+        "travelHours": 0.4247222222222222,
+        "days": 1,
+        "nights": 1
+      }
+    }
+  ],
+  "passed": true
+}

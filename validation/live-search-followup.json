@@ -1,0 +1,96 @@
+{
+  "at": "2026-11-16T18:39:00.607Z",
+  "input": "out/validation/fresh-three.json",
+  "rows": [
+    {
+      "id": "card-0",
+      "name": "Hampton Inn Boston Logan Airport",
+      "elapsedMs": 17914,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "unknown",
+        "source_url": null,
+        "source_quote": null,
+        "confidence": "low"
+      },
+      "provider": "claude-cli",
+      "costUsd": 0.08199008,
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "unknown",
+        "sourceUrl": null,
+        "quote": null,
+        "reason": "no source URL"
+      }
+    },
+    {
+      "id": "card-1",
+      "name": "The Westin Copley Place, Boston",
+      "elapsedMs": 21979,
+      "claim": {
+        "parking_fee_per_night": 70,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://ca.hotels.com/ho105311/the-westin-copley-place-boston-a-marriott-hotel-boston-united-states-of-america/",
+        "source_quote": "On-site valet parking (USD 70 per night; includes in/out privileges)",
+        "confidence": "low"
+      },
+      "provider": "claude-cli",
+      "costUsd": 0.08512253500000001,
+      "verified": {
+        "status": "flagged",
+        "perNight": 70,
+        "type": "valet",
+        "sourceUrl": "https://ca.hotels.com/ho105311/the-westin-copley-place-boston-a-marriott-hotel-boston-united-states-of-america/",
+        "quote": "On-site valet parking (USD 70 per night; includes in/out privileges)",
+        "reason": "low-confidence claim; verify at source"
+      }
+    },
+    {
+      "id": "card-4",
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "elapsedMs": 20091,
+      "claim": {
+        "parking_fee_per_night": 20,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info",
+        "source_quote": "Self-parking: $20.00 per day",
+        "confidence": "medium"
+      },
+      "provider": "claude-cli",
+      "costUsd": 0.08823046000000001,
+      "verified": {
+        "status": "ok",
+        "perNight": 20,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info",
+        "quote": "Self-parking: $20.00 per day",
+        "reason": "confidence medium"
+      }
+    }
+  ],
+  "found": 1,
+  "total": 3,
+  "costUsd": 0.25534307500000003,
+  "referenceChecks": [
+    {
+      "name": "Hampton Inn Boston Logan Airport",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "The Westin Copley Place, Boston",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "accepted": true,
+      "correct": false
+    }
+  ],
+  "qualityPassed": false
+}

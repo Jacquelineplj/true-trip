@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-17T22:14:33.082Z",
+  "method": "Installed extension on demo page; deterministic provider responses, real /notes aggregation. No live AI requests.",
+  "ratingAttributionPassed": true,
+  "parkingAverageUpdated": true,
+  "doubleClickDedupPassed": true,
+  "clonedButtonPassed": true,
+  "passed": true,
+  "requestCount": 4,
+  "uniqueIds": 4,
+  "remainingManualButtons": 3,
+  "manualIncludedInSort": true,
+  "autoLimitPreserved": true
+}

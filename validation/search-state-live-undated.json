@@ -1,0 +1,33 @@
+{
+  "startedAt": "2026-11-17T05:49:43.863Z",
+  "live": true,
+  "undated": true,
+  "targetCards": 12,
+  "ratings": true,
+  "checks": [
+    "MV3 service worker loaded; real extension storage configured",
+    "Real undated Booking page: no loading panels or hotel/tax queries after 20 seconds"
+  ],
+  "statusText": "Select check-in and check-out dates on Booking.com to compare trip costs.",
+  "extraUserBrowserTabs": 0,
+  "passed": true,
+  "elapsedMs": 24651,
+  "requests": [
+    {
+      "endpoint": "/health",
+      "startedAt": "2026-11-17T05:49:45.213Z",
+      "startedMs": 1794894585235,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 33
+    },
+    {
+      "endpoint": "/health",
+      "startedAt": "2026-11-17T05:49:46.441Z",
+      "startedMs": 1794894586441,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 2
+    }
+  ]
+}

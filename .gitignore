@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+.usage/
+out/
+*.log
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example

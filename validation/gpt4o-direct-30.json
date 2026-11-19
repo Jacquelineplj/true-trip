@@ -1,0 +1,2152 @@
+{
+  "reference": "validation/parking-reference.json",
+  "at": "2026-11-16T21:31:07.777Z",
+  "input": "fixtures/boston-parking-audit.json",
+  "rows": [
+    {
+      "id": "card-0",
+      "name": "Hampton Inn Boston Logan Airport",
+      "elapsedMs": 3590,
+      "claim": {
+        "parking_fee_per_night": 30,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.hilton.com/en/hotels/boslahx-hampton-boston-logan-airport/hotel-info/",
+        "source_quote": "\"Self‑parking: $30.00 per day\"",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:34.408Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boslahx-hampton-boston-logan-airport/hotel-info/",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17435,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 84,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17519
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3587
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 30,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boslahx-hampton-boston-logan-airport/hotel-info/",
+        "quote": "\"Self‑parking: $30.00 per day\"",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-1",
+      "name": "Omni Boston Hotel at the Seaport",
+      "elapsedMs": 4435,
+      "claim": {
+        "parking_fee_per_night": 60,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.omnihotels.com/hotels/boston-seaport",
+        "source_quote": "Overnight Self‑Park | $60",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:35.254Z",
+        "sourceUrl": "https://www.omnihotels.com/hotels/boston-seaport",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.omnihotels.com/hotels/boston-seaport?utm_source=openai",
+            "title": "Omni Boston Hotel at the Seaport | Hotels in Boston, MA"
+          },
+          {
+            "url": "https://bookings.omnihotels.com/offer/boston-seaport/invest-in-others-room-block-2026?utm_source=openai",
+            "title": "Invest In Others 2026 | Omni Boston Hotel at the Seaport | Omni Hotels & Resorts"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.omnihotels.com/hotels/boston-seaport?utm_source=openai"
+          },
+          {
+            "url": "https://bookings.omnihotels.com/offer/boston-seaport/invest-in-others-room-block-2026?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17668,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 278,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17946
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4423
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 60,
+        "type": "self",
+        "sourceUrl": "https://www.omnihotels.com/hotels/boston-seaport",
+        "quote": "Overnight Self‑Park | $60",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-2",
+      "name": "Hilton Boston Logan Airport",
+      "elapsedMs": 4138,
+      "claim": {
+        "parking_fee_per_night": 58,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/hotel-info/",
+        "source_quote": "Self‑parking: $58.00 per day",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:34.958Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/hotel-info/",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/hotel-info/?utm_source=openai",
+            "title": "Hotel Amenities - Hilton Boston Logan Airport"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/hotel-info/?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17438,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 275,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17713
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4126
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 58,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/hotel-info/",
+        "quote": "Self‑parking: $58.00 per day",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-3",
+      "name": "The Westin Copley Place, Boston",
+      "elapsedMs": 5453,
+      "claim": {
+        "parking_fee_per_night": 70,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/?scid=ba372e19-3116-406f-8c8c-cd1679a20d2d",
+        "source_quote": "Parking Valet\nDaily: $70.00 per day.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:39.863Z",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/?scid=ba372e19-3116-406f-8c8c-cd1679a20d2d",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/?msockid=0aadfebb561d6d9818b2ed5d57a36c4a&utm_source=openai",
+            "title": "The Westin Copley Place, Boston | Back Bay Hotel near Copley Place & Fenway Park"
+          },
+          {
+            "url": "https://www.marriott.com/reservation/ersViewRoomPool.mi?displayRoomPoolList=Y&marshaCode=BOSWI&productId=Qk9TV0l8TVMyQXxLSU5HfDIwMjQtMDUtMjV8MjAyNC0wNS0yNnxjZGYwMzI1MC00YjI4LTRhNjEtYTU1NC01NDE0Y2VjOTJlYzE&roomPoolCode=king&selectedTabName=prepay&src=ratelist&utm_source=openai",
+            "title": "The Westin Copley Place, Boston"
+          },
+          {
+            "url": "https://hsg.cmrus.com/afp2025/Housing/HotelInfo/WHCP?utm_source=openai",
+            "title": "Hotel Information"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/?msockid=0aadfebb561d6d9818b2ed5d57a36c4a&utm_source=openai"
+          },
+          {
+            "url": "https://www.marriott.com/reservation/ersViewRoomPool.mi?displayRoomPoolList=Y&marshaCode=BOSWI&productId=Qk9TV0l8TVMyQXxLSU5HfDIwMjQtMDUtMjV8MjAyNC0wNS0yNnxjZGYwMzI1MC00YjI4LTRhNjEtYTU1NC01NDE0Y2VjOTJlYzE&roomPoolCode=king&selectedTabName=prepay&src=ratelist&utm_source=openai"
+          },
+          {
+            "url": "https://hsg.cmrus.com/afp2025/Housing/HotelInfo/WHCP?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17506,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 517,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 18023
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 5451
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 70,
+        "type": "valet",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/?scid=ba372e19-3116-406f-8c8c-cd1679a20d2d",
+        "quote": "Parking Valet\nDaily: $70.00 per day.",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-4",
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "elapsedMs": 3310,
+      "claim": {
+        "parking_fee_per_night": 25,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/",
+        "source_quote": "Self‑parking: $25.00 per day",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:38.268Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/?utm_source=openai",
+            "title": "Hotel Amenities - Hilton Garden Inn Boston Logan Airport"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information?equalTargetTab=tab-0&utm_source=openai",
+            "title": "Hilton Garden Inn Boston Logan Airport Reviews, Deals & Photos 2026 - Expedia"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information?equalTargetTab=tab-0&utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17472,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 273,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17745
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3307
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 25,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/hotel-info/",
+        "quote": "Self‑parking: $25.00 per day",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-5",
+      "name": "citizenM Boston Back Bay",
+      "elapsedMs": 3234,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "none",
+        "source_url": "https://citizenmbostonbackbay.bookresorts.com/faq/",
+        "source_quote": "“There is no on‑site parking; guests are directed to nearby paid parking services such as SpotHero.”",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:38.490Z",
+        "sourceUrl": "https://citizenmbostonbackbay.bookresorts.com/faq/",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17698,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 80,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17778
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3232
+      },
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "none",
+        "sourceUrl": "https://citizenmbostonbackbay.bookresorts.com/faq/",
+        "quote": "“There is no on‑site parking; guests are directed to nearby paid parking services such as SpotHero.”",
+        "reason": "hotel reports no on-site parking; off-site cost unknown"
+      }
+    },
+    {
+      "id": "card-6",
+      "name": "DoubleTree by Hilton Hotel Boston Bayside",
+      "elapsedMs": 3181,
+      "claim": {
+        "parking_fee_per_night": 27,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.hilton.com/en/hotels/boschdt-doubletree-boston-bayside/hotel-info/",
+        "source_quote": "Self‑parking: $27.00 per day",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:41.451Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boschdt-doubletree-boston-bayside/hotel-info/",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.hilton.com/en/hotels/boschdt-doubletree-boston-bayside/hotel-info/?utm_source=openai",
+            "title": "Hotel Amenities - DoubleTree by Hilton Boston Bayside"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hilton.com/en/hotels/boschdt-doubletree-boston-bayside/hotel-info/?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17687,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 261,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17948
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3180
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 27,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boschdt-doubletree-boston-bayside/hotel-info/",
+        "quote": "Self‑parking: $27.00 per day",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-7",
+      "name": "Embassy Suites Boston at Logan Airport",
+      "elapsedMs": 4033,
+      "claim": {
+        "parking_fee_per_night": 60,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.hilton.com/en/hotels/bosapes-embassy-suites-boston-at-logan-airport/?arrivalDate=2026-10-22&departureDate=2026-10-23&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=",
+        "source_quote": "Valet parking: $60.00",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:42.523Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/bosapes-embassy-suites-boston-at-logan-airport/?arrivalDate=2026-10-22&departureDate=2026-10-23&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.hilton.com/en/hotels/bosapes-embassy-suites-boston-at-logan-airport/?arrivalDate=2026-10-22&departureDate=2026-10-23&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=&utm_source=openai",
+            "title": "Embassy Suites by Hilton Boston at Logan Airport | Official Website"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Embassy-Suites-Boston-Logan-Airport.h908619.Hotel-Information?utm_source=openai",
+            "title": "Embassy Suites Boston Logan Airport - Check Reviews 2026 - Expedia"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hilton.com/en/hotels/bosapes-embassy-suites-boston-at-logan-airport/?arrivalDate=2026-10-22&departureDate=2026-10-23&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=&utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Embassy-Suites-Boston-Logan-Airport.h908619.Hotel-Information?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17434,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 453,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17887
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4031
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 60,
+        "type": "valet",
+        "sourceUrl": "https://www.hilton.com/en/hotels/bosapes-embassy-suites-boston-at-logan-airport/?arrivalDate=2026-10-22&departureDate=2026-10-23&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=",
+        "quote": "Valet parking: $60.00",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-8",
+      "name": "DoubleTree by Hilton Hotel Boston - Downtown",
+      "elapsedMs": 3620,
+      "claim": {
+        "parking_fee_per_night": 65,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.hilton.com/en/hotels/boscodt-doubletree-boston-downtown/hotel-info/",
+        "source_quote": "Valet parking: $65.00",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:43.482Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boscodt-doubletree-boston-downtown/hotel-info/",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17528,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 80,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17608
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3616
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 65,
+        "type": "valet",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boscodt-doubletree-boston-downtown/hotel-info/",
+        "quote": "Valet parking: $65.00",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-9",
+      "name": "The Atlas Hotel Boston Cambridge",
+      "elapsedMs": 3118,
+      "claim": {
+        "parking_fee_per_night": 55,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.expedia.com/Boston-Hotels-The-Atlas-Hotel.h118784552.Hotel-Information",
+        "source_quote": "Valet parking is available for USD 55 per night.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:44.571Z",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-The-Atlas-Hotel.h118784552.Hotel-Information",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-The-Atlas-Hotel.h118784552.Hotel-Information?utm_source=openai",
+            "title": "The Atlas Hotel Reviews, Deals & Photos 2026 - Expedia.com"
+          },
+          {
+            "url": "https://www.hotels.com/ho3802105664/?utm_source=openai",
+            "title": "The Atlas Hotel Boston Cambridge, Boston: Info, Photos, Reviews | Book at Hotels.com"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-The-Atlas-Hotel.h118784552.Hotel-Information?utm_source=openai"
+          },
+          {
+            "url": "https://www.hotels.com/ho3802105664/?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17563,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 304,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17867
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3117
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 55,
+        "type": "valet",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-The-Atlas-Hotel.h118784552.Hotel-Information",
+        "quote": "Valet parking is available for USD 55 per night.",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-10",
+      "name": "Wyndham Boston Beacon Hill",
+      "elapsedMs": 5016,
+      "claim": {
+        "parking_fee_per_night": 58,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.wyndhambeaconhill.com/faq",
+        "source_quote": "Self-parking is available in the Charles River Plaza Parking Garage adjacent to the hotel for $60 per night.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:47.541Z",
+        "sourceUrl": "https://www.wyndhambeaconhill.com/faq",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.wyndhambeaconhill.com/faq?utm_source=openai",
+            "title": "FAQ | Wyndham Boston Beacon Hill"
+          },
+          {
+            "url": "https://bookitbutton.booking.com/hotel/us/wyndham-boston-beacon-hill.html?aid=304142&label=mkt123sc-c3b4d078-b115-45f4-aacc-29c29f597559&sid=52c01af64c5d94baa80fe7ac43eb2025&utm_source=openai",
+            "title": "Wyndham Boston Beacon Hill, Boston (updated prices 2027)"
+          },
+          {
+            "url": "https://www.wyndhambeaconhill.com/faq?utm_source=openai",
+            "title": "FAQ | Wyndham Boston Beacon Hill"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.wyndhambeaconhill.com/faq?utm_source=openai"
+          },
+          {
+            "url": "https://bookitbutton.booking.com/hotel/us/wyndham-boston-beacon-hill.html?aid=304142&label=mkt123sc-c3b4d078-b115-45f4-aacc-29c29f597559&sid=52c01af64c5d94baa80fe7ac43eb2025&utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17402,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2176
+          },
+          "output_tokens": 457,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17859
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 5015
+      },
+      "verified": {
+        "status": "flagged",
+        "perNight": 58,
+        "type": "self",
+        "sourceUrl": "https://www.wyndhambeaconhill.com/faq",
+        "quote": "Self-parking is available in the Charles River Plaza Parking Garage adjacent to the hotel for $60 per night.",
+        "reason": "quoted evidence does not state this fee"
+      }
+    },
+    {
+      "id": "card-11",
+      "name": "Hotel AKA Back Bay",
+      "elapsedMs": 2724,
+      "claim": {
+        "parking_fee_per_night": 68,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://backbayapp.stayaka.com/faqs",
+        "source_quote": "“On‑property valet parking is available for $68 per vehicle, per night.”",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:46.209Z",
+        "sourceUrl": "https://backbayapp.stayaka.com/faqs",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17623,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2176
+          },
+          "output_tokens": 72,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17695
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 2723
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 68,
+        "type": "valet",
+        "sourceUrl": "https://backbayapp.stayaka.com/faqs",
+        "quote": "“On‑property valet parking is available for $68 per vehicle, per night.”",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-12",
+      "name": "Hampton by Hilton at the Boston Seaport District",
+      "elapsedMs": 2843,
+      "claim": {
+        "parking_fee_per_night": 62,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.hilton.com/en/hotels/bosbahx-hampton-boston-seaport-district/hotel-info/",
+        "source_quote": "Valet parking: $62.00",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:47.415Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/bosbahx-hampton-boston-seaport-district/hotel-info/",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17489,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 101,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17590
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 2842
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 62,
+        "type": "valet",
+        "sourceUrl": "https://www.hilton.com/en/hotels/bosbahx-hampton-boston-seaport-district/hotel-info/",
+        "quote": "Valet parking: $62.00",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-13",
+      "name": "Hampton Inn & Suites Boston Crosstown Center",
+      "elapsedMs": 3491,
+      "claim": {
+        "parking_fee_per_night": 30,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.hilton.com/en/hotels/boshshx-hampton-suites-boston-crosstown-center/hotel-info/",
+        "source_quote": "Self‑parking: $30.00 per day",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:49.702Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boshshx-hampton-suites-boston-crosstown-center/hotel-info/",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17542,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 84,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17626
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3490
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 30,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en/hotels/boshshx-hampton-suites-boston-crosstown-center/hotel-info/",
+        "quote": "Self‑parking: $30.00 per day",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-14",
+      "name": "Boston Lodge and Suites",
+      "elapsedMs": 3709,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "none",
+        "source_url": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2",
+        "source_quote": "No onsite parking available",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:51.125Z",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2&utm_source=openai",
+            "title": "Boston Lodge and Suites - Check Latest Reviews 2026 - Expedia"
+          },
+          {
+            "url": "https://www.hotels.com/ho683656928/boston-lodge-and-suites-boston-united-states-of-america/?utm_source=openai",
+            "title": "Boston Lodge and Suites in Boston - Book on Hotels.com"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2&utm_source=openai"
+          },
+          {
+            "url": "https://www.hotels.com/ho683656928/boston-lodge-and-suites-boston-united-states-of-america/?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17436,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 1920
+          },
+          "output_tokens": 311,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17747
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3708
+      },
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "none",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Boston-Lodge-And-Suites.h21333029.Hotel-Information?equalTargetTab=tab-2",
+        "quote": "No onsite parking available",
+        "reason": "hotel reports no on-site parking; off-site cost unknown"
+      }
+    },
+    {
+      "id": "card-15",
+      "name": "The Verb Hotel",
+      "elapsedMs": 4611,
+      "claim": {
+        "parking_fee_per_night": 73,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.theverbhotel.com/faq/",
+        "source_quote": "“Valet parking only ($73 overnight fee‑limited availability, first come first serve… The fee is $73 per night with unlimited in/out privileges.”)",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:52.150Z",
+        "sourceUrl": "https://www.theverbhotel.com/faq/",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.theverbhotel.com/faq/?utm_source=openai",
+            "title": "The Verb FAQ | Pet Friendly Boston Hotels with Parking"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-The-Verb-Hotel.h25280.Hotel-Information?utm_source=openai",
+            "title": "The Verb Hotel - Check Reviews 2026 - Expedia"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.theverbhotel.com/faq/?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-The-Verb-Hotel.h25280.Hotel-Information?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17593,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 395,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17988
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4608
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 73,
+        "type": "valet",
+        "sourceUrl": "https://www.theverbhotel.com/faq/",
+        "quote": "“Valet parking only ($73 overnight fee‑limited availability, first come first serve… The fee is $73 per night with unlimited in/out privileges.”)",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-16",
+      "name": "Hotel Commonwealth",
+      "elapsedMs": 4032,
+      "claim": {
+        "parking_fee_per_night": 75,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.hotelcommonwealth.com/faq/",
+        "source_quote": "we offer on-site valet parking at a cost of $75 per vehicle per night.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:53.734Z",
+        "sourceUrl": "https://www.hotelcommonwealth.com/faq/",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.hotelcommonwealth.com/faq/?utm_source=openai",
+            "title": "Frequently Asked Questions | Hotel Commonwealth Boston"
+          },
+          {
+            "url": "https://www.hotelcommonwealth.com/directions/?utm_source=openai",
+            "title": "Directions to Boston Hotel | Hotel Commonwealth Boston"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hotelcommonwealth.com/faq/?utm_source=openai"
+          },
+          {
+            "url": "https://www.hotelcommonwealth.com/directions/?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17547,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2176
+          },
+          "output_tokens": 284,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17831
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4028
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 75,
+        "type": "valet",
+        "sourceUrl": "https://www.hotelcommonwealth.com/faq/",
+        "quote": "we offer on-site valet parking at a cost of $75 per vehicle per night.",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-17",
+      "name": "Hilton Boston Park Plaza",
+      "elapsedMs": 3412,
+      "claim": {
+        "parking_fee_per_night": 42,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.hilton.com/en-gb/hotels/bossrhh-hilton-boston-park-plaza/hotel-location/",
+        "source_quote": "Self‑parking $42.00",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:54.537Z",
+        "sourceUrl": "https://www.hilton.com/en-gb/hotels/bossrhh-hilton-boston-park-plaza/hotel-location/",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.hilton.com/en-gb/hotels/bossrhh-hilton-boston-park-plaza/hotel-location/?utm_source=openai",
+            "title": "Location | Hilton Boston Park Plaza"
+          },
+          {
+            "url": "https://www.hilton.com/en-gb/hotels/bossrhh-hilton-boston-park-plaza/hotel-location/?utm_source=openai",
+            "title": "Location | Hilton Boston Park Plaza"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hilton.com/en-gb/hotels/bossrhh-hilton-boston-park-plaza/hotel-location/?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17682,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 302,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17984
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3409
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 42,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en-gb/hotels/bossrhh-hilton-boston-park-plaza/hotel-location/",
+        "quote": "Self‑parking $42.00",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-18",
+      "name": "The Midtown Hotel MOD Collection by Sonesta",
+      "elapsedMs": 2494,
+      "claim": {
+        "parking_fee_per_night": 45,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.midtownhotel.com/midtown-hotel-information",
+        "source_quote": "Parking – Self Daily: $45 cars, 6 ft height restriction, no oversized vehicles.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:54.645Z",
+        "sourceUrl": "https://www.midtownhotel.com/midtown-hotel-information",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17255,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 79,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17334
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 2491
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 45,
+        "type": "self",
+        "sourceUrl": "https://www.midtownhotel.com/midtown-hotel-information",
+        "quote": "Parking – Self Daily: $45 cars, 6 ft height restriction, no oversized vehicles.",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-19",
+      "name": "Hyatt Place Boston/Seaport District",
+      "elapsedMs": 3430,
+      "claim": {
+        "parking_fee_per_night": 60,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.hotels.com/ho1489683168/hyatt-place-boston-seaport-district-boston-united-states-of-america/?siteid=310000033",
+        "source_quote": "Covered on‑site valet parking (USD 60.00 per night; includes in/out privileges)",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:57.165Z",
+        "sourceUrl": "https://www.hotels.com/ho1489683168/hyatt-place-boston-seaport-district-boston-united-states-of-america/?siteid=310000033",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17424,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 104,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17528
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3427
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 60,
+        "type": "valet",
+        "sourceUrl": "https://www.hotels.com/ho1489683168/hyatt-place-boston-seaport-district-boston-united-states-of-america/?siteid=310000033",
+        "quote": "Covered on‑site valet parking (USD 60.00 per night; includes in/out privileges)",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-20",
+      "name": "Hyatt Regency Boston Harbor",
+      "elapsedMs": 2173,
+      "claim": {
+        "parking_fee_per_night": 49,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.expedia.com/Boston-Hotels-Hyatt-Regency-Boston-Harbor.h26283.Hotel-Information",
+        "source_quote": "Self parking on site (USD 49 per night; includes in/out privileges)",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:56.711Z",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Hyatt-Regency-Boston-Harbor.h26283.Hotel-Information",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17607,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 109,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17716
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 2170
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 49,
+        "type": "self",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Hyatt-Regency-Boston-Harbor.h26283.Hotel-Information",
+        "quote": "Self parking on site (USD 49 per night; includes in/out privileges)",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-21",
+      "name": "Yotel Boston",
+      "elapsedMs": 2546,
+      "claim": {
+        "parking_fee_per_night": 80,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://helpcenter.yotel.com/hc/en-gb/articles/7005937612445-Is-there-parking-at-the-hotel-at-YOTEL-Boston",
+        "source_quote": "Valet parking is in front of the hotel on Seaport Blvd and is $80 per night with unlimited in and out privileges until 3pm on day of departure.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:57.194Z",
+        "sourceUrl": "https://helpcenter.yotel.com/hc/en-gb/articles/7005937612445-Is-there-parking-at-the-hotel-at-YOTEL-Boston",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17582,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2176
+          },
+          "output_tokens": 134,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17716
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 2544
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 80,
+        "type": "valet",
+        "sourceUrl": "https://helpcenter.yotel.com/hc/en-gb/articles/7005937612445-Is-there-parking-at-the-hotel-at-YOTEL-Boston",
+        "quote": "Valet parking is in front of the hotel on Seaport Blvd and is $80 per night with unlimited in and out privileges until 3pm on day of departure.",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-22",
+      "name": "Hilton Boston Back Bay",
+      "elapsedMs": 4242,
+      "claim": {
+        "parking_fee_per_night": 69,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.hilton.com/en/hotels/bosbhhh-hilton-boston-back-bay/hotel-info/?arrivalDate=2026-09-30&departureDate=2026-10-01&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=",
+        "source_quote": "Self‑parking: $69.00 per day",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:31:00.956Z",
+        "sourceUrl": "https://www.hilton.com/en/hotels/bosbhhh-hilton-boston-back-bay/hotel-info/?arrivalDate=2026-09-30&departureDate=2026-10-01&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.hilton.com/en/hotels/bosbhhh-hilton-boston-back-bay/hotel-info/?arrivalDate=2026-09-30&departureDate=2026-10-01&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=&utm_source=openai",
+            "title": "Boston Hotel With Parking - Hilton Boston Back Bay"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Hilton-Boston-Back-Bay.h5928.Hotel-Information?affcid=US.DIRECT.PHG.1101l412890.1100l68075&affdtl=PHG..&afflid=&clickref=&my_ad=AFF.US.DIRECT.PHG.1101l412890.1100l68075&ref_id=&utm_source=openai",
+            "title": "Hilton Boston Back Bay: Check Reviews for 2026 - Expedia"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hilton.com/en/hotels/bosbhhh-hilton-boston-back-bay/hotel-info/?arrivalDate=2026-09-30&departureDate=2026-10-01&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=&utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Hilton-Boston-Back-Bay.h5928.Hotel-Information?affcid=US.DIRECT.PHG.1101l412890.1100l68075&affdtl=PHG..&afflid=&clickref=&my_ad=AFF.US.DIRECT.PHG.1101l412890.1100l68075&ref_id=&utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17510,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 519,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 18029
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4240
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 69,
+        "type": "self",
+        "sourceUrl": "https://www.hilton.com/en/hotels/bosbhhh-hilton-boston-back-bay/hotel-info/?arrivalDate=2026-09-30&departureDate=2026-10-01&displayCurrency=USD&flexibleDates=false&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=",
+        "quote": "Self‑parking: $69.00 per day",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-23",
+      "name": "Holiday Inn Express Boston by IHG",
+      "elapsedMs": 2553,
+      "claim": {
+        "parking_fee_per_night": 20,
+        "currency": "USD",
+        "parking_type": "self",
+        "source_url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/boston/boshj/hoteldetail/amenities",
+        "source_quote": "Daily self parking fee: 20 USD per night",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:30:59.718Z",
+        "sourceUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/boston/boshj/hoteldetail/amenities",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17648,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2176
+          },
+          "output_tokens": 83,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17731
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 2549
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 20,
+        "type": "self",
+        "sourceUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/boston/boshj/hoteldetail/amenities",
+        "quote": "Daily self parking fee: 20 USD per night",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-24",
+      "name": "Copley Square Hotel, a FOUND Hotel",
+      "elapsedMs": 3525,
+      "claim": {
+        "parking_fee_per_night": 65,
+        "currency": "USD",
+        "parking_type": "valet",
+        "source_url": "https://www.copleysquarehotel.com/parking",
+        "source_quote": "Valet parking available at a daily rate of $59 per day with IN and OUT privileges",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:31:00.721Z",
+        "sourceUrl": "https://www.copleysquarehotel.com/parking",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.copleysquarehotel.com/parking?utm_source=openai",
+            "title": "Parking | Copley Square Hotel"
+          },
+          {
+            "url": "https://www.foundhotels.com/copley-square/?utm_source=openai",
+            "title": "FOUND Hotel Copley Square | FOUND Hotels"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Copley-Square-Hotel.h16067.Hotel-Information?rfrr=HOT.HIS.question.link.click&utm_source=openai",
+            "title": "Copley Square Hotel, a FOUND Hotel - Check Reviews 2026 - Expedia"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.copleysquarehotel.com/parking?utm_source=openai"
+          },
+          {
+            "url": "https://www.foundhotels.com/copley-square/?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Copley-Square-Hotel.h16067.Hotel-Information?rfrr=HOT.HIS.question.link.click&utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17527,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 392,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17919
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3525
+      },
+      "verified": {
+        "status": "flagged",
+        "perNight": 65,
+        "type": "valet",
+        "sourceUrl": "https://www.copleysquarehotel.com/parking",
+        "quote": "Valet parking available at a daily rate of $59 per day with IN and OUT privileges",
+        "reason": "quoted evidence does not state this fee"
+      }
+    },
+    {
+      "id": "card-25",
+      "name": "Charles River Inn",
+      "elapsedMs": 3397,
+      "claim": {
+        "parking_fee_per_night": 0,
+        "currency": "USD",
+        "parking_type": "free",
+        "source_url": "https://www.expedia.com/Boston-Hotels-Charles-River-Inn.h119965204.Hotel-Information",
+        "source_quote": "Self parking is free at this property.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:31:03.119Z",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Charles-River-Inn.h119965204.Hotel-Information",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Charles-River-Inn.h119965204.Hotel-Information?equalTargetTab=tab-0&utm_source=openai",
+            "title": "Charles River Inn Reviews, Deals & Photos 2026 - Expedia.com"
+          },
+          {
+            "url": "https://www.hotels.com/ho3839886528/charles-river-inn/?utm_source=openai",
+            "title": "Charles River Inn, Boston: Hotel Reviews, Rooms & Prices | Hotels.com"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Charles-River-Inn.h119965204.Hotel-Information?equalTargetTab=tab-0&utm_source=openai"
+          },
+          {
+            "url": "https://www.hotels.com/ho3839886528/charles-river-inn/?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17446,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 257,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17703
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 3395
+      },
+      "verified": {
+        "status": "ok",
+        "perNight": 0,
+        "type": "free",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Charles-River-Inn.h119965204.Hotel-Information",
+        "quote": "Self parking is free at this property.",
+        "reason": "GPT web search; not independently verified"
+      }
+    },
+    {
+      "id": "card-26",
+      "name": "Bay Village Suites",
+      "elapsedMs": 2895,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "none",
+        "source_url": "https://www.expedia.com/Rooms-At-Premier-Suites-Bay-Village.h92422919.Hotel-Information?equalTargetTab=tab-1",
+        "source_quote": "This guest house doesn’t offer parking.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:31:03.615Z",
+        "sourceUrl": "https://www.expedia.com/Rooms-At-Premier-Suites-Bay-Village.h92422919.Hotel-Information?equalTargetTab=tab-1",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17550,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2176
+          },
+          "output_tokens": 103,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17653
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 2893
+      },
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "none",
+        "sourceUrl": "https://www.expedia.com/Rooms-At-Premier-Suites-Bay-Village.h92422919.Hotel-Information?equalTargetTab=tab-1",
+        "quote": "This guest house doesn’t offer parking.",
+        "reason": "hotel reports no on-site parking; off-site cost unknown"
+      }
+    },
+    {
+      "id": "card-27",
+      "name": "Kasa Boston at Fenway",
+      "elapsedMs": 4241,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "none",
+        "source_url": "https://kasa.com/properties/kasa-boston-at-fenway",
+        "source_quote": "No Kasa parking at this property",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:31:05.198Z",
+        "sourceUrl": "https://kasa.com/properties/kasa-boston-at-fenway",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://kasa.com/properties/kasa-boston-at-fenway?utm_source=openai",
+            "title": "Kasa Boston at Fenway"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://kasa.com/properties/kasa-boston-at-fenway?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17491,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 252,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17743
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4239
+      },
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "none",
+        "sourceUrl": "https://kasa.com/properties/kasa-boston-at-fenway",
+        "quote": "No Kasa parking at this property",
+        "reason": "hotel reports no on-site parking; off-site cost unknown"
+      }
+    },
+    {
+      "id": "card-28",
+      "name": "Temple Place Suites 2+3",
+      "elapsedMs": 2415,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "none",
+        "source_url": "https://www.expedia.com/Boston-Hotels-Temple-Place-Suites.h45791512.Hotel-Information",
+        "source_quote": "How much is parking? This property doesn’t offer parking.",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:31:05.536Z",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Temple-Place-Suites.h45791512.Hotel-Information",
+        "webSearchCalls": 1,
+        "citations": [],
+        "sources": [],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17486,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2432
+          },
+          "output_tokens": 101,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17587
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 2414
+      },
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "none",
+        "sourceUrl": "https://www.expedia.com/Boston-Hotels-Temple-Place-Suites.h45791512.Hotel-Information",
+        "quote": "How much is parking? This property doesn’t offer parking.",
+        "reason": "hotel reports no on-site parking; off-site cost unknown"
+      }
+    },
+    {
+      "id": "card-29",
+      "name": "Kasa at Boston Common",
+      "elapsedMs": 4159,
+      "claim": {
+        "parking_fee_per_night": null,
+        "currency": "USD",
+        "parking_type": "none",
+        "source_url": "https://kasa.com/properties/kasa-at-boston-common",
+        "source_quote": "Our property does not have on‑site parking",
+        "confidence": "high"
+      },
+      "evidence": {
+        "status": "searched",
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "searchedAt": "2026-11-16T21:31:07.775Z",
+        "sourceUrl": "https://kasa.com/properties/kasa-at-boston-common",
+        "webSearchCalls": 1,
+        "citations": [
+          {
+            "url": "https://kasa.com/properties/kasa-at-boston-common?utm_source=openai",
+            "title": "Kasa at Boston Common | Kasa"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Kasa-At-Boston-Common.h128427831.Hotel-Information?rfrr=HOT.HIS.question.link.click&utm_source=openai",
+            "title": "Kasa At Boston Common Reviews, Deals & Photos 2026 - Expedia.com"
+          },
+          {
+            "url": "https://www.booking.com/hotel/us/kasa-at-boston-common.en-gb.html?utm_source=openai",
+            "title": "Kasa at Boston Common, Boston (updated prices 2027)"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://kasa.com/properties/kasa-at-boston-common?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Kasa-At-Boston-Common.h128427831.Hotel-Information?rfrr=HOT.HIS.question.link.click&utm_source=openai"
+          },
+          {
+            "url": "https://www.booking.com/hotel/us/kasa-at-boston-common.en-gb.html?utm_source=openai"
+          }
+        ],
+        "independentlyVerified": false
+      },
+      "requiresEvidence": true,
+      "provider": "gpt-web-search",
+      "costUsd": null,
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4o-2024-08-06",
+        "usage": {
+          "input_tokens": 17089,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 2176
+          },
+          "output_tokens": 305,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 17394
+        },
+        "webSearchCalls": 1,
+        "latencyMs": 4156
+      },
+      "verified": {
+        "status": "unknown",
+        "perNight": null,
+        "type": "none",
+        "sourceUrl": "https://kasa.com/properties/kasa-at-boston-common",
+        "quote": "Our property does not have on‑site parking",
+        "reason": "hotel reports no on-site parking; off-site cost unknown"
+      }
+    }
+  ],
+  "found": 22,
+  "total": 30,
+  "costUsd": null,
+  "referenceChecks": [
+    {
+      "name": "Hampton Inn Boston Logan Airport",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Omni Boston Hotel at the Seaport",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hilton Boston Logan Airport",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "The Westin Copley Place, Boston",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "citizenM Boston Back Bay",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "DoubleTree by Hilton Hotel Boston Bayside",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Embassy Suites Boston at Logan Airport",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "DoubleTree by Hilton Hotel Boston - Downtown",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "The Atlas Hotel Boston Cambridge",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Wyndham Boston Beacon Hill",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Hotel AKA Back Bay",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hampton by Hilton at the Boston Seaport District",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hampton Inn & Suites Boston Crosstown Center",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Boston Lodge and Suites",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "The Verb Hotel",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hotel Commonwealth",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hilton Boston Park Plaza",
+      "accepted": true,
+      "correct": null
+    },
+    {
+      "name": "The Midtown Hotel MOD Collection by Sonesta",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hyatt Place Boston/Seaport District",
+      "accepted": true,
+      "correct": null
+    },
+    {
+      "name": "Hyatt Regency Boston Harbor",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Yotel Boston",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Hilton Boston Back Bay",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Holiday Inn Express Boston by IHG",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Copley Square Hotel, a FOUND Hotel",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Charles River Inn",
+      "accepted": true,
+      "correct": true
+    },
+    {
+      "name": "Bay Village Suites",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Kasa Boston at Fenway",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Temple Place Suites 2+3",
+      "accepted": false,
+      "correct": null
+    },
+    {
+      "name": "Kasa at Boston Common",
+      "accepted": false,
+      "correct": null
+    }
+  ],
+  "scored": 20,
+  "correct": 20,
+  "accuracy": 1,
+  "resolved": 28,
+  "numericCoverage": 0.7333333333333333,
+  "resolutionCoverage": 0.9333333333333333,
+  "qualityPassed": true
+}

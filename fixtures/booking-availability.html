@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><title>Availability reader regression</title></head><body>
+<!-- Reduced DOM using selectors observed on the live Hampton Logan availability table, 2026-11-16.
+     Deliberately places the higher price first to test cheapest-row selection. -->
+<table id="hprt-table"><tbody>
+<tr data-block-id="higher-rate"><th><a class="hprt-roomtype-link">Flexible King Room</a></th><td class="hprt-table-cell-price"><div class="bui-price-display__value">$107</div><div class="hptr-taxinfo-block">Excluded: 11.7 % TAX</div></td><td><select class="hprt-nos-select"><option value="0">0</option><option value="1">1</option></select></td></tr>
+<tr data-block-id="cheapest-rate"><th><a class="hprt-roomtype-link">King Room with Sofa Bed and Study - Non-Smoking</a></th><td class="hprt-table-cell-price"><div class="bui-price-display__value">$95</div><div class="hptr-taxinfo-block">Excluded: 11.7 % TAX</div></td><td><select class="hprt-nos-select"><option value="0">0</option><option value="1">1</option></select></td></tr>
+<tr data-block-id="sold-out"><th>Sold out</th><td class="hprt-table-cell-price"><div class="bui-price-display__value">$50</div><div class="hptr-taxinfo-block">Excluded: 11.7 % TAX</div></td><td><select class="hprt-nos-select"><option value="0">0</option></select></td></tr>
+</tbody></table></body></html>

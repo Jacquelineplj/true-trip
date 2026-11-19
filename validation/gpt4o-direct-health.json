@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-16T21:32:58.908Z",
+  "ok": true,
+  "parking": "gpt-web-search",
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-4o",
+    "configured": true
+  },
+  "ratings": {
+    "google": false,
+    "tripadvisor": false,
+    "fallback": "llm"
+  }
+}

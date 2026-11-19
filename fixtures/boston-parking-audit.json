@@ -1,0 +1,199 @@
+{
+  "context": {
+    "city": "Boston",
+    "checkin": "2026-12-10",
+    "checkout": "2026-12-11",
+    "currency": "USD",
+    "source": "www.booking.com",
+    "capturedAt": "2026-11-16T18:28:26.892Z",
+    "sourceUrl": "https://www.booking.com/searchresults.html?ss=Boston&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&selected_currency=USD&chal_t=1794853699768&force_referer=",
+    "nights": 1,
+    "center": {
+      "lat": 42.3588336,
+      "lon": -71.0578303
+    },
+    "note": "Same 30 real properties as the original parking baseline; reference prices are not part of input."
+  },
+  "hotels": [
+    {
+      "id": "card-0",
+      "name": "Hampton Inn Boston Logan Airport",
+      "price": 95,
+      "url": "https://www.booking.com/hotel/us/hampton-inn-logan-air.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=2870609_95152673_2_1_0_933848&highlighted_blocks=2870609_95152673_2_1_0_933848&matching_block_id=2870609_95152673_2_1_0_933848&sr_pri_blocks=2870609_95152673_2_1_0_933848_9512&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-1",
+      "name": "Omni Boston Hotel at the Seaport",
+      "price": 251,
+      "url": "https://www.booking.com/hotel/us/omni-boston-at-the-seaport.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=677275524_362071301_2_42_0&highlighted_blocks=677275524_362071301_2_42_0&matching_block_id=677275524_362071301_2_42_0&sr_pri_blocks=677275524_362071301_2_42_0__25090&nad_id=8967f13b-1449-4bd4-a6e1-20a0e0cf004a_0&nad_cpc=2.1&nad_track=eyJhdWN0aW9uRXBvY2giOjE3OTQ4NTM3MDEzMjAsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoiWVd3YTJNa2t1UlBJQmNKN0w2aFdNSWVPalFST0dMdzAwcnNRS010K1Y3eVlPMkFlVitXcC9lVGN2cWYvT1UwbktiM1Q5ajdkdHNmdHlVcnJkaThEcmxRb3hvZS9yNjk0S3p4SGdZQmFLTnhFWjRnTE5PQmo0dk4wWU5EaXBJZStwdHo1ekw0QUxiN0JhVzdZMzZqWllUSmc4L1ExazNqSURJaStSRU0wb3B4cmFlQlhJTTRTRDBDdUw1K2RJY0dTeWIvVlJVa0x4Q29QSjlKbG0rdW80Mjkra3VYZEUwdTJJMkd2bWdLRkdNU3hLU1RTNmhkbFFEcjVZQWNiZ3MyQ3NOdWg1eGxQQUYwdVhoV01yVU9yVjNheUJhVnk0blpYWk5wUVo5RXVPQlc3Yjg4ZGpKRThyWFZJWkpTV1RMVzhrR2k0NGhUSTFFQ2ZIWjNEOXJOSm1qVThhN2tEczA4Z0hpVnVHcnZKVkxVdjFNRjVxRFo5OWJXbGt1WE8vdmdSeXAxWFdIQTdWQUtBUlpNWnNsQ1RZUHFDeWJma08wL21RNHQ1azFoYmx6QkkzYnpBWG1OakNCMDhkd3IwZ0NVUVZYbEhjMmo4elY1S3c0RGo0Lzd2bkJ1bVFuZ0JCbTZHZTZ3Mk81Q291SWlQWGlrRnVLQVY2Y0cxL0dXTlFxS1NXRFlvYzNqcnNtbzFxTDk4Y3Y3UTVpOHZQbDdDaXJvMXViOVZuL3M0YWhNcjR4dXpXWGhyd0RvTXZzLzl0dmNhWkJLdys5ODFVeE1jQWkyeC9Jb0lIaFNsaWY4NEI0NGVpcDB6TW5EOFBkOWY3U3dZekJ4V0Y3NWNxbU4vQk1XMmxTV1BJV1FVRGE5ekF3Rzlqa1dGWElBbkJKc0lmSmtScEdVblh0eUlLT3BJUUx4cFo4QTU1TExRQ25hVEdWOU93VmNZN2MvSjQvQ0xWRDNkaTgyWmJsVi9yb2I3clorUmdsaVdJY2dVM2FmQjdHUGdIdHlvczdlOHdRQTBqcy80Nm8yYktIekUzU05DdDQ3NjhEbDdtanl1akJjM1hISk9oQngxUXBRTDZuaG4yZ2t3ZHVOMmdoZ0NjeFB0a3crdG1qS3hZNktoeE1wa3FPUmE1alJxRjNnMkRPWFpkdjViWGlkNEV1RkNrNGQwd28vMUJTMDJ6Qk9KMmpWZTdhYkZVK0F4cW5RcWxsbmc1Q3pDUlNWcytyay9BL0xwSUJxdVBnNjBGN0Y4aVRPMXA0dkNLcTkyR0FSa2hSblhHUDUzM2pYem9hMytpMFFTUHBFZ2pNUHFUQ2lGdDZ3L1pxMEUrYU5zNlh1ZjJ4MGZ6eGdGNnY0UGN2OVFiUkNoc0F2eW4zbU1FelgxbTY5Z0t4a01ubHBaQTc0WjF5RS9pbGpWZEZzcjNGZDRzSXAvQlFPT3g4Z3ZZSGNaTkFQSW04MmdnaWVSdURzS0w4VmhyOXFQTzREdzdEWlhFU3UvTzFoaDNVOVpBeGI1QS9xUnFXTTEwb1BHa0FGeDh3OUw0dzJia1Q5MFlmVEhEQmswSzhibEM5MU9kaUs1VEw3aUhIaXVtdUxFU2pCQjlWUDZLZ050ZkJPOUMweVZKYmVlcGJoTThpZm5zcnUxVDdxZjZSOU5VbWl3UFhBam9JWmJpMWMzVG5neVYrZTlkcXZGOGYrK1IyYzZCUWZVdmc0OGJqQlZCTWtJVFhQZUpMUVJNeVQyakxEamFtM1Mya1h5WGtNaVRLOSthOEEwTFFHWVNDKzU1aERMRmdFRHhQSjBEWlBsTU5pTk9yVzBBV3JOcTBwN3hHK3NqUUlaM05qYk9adHZwY1dTYTl5SnRLbmpLTGpIaVlkbUNabU9lWXQydWl0bVcrMnlBQXhaeGxUbWtMdUk5Y2ZBWUQ2OXdSL1dVbldKWExCMmllNHc1bU5udm95cCtvMktCR0lNeElieUU3cGlxT3RIUU5tZytQUDRYaVdZK2ZobVQwRXdiQk1PcGRHczZiTHFDOXBOMC9lYndZREs0V0Q0K2FkS2dYWVpKRDkrcDVDOStWaDhpMUJkeUZvUE1XWXRuOGExcnlPWGpUTStsTEthQjBhWWtLK09leEFWZ3I3cE10SDl1NFRMMWJ1SjUzZyt3ZVRraVVzOXY4dTd5a2tUQzAyRUZhZmk5dUFiWkRkUnBCUnJxck1TbVFhSmJDUDJpOGhELzBibXZIRk5XVkFrTEk1WFNmQ0lWRHltNXVSTWdpSkxNYjhOUzVSdzNZOHhEK3RNamJkSGVmTGEyZHdBa3UzakxDUTF2ejRmOUtTa1N3Ny9hVDhRU1Zqclo0Skg4RzZNUDdZOWxDaGVWOVQzdS9UaHRzTGNhWjl1dk9RQlAxR0E1RWxMbFlkc2VRPT0ifQ%3D%3D&nad_placement=SR_MAIN&from=searchresults"
+    },
+    {
+      "id": "card-2",
+      "name": "Hilton Boston Logan Airport",
+      "price": 201,
+      "url": "https://www.booking.com/hotel/us/hilton-logan-airport.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=2871048_95462417_2_0_0&highlighted_blocks=2871048_95462417_2_0_0&matching_block_id=2871048_95462417_2_0_0&sr_pri_blocks=2871048_95462417_2_0_0__20141&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-3",
+      "name": "The Westin Copley Place, Boston",
+      "price": 242,
+      "url": "https://www.booking.com/hotel/us/westin-copley-place.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=2619125_95149968_4_2_0&highlighted_blocks=2619125_95149968_4_2_0&matching_block_id=2619125_95149968_4_2_0&sr_pri_blocks=2619125_95149968_4_2_0__24220&nad_id=8967f13b-1449-4bd4-a6e1-20a0e0cf004a_1&nad_cpc=1.44&nad_track=eyJhdWN0aW9uRXBvY2giOjE3OTQ4NTM3MDEzMjIsInJhbmsiOjIsImtvZGRpVHJhY2tpbmdJbmZvIjoiWVd3YTJNa2t1UlBJQmNKN0w2aFdNSWVLalFST0dKdzNncnNRR01zdVJyeVl1N3RadW1XZkhvVU9GQnZwNklzRXBIRVQ1eHh2OHlkR0tMUU1TWXRKeHpYeDQ5RzVzYTk2S3poSHFzM0xVSUNwMUlvM3BGdVA0SGR3UXZEbVkvVnFyUXlPN0VZcGR1bVk3TlVyV1FqeFpPdjJuTzAxbzViTDgwaTdoRU1JUW5vVDlmbUlPMUlNL3NzOGEvSDd0czNRNC9lNlpXYisvTkQ4QVlndUJjZ2RDQUs2dVo2akFmWFZReUI5RTUyT2dUWmFXRjNvZURqRTJnOVhFT3R4cWprTThWNTdWQnNLd3lUQXhpR1lwVUhvMXFBWXJzTWF1a3dsMU40cHBxVXV1RGNpdzNQbW94NjF2M3lFdXp5UzZVd1M3aHdua0QyTzVnUWVPZVdDQktpbEl6Y2pqUzNtbldNT2x2WGIraVpnNXlaeFJScnNkK2Y0aDhmNEFiQkRkQlFIQitsTTloaDlrdUxUSWJDUG95dldWUkt6bldSbDNtZjJyc29BL3ZwNUt2MTAxUi82S1hVWXk0Z2dGanRUM0ZxSEM0Tk5CSlJXY3J5aXJIM0djUFlvMGNvQWZGc3RIRndyTnVQdklhejRsVUhJSHY5NURIZUhScDYxdENOOW80YVZ1WVBvK0FSWHNGSUVlSzdDd1ZkcWpPWExvczFxWEJyZFNKc0dxUndJZ3pVbjVzRTZ4c0IvNzBJUVQyVCtrTllPQkdnUVBxZGs1Q3FxWHV0OEM4K2tPVHpMd3NZekdmc0s0WFJOandSckVrbGFrdjMyalNXeEVVeUh1bUdQLy9ldHhSMUQyd014OXQ4aUIxZ1BRWTliemU4TWJ5RnBkeWxnSUMzSW9QYUxKT1FzWk5Xb0xuWk5ueFBZdUVGemdHV1VaZFZib1pHaUJuVUt3UUY4RGE3M084SFd3aXBDbWpBSGRJdmIzL0R1aVEreFF1bTdjNFUvQ2JVaTBscER2b0I1QzU5cG13WDVTcVM0RFo5bWR0L0dsdWp5VWpGWlZTK05oRW92YnkwOEN0aVJqTWhqQzliWkpoNHNTSUw5NzIweHoyRm5vWnRkMUpLNVBHYzBGSFhJbFFCdy8xVTBqbVV3azVsNTF1Wmtya3BiSU9Kems3OXEvY09UVnlBcUlIemdPU0pNaDJLUnFQd1h5UE5RaUNnTCtEc2lLQlROQURkYzd0V1dEMU45ZWIyMTV6RGQ5M3VxWU9yUEtFMUZQemZUSWlRNG5WVDl3bDBmZk5pSEVnYzlVTGNXTFFWV0UvVzBPK1FTVEJBUDdiN21wZ3lrQkdUWFFwUStIM2dUNVNxdUt4QTVBNjZPazRYVVIycWxEU3A4aTh6TFJ0WkJ2a0FuNmRsQWRPT0dNcmdrL3NkVjh6NjRmTFdrOEFVWTVZaHVZeHdwVTR2RGxjOUh1Y1B3Umo5SXVuWnE4ZjcxZmh5Tm0yYVJ2eU9MZllYdjRlY1BSSmluczBCRVAyQVNoVjVBRWlCRW9GUk12SkRNWUdDeFVlWkg5bTN4K0h1MVBQQUNXUW9HMHlCMWUzOFBPM0FxMkk3NWR6R2s0b0V1UTFNL1pNOTlaY2s4ajhQMHljNXVVVlV6N2RtR1dIUW8vS0dSZmw1NHh5Wjdnbkl3cjBSNG9KWDg5MVFZRVhMeXhwM2VjOTVvQXNUZVNmZktxdUtsQWdRM1FCeGtaWEpRSHByU2RRMUpNcGpYU3hTYTFsRXF6cnhiSUpKNzFQYkNRZlQzV0lybkVhTHFuTGQrMmRjUWxQaU9IWkUrY0Y5bU55UkNnMUtpdXJvRHdyV0p0ZEVQOTIza2xnRHJvODIyUkd6aklLUkpNWnpKQTg3KzhQNlVzY2hHL05JV3NIMTd1ei9aejhwdXloNnBqUEd6WjZ5WkdZRGZTa3E2cTcwVjBBdUJRNS9mRHc4dVJqTlJERzFkMGZ5Y3JvMDZPdXBlM0JMelN5V1QzK0Z1bDk4cmk3WHlpNHNrWUNkbTVEOXN6R1VsSkQwd2Y4M080RnhHZG9zQmRCM2RtYXU0TGhoVFNhb2duazFxdkRSTzdhNmxQcHVXRHIweW50WWNJUDZNdjEyREp5QTRXbUVJeHFzU1didnFHSjFtUFZYTG5LSExkTEM1bzl4U2R5MGdOY1BxZG44OExMR2s5OTZrc3NuWFpicjhDQWJUSGc3U0s3RW1sZVcrZlhXUUFSZzNNWU80Mll1TXRkS0RWZXVlMnZjcGhiKzBTOHhBRXlYUndpQ2tDOTArcjBlZzZqMkY3ck1Mb1JITlNGNlRoNUJEOUdqU3FrVG85ZVM2LyszNkZhMDNIak5Cb3M4bFIxdUQxTitBU2ZTYnZ3PT0ifQ%3D%3D&nad_placement=SR_MAIN&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-4",
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "price": 130,
+      "url": "https://www.booking.com/hotel/us/hilton-garden-inn-boston-logan-airport.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=139360103_94597530_2_0_0_980390&highlighted_blocks=139360103_94597530_2_0_0_980390&matching_block_id=139360103_94597530_2_0_0_980390&sr_pri_blocks=139360103_94597530_2_0_0_980390_13005&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-5",
+      "name": "citizenM Boston Back Bay",
+      "price": 170,
+      "url": "https://www.booking.com/hotel/us/citizenm-boston-back-bay.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=1152270103_388015843_0_2_0&highlighted_blocks=1152270103_388015843_0_2_0&matching_block_id=1152270103_388015843_0_2_0&sr_pri_blocks=1152270103_388015843_0_2_0__17000&nad_id=8967f13b-1449-4bd4-a6e1-20a0e0cf004a_8&nad_cpc=0.8&nad_track=eyJhdWN0aW9uRXBvY2giOjE3OTQ4NTM3MDEzMjMsInJhbmsiOjMsImtvZGRpVHJhY2tpbmdJbmZvIjoiWVd3YTJNa2t1UlBJQmNKN0w2aFdNSWVHalh4T0dGdzN0cnNRR01sK1Y1enF0YWROLzc4cllLZUR4UTc2UGprMCt3RUtPS091VTRlYVViUFdqamNQMDJXeDRvaXRzYTk3S3oxSFEvdmg1WER0b1VaTjlkYlRxSGZaWloyeEREVFdEcFRLd2N3amFOZ0JGR2QvTnI2RUZ6R2t4cCtXT1RZTkdselR2eG1iN1NkSDR0SkNWaTVWZHQ1eCtINjdJaDc4OUF2cGkwVko4bVRlTXpwcHdOMkhyK2hZb0Yvc3YzalRkdGtFcVhyZU1wUTRhQVhQRU53RTZOZGJZMU43eEI0VUEzamg4RU5mVVhXemZ5dnMzUU1ITHpZV3FmSE9xWnhiU24zNjd6ajZjYWovRDRqWjFhajl2T1dEbmloRlpwUzFxYnRBZGwzczhHWHBRbjdqcXBNWjlZY0UyTnUxMEVPMWh4VmNsSzdIK2ZNc3lLVnhLT0RsTDFxLzdOVFBPUGIrNTlNTUx2SFpxWDZLazJuTTRrZ3hHUno1dTNjbnBmQmNyMFJZYi9BM0pURVVlV0FvNVp5bGFKbTgvMFpURU8ySW84VFFWdVBlaDZMeXp4SWRKM1FJNVNyT2k2bVRDQkJTeERLSDNQU2FtUjZCSklTY2lQNkF0OHVUdEVkZVYvWUhpbExybjRKN2t1M0dFa0FvZFR2QUlyOTVtaDY1bUhMMUxJTVhmV2E2ZW5mN1dMSWFQdHczTTFsdFFXdHFjK0xmSk41dWZSMXEyOUFnUmx1a3hBdmlCd0pLYURQbXdsMDBZRW5VVXI1eHBmUW1Uc1NyTzRDOVFnOEFocCtHTnJRRkpWcWFHODJCQkl1RjNzZGxyOG9uVzNlQXBRU2V5YzdxbE9KUGprL2VMQlFKRWFUTEEvdElOenR1dFpCaUE0N0M3bmw3SGMrZjZNK2lvcGdiVnYreHpYVTNBdjF3cGlJRytrNHNRS0RYN25XZ1Z6S094RElPditKM05sNW9iVHdiRCs1UGg3QldRVllwaFZoZFcxRVo5TEptNS91Q2FGVkIrb3RFa3dFaDBPVTBmek1IUzlWbE1obVNlUmNQRzR4OTB2VUcvSk5QVlZwTUwxNFZHV21VTEc5bVZXVlJlT3h3Yml6MWkyNVkxUUpPYWEyWVRsbmYyUk4vRkdVblR2SW9Cd2JOWENEQUgrWGY5Uk5VYk5GMkU0R1BsTllDSTdGb3UyeW42eFhlS0FCck9wOEVQeU5UanArRlNFVlY1K2VJY3lOZG9SSk51akpHYnl0M0xhV3UvUzhxV1lJS2NrbWt3bjQvK3d5NHJySXc1VWhGTHVvTDlSQlhXTzN1SThEaDF4bmJOWlduN1VLNk9RTUxDdFVwa25PTXlNTTBzNGI3MlAzanc2TlpsYnBEZ0JaaTVXNVRna1A3bnhRVFRMbkUyVTVnc1JrMWpwVUpUbUF3cVNxbUJTZWRmUVpmVVhzSG9pTTNkb3FFM3VZdHdpWjV6OUVUL2RQV3FhbmlSNk1IbExHbWJDMUJrYlcxZkt5NU9SZ2Y2bUx6SXdaUWx4WDllZG9rWkVxdnNObk56Sks3bHduZ1dPc1RVV0NXdnI2TndIVUJHVkF0VEtKeTlCTmk2NVM0WmJkb1hlckJhYkx2UUt1eVNaMUpYV2JEZmE3YXRoU2ZnUjkzdVp0SEh4a0xsVXYwN1pmR3NzUUpURzJhcnNJTXNMVUhOZ3U1bkFUbEdIZWgvb09YRW4yTCt1R2t4c3lSMUIveUw1N2lVUktEUjVpdE1scUJ2clJ3TEdWUnY2aE9VRDZtek1qajV4b21JQnIvZDZXN01ldHZ5RENJSDZvT0NFemtQc3RMVzExQitWVlZoZFVCZmQzQThjVWNqcXVJVVJvRzhCalNtOGhmdFhHakNjdGN3T2RVZzRTNFpuWklpN0NuTlhFbGgrZEFhelR2aUcxZVlLSmtQZU9lQUExS2FYUzR5aFl6UjEvYzM1ckt5OG96Z2F1RE9wOC9Ba3lkWWJOZFpEaHN5UnJuSnhSK1oyM0kyazFPRmdCa3Q1ejk5a2pjY25neFYvcTl5RUFuQnVDS2dFbnVUdjEwTFYvZ2lMRXgwMzR5bUwrbzg1U1E0ZE1hUzgrWHdkNmhjcmV5RHd4OXNkQUF2MWkyU2ZnRnU3azlIbTJ6VTVtaU9ZWnRsbjMyYnJKcUUyeGcvZUJpajRZZzNPbDh0akorT0pTTE1TYmRmZFRNLzVocXpSdXRnZWxoelFFK2l5dFI0RzdJVVF5azlsTEl3TlNEZUdseDRZM1drTnpxVUtGOHZySitNK2dydzEwRTF2YlU1WEpuZHJYSUF2V0F4dGdnMXJ6ZXIrN0RvaE9zTzhFVTZkdz0ifQ%3D%3D&nad_placement=SR_MAIN&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-6",
+      "name": "DoubleTree by Hilton Hotel Boston Bayside",
+      "price": 97,
+      "url": "https://www.booking.com/hotel/us/doubletree-club-bayside.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=2865702_95462423_2_2_0&highlighted_blocks=2865702_95462423_2_2_0&matching_block_id=2865702_95462423_2_2_0&sr_pri_blocks=2865702_95462423_2_2_0__9690&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-7",
+      "name": "Embassy Suites Boston at Logan Airport",
+      "price": 164,
+      "url": "https://www.booking.com/hotel/us/embassy-boston-logan.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=2864407_95152612_2_1_0&highlighted_blocks=2864407_95152612_2_1_0&matching_block_id=2864407_95152612_2_1_0&sr_pri_blocks=2864407_95152612_2_1_0__16371&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-8",
+      "name": "DoubleTree by Hilton Hotel Boston - Downtown",
+      "price": 160,
+      "url": "https://www.booking.com/hotel/us/doubletree-boston-downtown.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=2870520_95152669_2_0_0&highlighted_blocks=2870520_95152669_2_0_0&matching_block_id=2870520_95152669_2_0_0&sr_pri_blocks=2870520_95152669_2_0_0__15994&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-9",
+      "name": "The Atlas Hotel Boston Cambridge",
+      "price": 223,
+      "url": "https://www.booking.com/hotel/us/the-atlas.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=1495231903_422385668_2_42_0&highlighted_blocks=1495231903_422385668_2_42_0&matching_block_id=1495231903_422385668_2_42_0&sr_pri_blocks=1495231903_422385668_2_42_0__22330&from=searchresults"
+    },
+    {
+      "id": "card-10",
+      "name": "Wyndham Boston Beacon Hill",
+      "price": 213,
+      "url": "https://www.booking.com/hotel/us/wyndham-boston-beacon-hill.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=11&hapos=11&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=18253514_88767990_2_2_0&highlighted_blocks=18253514_88767990_2_2_0&matching_block_id=18253514_88767990_2_2_0&sr_pri_blocks=18253514_88767990_2_2_0__21335&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-11",
+      "name": "Hotel AKA Back Bay",
+      "price": 316,
+      "url": "https://www.booking.com/hotel/us/hotel-aka-back-bay.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=12&hapos=12&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=5590035_88995594_4_0_0&highlighted_blocks=5590035_88995594_4_0_0&matching_block_id=5590035_88995594_4_0_0&sr_pri_blocks=5590035_88995594_4_0_0__31560&from=searchresults"
+    },
+    {
+      "id": "card-12",
+      "name": "Hampton by Hilton at the Boston Seaport District",
+      "price": 156,
+      "url": "https://www.booking.com/hotel/us/hampton-inn-boston-seaport-ma.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=13&hapos=13&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=672665908_275240251_2_1_0_1034010&highlighted_blocks=672665908_275240251_2_1_0_1034010&matching_block_id=672665908_275240251_2_1_0_1034010&sr_pri_blocks=672665908_275240251_2_1_0_1034010_15640&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-13",
+      "name": "Hampton Inn & Suites Boston Crosstown Center",
+      "price": 93,
+      "url": "https://www.booking.com/hotel/us/hampton-inn-crosstown-center.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=14&hapos=14&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=2870902_95152678_2_1_0_933943&highlighted_blocks=2870902_95152678_2_1_0_933943&matching_block_id=2870902_95152678_2_1_0_933943&sr_pri_blocks=2870902_95152678_2_1_0_933943_9265&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-14",
+      "name": "Boston Lodge and Suites",
+      "price": 247,
+      "url": "https://www.booking.com/hotel/us/boston-luxury-suites.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=15&hapos=15&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=284375501_108456769_8_0_0&highlighted_blocks=284375501_108456769_8_0_0&matching_block_id=284375501_108456769_8_0_0&sr_pri_blocks=284375501_108456769_8_0_0__24658&from=searchresults"
+    },
+    {
+      "id": "card-15",
+      "name": "The Verb Hotel",
+      "price": 255,
+      "url": "https://www.booking.com/hotel/us/the-verb.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=16&hapos=16&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=89955503_89680336_2_1_0&highlighted_blocks=89955503_89680336_2_1_0&matching_block_id=89955503_89680336_2_1_0&sr_pri_blocks=89955503_89680336_2_1_0__25520&from=searchresults"
+    },
+    {
+      "id": "card-16",
+      "name": "Hotel Commonwealth",
+      "price": 238,
+      "url": "https://www.booking.com/hotel/us/c-boston-massachusettes.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=17&hapos=17&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=5955422_88767970_3_2_0&highlighted_blocks=5955422_88767970_3_2_0&matching_block_id=5955422_88767970_3_2_0&sr_pri_blocks=5955422_88767970_3_2_0__23777&from=searchresults"
+    },
+    {
+      "id": "card-17",
+      "name": "Hilton Boston Park Plaza",
+      "price": 206,
+      "url": "https://www.booking.com/hotel/us/hilton-boston-park-plaza.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=18&hapos=18&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=211943737_96150062_2_42_0&highlighted_blocks=211943737_96150062_2_42_0&matching_block_id=211943737_96150062_2_42_0&sr_pri_blocks=211943737_96150062_2_42_0__20588&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-18",
+      "name": "The Midtown Hotel MOD Collection by Sonesta",
+      "price": 135,
+      "url": "https://www.booking.com/hotel/us/midtown.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=19&hapos=19&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=5664408_90925328_2_0_0&highlighted_blocks=5664408_90925328_2_0_0&matching_block_id=5664408_90925328_2_0_0&sr_pri_blocks=5664408_90925328_2_0_0__13500&from=searchresults"
+    },
+    {
+      "id": "card-19",
+      "name": "Hyatt Place Boston/Seaport District",
+      "price": 189,
+      "url": "https://www.booking.com/hotel/us/hyatt-place-boston-seaport-district.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=20&hapos=20&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=623373503_242824300_2_1_0&highlighted_blocks=623373503_242824300_2_1_0&matching_block_id=623373503_242824300_2_1_0&sr_pri_blocks=623373503_242824300_2_1_0__18900&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-20",
+      "name": "Hyatt Regency Boston Harbor",
+      "price": 183,
+      "url": "https://www.booking.com/hotel/us/hyatt-harborside.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=21&hapos=21&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=48735617_93759700_2_2_0&highlighted_blocks=48735617_93759700_2_2_0&matching_block_id=48735617_93759700_2_2_0&sr_pri_blocks=48735617_93759700_2_2_0__18297&from=searchresults"
+    },
+    {
+      "id": "card-21",
+      "name": "Yotel Boston",
+      "price": 191,
+      "url": "https://www.booking.com/hotel/us/yotel-boston.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=222142015_98261300_2_0_0&highlighted_blocks=222142015_98261300_2_0_0&matching_block_id=222142015_98261300_2_0_0&sr_pri_blocks=222142015_98261300_2_0_0__19120&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-22",
+      "name": "Hilton Boston Back Bay",
+      "price": 221,
+      "url": "https://www.booking.com/hotel/us/boston-back-bay.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=23&hapos=23&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=2864519_95152614_2_2_0&highlighted_blocks=2864519_95152614_2_2_0&matching_block_id=2864519_95152614_2_2_0&sr_pri_blocks=2864519_95152614_2_2_0__22120&from_sustainable_property_sr=1&from=searchresults"
+    },
+    {
+      "id": "card-23",
+      "name": "Holiday Inn Express Boston by IHG",
+      "price": 150,
+      "url": "https://www.booking.com/hotel/us/holiday-inn-express-boston.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=24&hapos=24&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=18257417_428619957_2_1_0&highlighted_blocks=18257417_428619957_2_1_0&matching_block_id=18257417_428619957_2_1_0&sr_pri_blocks=18257417_428619957_2_1_0__15000&from=searchresults"
+    },
+    {
+      "id": "card-24",
+      "name": "Copley Square Hotel, a FOUND Hotel",
+      "price": 154,
+      "url": "https://www.booking.com/hotel/us/copley-square.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=25&hapos=25&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=5625508_91458680_0_0_0&highlighted_blocks=5625508_91458680_0_0_0&matching_block_id=5625508_91458680_0_0_0&sr_pri_blocks=5625508_91458680_0_0_0__15400&from=searchresults"
+    },
+    {
+      "id": "card-25",
+      "name": "Charles River Inn",
+      "price": 119,
+      "url": "https://www.booking.com/hotel/us/charles-river-motel.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=26&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=196577803_201237733_0_0_0&highlighted_blocks=196577803_201237733_0_0_0&matching_block_id=196577803_201237733_0_0_0&sr_pri_blocks=196577803_201237733_0_0_0__11900&from=searchresults"
+    },
+    {
+      "id": "card-26",
+      "name": "Bay Village Suites",
+      "price": 188,
+      "url": "https://www.booking.com/hotel/us/bay-village-suites.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=27&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=470429024_335190397_2_0_0&highlighted_blocks=470429024_335190397_2_0_0&matching_block_id=470429024_335190397_2_0_0&sr_pri_blocks=470429024_335190397_2_0_0__18800&from=searchresults"
+    },
+    {
+      "id": "card-27",
+      "name": "Kasa Boston at Fenway",
+      "price": 324,
+      "url": "https://www.booking.com/hotel/us/fenway-luxury-suites.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=28&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=324701653_239165059_2_0_0&highlighted_blocks=324701653_239165059_2_0_0&matching_block_id=324701653_239165059_2_0_0&sr_pri_blocks=324701653_239165059_2_0_0__32400&from=searchresults"
+    },
+    {
+      "id": "card-28",
+      "name": "Temple Place Suites 2+3",
+      "price": 181,
+      "url": "https://www.booking.com/hotel/us/temple-place-suites-2-3.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=29&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=474529409_390010224_2_0_0&highlighted_blocks=474529409_390010224_2_0_0&matching_block_id=474529409_390010224_2_0_0&sr_pri_blocks=474529409_390010224_2_0_0__18100&from=searchresults"
+    },
+    {
+      "id": "card-29",
+      "name": "Kasa at Boston Common",
+      "price": 304,
+      "url": "https://www.booking.com/hotel/us/kasa-at-boston-common.html?aid=304142&label=mkt123sc-f8fc4caf-b9a5-4843-9d76-c416b7e7febc&ucfs=1&arphpl=1&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=30&sr_order=popularity&srpvid=590028c3515d6d4ecf73ffc4250b9cd2&srepoch=1794853707&all_sr_blocks=1408023702_444853395_2_0_0&highlighted_blocks=1408023702_444853395_2_0_0&matching_block_id=1408023702_444853395_2_0_0&sr_pri_blocks=1408023702_444853395_2_0_0__30400&from=searchresults"
+    }
+  ]
+}

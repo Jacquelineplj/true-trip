@@ -1,0 +1,1767 @@
+{
+ "note": "110 UberX quotes for random street-to-street trips in Boston, Cambridge, Somerville and Brookline (Logan Airport excluded), read from m.uber.com on 2026-11-18. 4 quotes at about 3:37 PM, 106 at 5:18-5:33 PM local (evening rush). listUsd is the standard price; shownUsd is one account after its promotion. Pickup/dropoff are the coordinates Uber resolved; durationMin/distanceKm are OSRM driving routes between them. Analysis: scripts/fit-uber-fares.mjs.",
+ "city": "Boston",
+ "product": "UberX",
+ "quotes": [
+  {
+   "id": 0,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.38662,
+    "lon": -71.1082
+   },
+   "dropoff": {
+    "lat": 42.34838,
+    "lon": -71.13459
+   },
+   "durationMin": 14.29,
+   "distanceKm": 6.798,
+   "listUsd": 36.94,
+   "shownUsd": 25.66
+  },
+  {
+   "id": 1,
+   "quotedAtLocal": "2026-11-18 15:37",
+   "pickup": {
+    "lat": 42.35196,
+    "lon": -71.13708
+   },
+   "dropoff": {
+    "lat": 42.35853,
+    "lon": -71.0894
+   },
+   "durationMin": 10.7,
+   "distanceKm": 6.025,
+   "listUsd": 17.94,
+   "shownUsd": 14.13
+  },
+  {
+   "id": 2,
+   "quotedAtLocal": "2026-11-18 15:37",
+   "pickup": {
+    "lat": 42.39911,
+    "lon": -71.09413
+   },
+   "dropoff": {
+    "lat": 42.36856,
+    "lon": -71.10905
+   },
+   "durationMin": 8.32,
+   "distanceKm": 5.066,
+   "listUsd": 17.95,
+   "shownUsd": 16.79
+  },
+  {
+   "id": 3,
+   "quotedAtLocal": "2026-11-18 15:37",
+   "pickup": {
+    "lat": 42.37612,
+    "lon": -71.1266
+   },
+   "dropoff": {
+    "lat": 42.36454,
+    "lon": -71.12798
+   },
+   "durationMin": 3.23,
+   "distanceKm": 1.718,
+   "listUsd": 9.96,
+   "shownUsd": 6.78
+  },
+  {
+   "id": 4,
+   "quotedAtLocal": "2026-11-18 15:38",
+   "pickup": {
+    "lat": 42.34818,
+    "lon": -71.13937
+   },
+   "dropoff": {
+    "lat": 42.382,
+    "lon": -71.13643
+   },
+   "durationMin": 11.16,
+   "distanceKm": 5.903,
+   "listUsd": 16.95,
+   "shownUsd": 15.84
+  },
+  {
+   "id": 5,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.34397,
+    "lon": -71.12441
+   },
+   "dropoff": {
+    "lat": 42.39497,
+    "lon": -71.11968
+   },
+   "durationMin": 14.18,
+   "distanceKm": 7.374,
+   "listUsd": 22.93,
+   "shownUsd": 22.65
+  },
+  {
+   "id": 6,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.38615,
+    "lon": -71.10138
+   },
+   "dropoff": {
+    "lat": 42.36969,
+    "lon": -71.10925
+   },
+   "durationMin": 6.97,
+   "distanceKm": 2.655,
+   "listUsd": 12.93,
+   "shownUsd": 10.12
+  },
+  {
+   "id": 7,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.39625,
+    "lon": -71.11859
+   },
+   "dropoff": {
+    "lat": 42.33874,
+    "lon": -71.11319
+   },
+   "durationMin": 18.02,
+   "distanceKm": 8.836,
+   "listUsd": 30.96,
+   "shownUsd": 27.61
+  },
+  {
+   "id": 8,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.38188,
+    "lon": -71.12538
+   },
+   "dropoff": {
+    "lat": 42.31591,
+    "lon": -71.03833
+   },
+   "durationMin": 19.17,
+   "distanceKm": 14.72,
+   "listUsd": 32.96,
+   "shownUsd": 32.68
+  },
+  {
+   "id": 9,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.35003,
+    "lon": -71.06524
+   },
+   "dropoff": {
+    "lat": 42.31524,
+    "lon": -71.11
+   },
+   "durationMin": 12.62,
+   "distanceKm": 5.873,
+   "listUsd": 30.95,
+   "shownUsd": 28.27
+  },
+  {
+   "id": 10,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.35621,
+    "lon": -71.0623
+   },
+   "dropoff": {
+    "lat": 42.33437,
+    "lon": -71.10461
+   },
+   "durationMin": 8.97,
+   "distanceKm": 4.585,
+   "listUsd": 33.96,
+   "shownUsd": 31.52
+  },
+  {
+   "id": 11,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.32418,
+    "lon": -71.11406
+   },
+   "dropoff": {
+    "lat": 42.35037,
+    "lon": -71.10083
+   },
+   "durationMin": 8.58,
+   "distanceKm": 4.479,
+   "listUsd": 19.94,
+   "shownUsd": 13.76
+  },
+  {
+   "id": 12,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.35001,
+    "lon": -71.11969
+   },
+   "dropoff": {
+    "lat": 42.36111,
+    "lon": -71.0964
+   },
+   "durationMin": 6.9,
+   "distanceKm": 3.3,
+   "listUsd": 14.95,
+   "shownUsd": 11
+  },
+  {
+   "id": 13,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.39524,
+    "lon": -71.09985
+   },
+   "dropoff": {
+    "lat": 42.33634,
+    "lon": -71.123
+   },
+   "durationMin": 17.75,
+   "distanceKm": 9.432,
+   "listUsd": 27.96,
+   "shownUsd": 27.68
+  },
+  {
+   "id": 14,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.34843,
+    "lon": -71.11891
+   },
+   "dropoff": {
+    "lat": 42.39395,
+    "lon": -71.11647
+   },
+   "durationMin": 15.34,
+   "distanceKm": 7.184,
+   "listUsd": 27.95,
+   "shownUsd": 26.29
+  },
+  {
+   "id": 15,
+   "quotedAtLocal": "2026-11-18 17:18",
+   "pickup": {
+    "lat": 42.34074,
+    "lon": -71.11595
+   },
+   "dropoff": {
+    "lat": 42.33398,
+    "lon": -71.03239
+   },
+   "durationMin": 14.93,
+   "distanceKm": 9.389,
+   "listUsd": 34.94,
+   "shownUsd": 29.46
+  },
+  {
+   "id": 16,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.38407,
+    "lon": -71.08607
+   },
+   "dropoff": {
+    "lat": 42.33476,
+    "lon": -71.13919
+   },
+   "durationMin": 16.68,
+   "distanceKm": 9.245,
+   "listUsd": 34.96,
+   "shownUsd": 31.21
+  },
+  {
+   "id": 17,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.33773,
+    "lon": -71.06149
+   },
+   "dropoff": {
+    "lat": 42.31998,
+    "lon": -71.07108
+   },
+   "durationMin": 6.14,
+   "distanceKm": 3.47,
+   "listUsd": 15.94,
+   "shownUsd": 15.66
+  },
+  {
+   "id": 18,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.33079,
+    "lon": -71.11259
+   },
+   "dropoff": {
+    "lat": 42.38115,
+    "lon": -71.11374
+   },
+   "durationMin": 14.92,
+   "distanceKm": 7.306,
+   "listUsd": 32.94,
+   "shownUsd": 24.49
+  },
+  {
+   "id": 19,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.33464,
+    "lon": -71.04291
+   },
+   "dropoff": {
+    "lat": 42.36655,
+    "lon": -71.07786
+   },
+   "durationMin": 10.85,
+   "distanceKm": 6.919,
+   "listUsd": 31.93,
+   "shownUsd": 31.65
+  },
+  {
+   "id": 20,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.37326,
+    "lon": -71.11097
+   },
+   "dropoff": {
+    "lat": 42.32169,
+    "lon": -71.13241
+   },
+   "durationMin": 16.4,
+   "distanceKm": 8.329,
+   "listUsd": 35.93,
+   "shownUsd": 35.65
+  },
+  {
+   "id": 21,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.38054,
+    "lon": -71.03497
+   },
+   "dropoff": {
+    "lat": 42.32542,
+    "lon": -71.07751
+   },
+   "durationMin": 13.76,
+   "distanceKm": 9.207,
+   "listUsd": 26.93,
+   "shownUsd": 26.65
+  },
+  {
+   "id": 22,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.36598,
+    "lon": -71.10918
+   },
+   "dropoff": {
+    "lat": 42.38653,
+    "lon": -71.13486
+   },
+   "durationMin": 8.73,
+   "distanceKm": 4.178,
+   "listUsd": 14.96,
+   "shownUsd": 14.68
+  },
+  {
+   "id": 23,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.31694,
+    "lon": -71.11375
+   },
+   "dropoff": {
+    "lat": 42.37165,
+    "lon": -71.0901
+   },
+   "durationMin": 16.27,
+   "distanceKm": 7.961,
+   "listUsd": 23.93,
+   "shownUsd": 23.65
+  },
+  {
+   "id": 24,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.3403,
+    "lon": -71.05102
+   },
+   "dropoff": {
+    "lat": 42.34581,
+    "lon": -71.12354
+   },
+   "durationMin": 15.83,
+   "distanceKm": 11.379,
+   "listUsd": 39.93,
+   "shownUsd": 36.8
+  },
+  {
+   "id": 25,
+   "quotedAtLocal": "2026-11-18 17:20",
+   "pickup": {
+    "lat": 42.34998,
+    "lon": -71.07243
+   },
+   "dropoff": {
+    "lat": 42.38526,
+    "lon": -71.10562
+   },
+   "durationMin": 11.94,
+   "distanceKm": 6.453,
+   "listUsd": 28.95,
+   "shownUsd": 28.67
+  },
+  {
+   "id": 26,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.37978,
+    "lon": -71.12427
+   },
+   "dropoff": {
+    "lat": 42.32278,
+    "lon": -71.09929
+   },
+   "durationMin": 17.17,
+   "distanceKm": 9.928,
+   "listUsd": 31.93,
+   "shownUsd": 31.65
+  },
+  {
+   "id": 27,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.31137,
+    "lon": -71.1346
+   },
+   "dropoff": {
+    "lat": 42.32704,
+    "lon": -71.06392
+   },
+   "durationMin": 16.3,
+   "distanceKm": 8.213,
+   "listUsd": 27.95,
+   "shownUsd": 26.29
+  },
+  {
+   "id": 28,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.32183,
+    "lon": -71.09498
+   },
+   "dropoff": {
+    "lat": 42.36523,
+    "lon": -71.1367
+   },
+   "durationMin": 15.54,
+   "distanceKm": 8.943,
+   "listUsd": 22.96,
+   "shownUsd": 22.68
+  },
+  {
+   "id": 29,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.33771,
+    "lon": -71.07752
+   },
+   "dropoff": {
+    "lat": 42.31399,
+    "lon": -71.1229
+   },
+   "durationMin": 11.68,
+   "distanceKm": 5.79,
+   "listUsd": 22.94,
+   "shownUsd": 19.26
+  },
+  {
+   "id": 30,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.37226,
+    "lon": -71.08957
+   },
+   "dropoff": {
+    "lat": 42.3628,
+    "lon": -71.11267
+   },
+   "durationMin": 6.47,
+   "distanceKm": 2.905,
+   "listUsd": 14.93,
+   "shownUsd": 14.65
+  },
+  {
+   "id": 31,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.33571,
+    "lon": -71.03055
+   },
+   "dropoff": {
+    "lat": 42.3504,
+    "lon": -71.0566
+   },
+   "durationMin": 5.86,
+   "distanceKm": 3.908,
+   "listUsd": 18.95,
+   "shownUsd": 18.67
+  },
+  {
+   "id": 32,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.34515,
+    "lon": -71.12671
+   },
+   "dropoff": {
+    "lat": 42.316,
+    "lon": -71.08721
+   },
+   "durationMin": 11.51,
+   "distanceKm": 5.615,
+   "listUsd": 22.93,
+   "shownUsd": 21.52
+  },
+  {
+   "id": 33,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.3919,
+    "lon": -71.137
+   },
+   "dropoff": {
+    "lat": 42.38525,
+    "lon": -71.13159
+   },
+   "durationMin": 3.76,
+   "distanceKm": 1.592,
+   "listUsd": 8.95,
+   "shownUsd": 6.94
+  },
+  {
+   "id": 34,
+   "quotedAtLocal": "2026-11-18 17:21",
+   "pickup": {
+    "lat": 42.3579,
+    "lon": -71.1041
+   },
+   "dropoff": {
+    "lat": 42.33966,
+    "lon": -71.11783
+   },
+   "durationMin": 6.34,
+   "distanceKm": 3.347,
+   "listUsd": 15.95,
+   "shownUsd": 15.67
+  },
+  {
+   "id": 35,
+   "quotedAtLocal": "2026-11-18 17:23",
+   "pickup": {
+    "lat": 42.3492,
+    "lon": -71.10965
+   },
+   "dropoff": {
+    "lat": 42.33792,
+    "lon": -71.09534
+   },
+   "durationMin": 3.72,
+   "distanceKm": 2.008,
+   "listUsd": 11.95,
+   "shownUsd": 11.67
+  },
+  {
+   "id": 36,
+   "quotedAtLocal": "2026-11-18 17:23",
+   "pickup": {
+    "lat": 42.39713,
+    "lon": -71.09427
+   },
+   "dropoff": {
+    "lat": 42.37214,
+    "lon": -71.0887
+   },
+   "durationMin": 5.6,
+   "distanceKm": 3.716,
+   "listUsd": 12.93,
+   "shownUsd": 11.38
+  },
+  {
+   "id": 37,
+   "quotedAtLocal": "2026-11-18 17:23",
+   "pickup": {
+    "lat": 42.38268,
+    "lon": -71.13157
+   },
+   "dropoff": {
+    "lat": 42.36734,
+    "lon": -71.06485
+   },
+   "durationMin": 14.19,
+   "distanceKm": 6.851,
+   "listUsd": 33.94,
+   "shownUsd": 25.24
+  },
+  {
+   "id": 38,
+   "quotedAtLocal": "2026-11-18 17:23",
+   "pickup": {
+    "lat": 42.36102,
+    "lon": -71.08824
+   },
+   "dropoff": {
+    "lat": 42.34581,
+    "lon": -71.08612
+   },
+   "durationMin": 7.14,
+   "distanceKm": 2.96,
+   "listUsd": 32.95,
+   "shownUsd": 30.98
+  },
+  {
+   "id": 39,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.31136,
+    "lon": -71.12528
+   },
+   "dropoff": {
+    "lat": 42.33712,
+    "lon": -71.13295
+   },
+   "durationMin": 9.04,
+   "distanceKm": 4.103,
+   "listUsd": 13.96,
+   "shownUsd": 9.58
+  },
+  {
+   "id": 40,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.38515,
+    "lon": -71.08924
+   },
+   "dropoff": {
+    "lat": 42.32979,
+    "lon": -71.03397
+   },
+   "durationMin": 13.2,
+   "distanceKm": 10.419,
+   "listUsd": 32.95,
+   "shownUsd": 29.4
+  },
+  {
+   "id": 41,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.36661,
+    "lon": -71.05115
+   },
+   "dropoff": {
+    "lat": 42.368,
+    "lon": -71.07755
+   },
+   "durationMin": 5.44,
+   "distanceKm": 3.194,
+   "listUsd": 19.95,
+   "shownUsd": 19.67
+  },
+  {
+   "id": 42,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.32251,
+    "lon": -71.09061
+   },
+   "dropoff": {
+    "lat": 42.37,
+    "lon": -71.08595
+   },
+   "durationMin": 15.47,
+   "distanceKm": 9.521,
+   "listUsd": 25.95,
+   "shownUsd": 25.67
+  },
+  {
+   "id": 43,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.37517,
+    "lon": -71.04044
+   },
+   "dropoff": {
+    "lat": 42.31003,
+    "lon": -71.0632
+   },
+   "durationMin": 14.4,
+   "distanceKm": 10.253,
+   "listUsd": 31.96,
+   "shownUsd": 31.68
+  },
+  {
+   "id": 44,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.34194,
+    "lon": -71.12244
+   },
+   "dropoff": {
+    "lat": 42.34535,
+    "lon": -71.07393
+   },
+   "durationMin": 8.71,
+   "distanceKm": 4.85,
+   "listUsd": 24.96,
+   "shownUsd": 24.68
+  },
+  {
+   "id": 45,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.34219,
+    "lon": -71.14006
+   },
+   "dropoff": {
+    "lat": 42.32449,
+    "lon": -71.07812
+   },
+   "durationMin": 12.83,
+   "distanceKm": 7.365,
+   "listUsd": 21.94,
+   "shownUsd": 21.66
+  },
+  {
+   "id": 46,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.37021,
+    "lon": -71.10333
+   },
+   "dropoff": {
+    "lat": 42.35583,
+    "lon": -71.07111
+   },
+   "durationMin": 7.61,
+   "distanceKm": 3.605,
+   "listUsd": 18.93,
+   "shownUsd": 14.92
+  },
+  {
+   "id": 47,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.34371,
+    "lon": -71.13877
+   },
+   "dropoff": {
+    "lat": 42.39392,
+    "lon": -71.09317
+   },
+   "durationMin": 15.9,
+   "distanceKm": 8.785,
+   "listUsd": 29.95,
+   "shownUsd": 29.67
+  },
+  {
+   "id": 48,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.34947,
+    "lon": -71.12133
+   },
+   "dropoff": {
+    "lat": 42.35572,
+    "lon": -71.09986
+   },
+   "durationMin": 6.37,
+   "distanceKm": 3.014,
+   "listUsd": 14.95,
+   "shownUsd": 14.67
+  },
+  {
+   "id": 49,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.33616,
+    "lon": -71.12718
+   },
+   "dropoff": {
+    "lat": 42.39035,
+    "lon": -71.08987
+   },
+   "durationMin": 16.7,
+   "distanceKm": 12.725,
+   "listUsd": 31.95,
+   "shownUsd": 31.67
+  },
+  {
+   "id": 50,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.31192,
+    "lon": -71.10013
+   },
+   "dropoff": {
+    "lat": 42.36314,
+    "lon": -71.11036
+   },
+   "durationMin": 15.35,
+   "distanceKm": 7.639,
+   "listUsd": 25.94,
+   "shownUsd": 24.38
+  },
+  {
+   "id": 51,
+   "quotedAtLocal": "2026-11-18 17:24",
+   "pickup": {
+    "lat": 42.33843,
+    "lon": -71.05554
+   },
+   "dropoff": {
+    "lat": 42.38866,
+    "lon": -71.12524
+   },
+   "durationMin": 17.13,
+   "distanceKm": 13.278,
+   "listUsd": 33.95,
+   "shownUsd": 33.67
+  },
+  {
+   "id": 52,
+   "quotedAtLocal": "2026-11-18 17:25",
+   "pickup": {
+    "lat": 42.32159,
+    "lon": -71.07224
+   },
+   "dropoff": {
+    "lat": 42.37264,
+    "lon": -71.07939
+   },
+   "durationMin": 12.07,
+   "distanceKm": 8.088,
+   "listUsd": 25.93,
+   "shownUsd": 23.08
+  },
+  {
+   "id": 53,
+   "quotedAtLocal": "2026-11-18 17:25",
+   "pickup": {
+    "lat": 42.34487,
+    "lon": -71.08655
+   },
+   "dropoff": {
+    "lat": 42.33442,
+    "lon": -71.1197
+   },
+   "durationMin": 7.06,
+   "distanceKm": 3.644,
+   "listUsd": 33.94,
+   "shownUsd": 31.99
+  },
+  {
+   "id": 54,
+   "quotedAtLocal": "2026-11-18 17:25",
+   "pickup": {
+    "lat": 42.348,
+    "lon": -71.03271
+   },
+   "dropoff": {
+    "lat": 42.39199,
+    "lon": -71.08868
+   },
+   "durationMin": 10.36,
+   "distanceKm": 7.791,
+   "listUsd": 28.95,
+   "shownUsd": 28.67
+  },
+  {
+   "id": 55,
+   "quotedAtLocal": "2026-11-18 17:25",
+   "pickup": {
+    "lat": 42.36828,
+    "lon": -71.07921
+   },
+   "dropoff": {
+    "lat": 42.35108,
+    "lon": -71.06587
+   },
+   "durationMin": 7.34,
+   "distanceKm": 3.457,
+   "listUsd": 24.95,
+   "shownUsd": 24.67
+  },
+  {
+   "id": 56,
+   "quotedAtLocal": "2026-11-18 17:25",
+   "pickup": {
+    "lat": 42.3698,
+    "lon": -71.07884
+   },
+   "dropoff": {
+    "lat": 42.39467,
+    "lon": -71.11808
+   },
+   "durationMin": 9.2,
+   "distanceKm": 4.605,
+   "listUsd": 24.94,
+   "shownUsd": 24.66
+  },
+  {
+   "id": 57,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.34762,
+    "lon": -71.05263
+   },
+   "dropoff": {
+    "lat": 42.38856,
+    "lon": -71.0911
+   },
+   "durationMin": 10.08,
+   "distanceKm": 7.788,
+   "listUsd": 45.94,
+   "shownUsd": 42.9
+  },
+  {
+   "id": 58,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.33787,
+    "lon": -71.08988
+   },
+   "dropoff": {
+    "lat": 42.34187,
+    "lon": -71.12167
+   },
+   "durationMin": 6.22,
+   "distanceKm": 3.773,
+   "listUsd": 22.93,
+   "shownUsd": 22.65
+  },
+  {
+   "id": 59,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.35008,
+    "lon": -71.09708
+   },
+   "dropoff": {
+    "lat": 42.33455,
+    "lon": -71.07688
+   },
+   "durationMin": 6.73,
+   "distanceKm": 3.195,
+   "listUsd": 35.95,
+   "shownUsd": 33.82
+  },
+  {
+   "id": 60,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.33908,
+    "lon": -71.11245
+   },
+   "dropoff": {
+    "lat": 42.34118,
+    "lon": -71.07538
+   },
+   "durationMin": 8.21,
+   "distanceKm": 4.011,
+   "listUsd": 35.95,
+   "shownUsd": 33.67
+  },
+  {
+   "id": 61,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.33698,
+    "lon": -71.05025
+   },
+   "dropoff": {
+    "lat": 42.36678,
+    "lon": -71.12524
+   },
+   "durationMin": 12.13,
+   "distanceKm": 9.616,
+   "listUsd": 24.94,
+   "shownUsd": 24.66
+  },
+  {
+   "id": 62,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.37576,
+    "lon": -71.09313
+   },
+   "dropoff": {
+    "lat": 42.33227,
+    "lon": -71.12619
+   },
+   "durationMin": 14.02,
+   "distanceKm": 6.834,
+   "listUsd": 25.95,
+   "shownUsd": 25.67
+  },
+  {
+   "id": 63,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.31524,
+    "lon": -71.11604
+   },
+   "dropoff": {
+    "lat": 42.32722,
+    "lon": -71.05922
+   },
+   "durationMin": 12.52,
+   "distanceKm": 6.656,
+   "listUsd": 23.96,
+   "shownUsd": 23.68
+  },
+  {
+   "id": 64,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.38858,
+    "lon": -71.12341
+   },
+   "dropoff": {
+    "lat": 42.36076,
+    "lon": -71.05408
+   },
+   "durationMin": 13.53,
+   "distanceKm": 10.072,
+   "listUsd": 28.96,
+   "shownUsd": 25.81
+  },
+  {
+   "id": 65,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.36392,
+    "lon": -71.06644
+   },
+   "dropoff": {
+    "lat": 42.36889,
+    "lon": -71.09432
+   },
+   "durationMin": 6.68,
+   "distanceKm": 3.204,
+   "listUsd": 18.93,
+   "shownUsd": 18.65
+  },
+  {
+   "id": 66,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.31764,
+    "lon": -71.11296
+   },
+   "dropoff": {
+    "lat": 42.3757,
+    "lon": -71.10026
+   },
+   "durationMin": 17.34,
+   "distanceKm": 7.918,
+   "listUsd": 24.93,
+   "shownUsd": 24.65
+  },
+  {
+   "id": 67,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.33346,
+    "lon": -71.0333
+   },
+   "dropoff": {
+    "lat": 42.34041,
+    "lon": -71.04895
+   },
+   "durationMin": 3.07,
+   "distanceKm": 2.075,
+   "listUsd": 14.96,
+   "shownUsd": 13.91
+  },
+  {
+   "id": 68,
+   "quotedAtLocal": "2026-11-18 17:27",
+   "pickup": {
+    "lat": 42.33567,
+    "lon": -71.0315
+   },
+   "dropoff": {
+    "lat": 42.32852,
+    "lon": -71.07013
+   },
+   "durationMin": 6.42,
+   "distanceKm": 5.162,
+   "listUsd": 20.94,
+   "shownUsd": 20.66
+  },
+  {
+   "id": 69,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.31243,
+    "lon": -71.12636
+   },
+   "dropoff": {
+    "lat": 42.39447,
+    "lon": -71.13802
+   },
+   "durationMin": 21.7,
+   "distanceKm": 12.77,
+   "listUsd": 33.94,
+   "shownUsd": 33.66
+  },
+  {
+   "id": 70,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.37577,
+    "lon": -71.10301
+   },
+   "dropoff": {
+    "lat": 42.31254,
+    "lon": -71.10702
+   },
+   "durationMin": 18.94,
+   "distanceKm": 8.601,
+   "listUsd": 31.93,
+   "shownUsd": 30.07
+  },
+  {
+   "id": 71,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.38151,
+    "lon": -71.12139
+   },
+   "dropoff": {
+    "lat": 42.33388,
+    "lon": -71.13633
+   },
+   "durationMin": 15.65,
+   "distanceKm": 7.847,
+   "listUsd": 29.93,
+   "shownUsd": 23.72
+  },
+  {
+   "id": 72,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.38393,
+    "lon": -71.13836
+   },
+   "dropoff": {
+    "lat": 42.34151,
+    "lon": -71.1321
+   },
+   "durationMin": 13.53,
+   "distanceKm": 6.857,
+   "listUsd": 26.93,
+   "shownUsd": 19.99
+  },
+  {
+   "id": 73,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.39347,
+    "lon": -71.11693
+   },
+   "dropoff": {
+    "lat": 42.38813,
+    "lon": -71.08142
+   },
+   "durationMin": 8.43,
+   "distanceKm": 3.904,
+   "listUsd": 16.94,
+   "shownUsd": 13.33
+  },
+  {
+   "id": 74,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.38074,
+    "lon": -71.10983
+   },
+   "dropoff": {
+    "lat": 42.35749,
+    "lon": -71.10789
+   },
+   "durationMin": 8.17,
+   "distanceKm": 3.682,
+   "listUsd": 15.94,
+   "shownUsd": 12.53
+  },
+  {
+   "id": 75,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.39684,
+    "lon": -71.08833
+   },
+   "dropoff": {
+    "lat": 42.39214,
+    "lon": -71.12139
+   },
+   "durationMin": 7.25,
+   "distanceKm": 4.434,
+   "listUsd": 16.95,
+   "shownUsd": 16.67
+  },
+  {
+   "id": 76,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.3534,
+    "lon": -71.04671
+   },
+   "dropoff": {
+    "lat": 42.33787,
+    "lon": -71.12395
+   },
+   "durationMin": 14.55,
+   "distanceKm": 9.505,
+   "listUsd": 34.95,
+   "shownUsd": 34.67
+  },
+  {
+   "id": 77,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.31164,
+    "lon": -71.08017
+   },
+   "dropoff": {
+    "lat": 42.34235,
+    "lon": -71.09542
+   },
+   "durationMin": 12.42,
+   "distanceKm": 5.852,
+   "listUsd": 18.96,
+   "shownUsd": 18.68
+  },
+  {
+   "id": 78,
+   "quotedAtLocal": "2026-11-18 17:28",
+   "pickup": {
+    "lat": 42.31589,
+    "lon": -71.12652
+   },
+   "dropoff": {
+    "lat": 42.37978,
+    "lon": -71.11599
+   },
+   "durationMin": 19.89,
+   "distanceKm": 9.558,
+   "listUsd": 31.94,
+   "shownUsd": 30.08
+  },
+  {
+   "id": 79,
+   "quotedAtLocal": "2026-11-18 17:30",
+   "pickup": {
+    "lat": 42.31318,
+    "lon": -71.12469
+   },
+   "dropoff": {
+    "lat": 42.34479,
+    "lon": -71.12903
+   },
+   "durationMin": 11.37,
+   "distanceKm": 5.17,
+   "listUsd": 20.94,
+   "shownUsd": 14.46
+  },
+  {
+   "id": 80,
+   "quotedAtLocal": "2026-11-18 17:30",
+   "pickup": {
+    "lat": 42.38259,
+    "lon": -71.11867
+   },
+   "dropoff": {
+    "lat": 42.35902,
+    "lon": -71.10407
+   },
+   "durationMin": 8.96,
+   "distanceKm": 4.072,
+   "listUsd": 28.93,
+   "shownUsd": 27.09
+  },
+  {
+   "id": 81,
+   "quotedAtLocal": "2026-11-18 17:30",
+   "pickup": {
+    "lat": 42.37516,
+    "lon": -71.12479
+   },
+   "dropoff": {
+    "lat": 42.39202,
+    "lon": -71.07873
+   },
+   "durationMin": 11.85,
+   "distanceKm": 6.314,
+   "listUsd": 38.93,
+   "shownUsd": 38.65
+  },
+  {
+   "id": 82,
+   "quotedAtLocal": "2026-11-18 17:30",
+   "pickup": {
+    "lat": 42.33637,
+    "lon": -71.04261
+   },
+   "dropoff": {
+    "lat": 42.38554,
+    "lon": -71.03928
+   },
+   "durationMin": 12.19,
+   "distanceKm": 8.719,
+   "listUsd": 25.96,
+   "shownUsd": 25.68
+  },
+  {
+   "id": 83,
+   "quotedAtLocal": "2026-11-18 17:30",
+   "pickup": {
+    "lat": 42.37693,
+    "lon": -71.0605
+   },
+   "dropoff": {
+    "lat": 42.32375,
+    "lon": -71.10296
+   },
+   "durationMin": 16.16,
+   "distanceKm": 8.904,
+   "listUsd": 30.95,
+   "shownUsd": 30.67
+  },
+  {
+   "id": 84,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.39453,
+    "lon": -71.09236
+   },
+   "dropoff": {
+    "lat": 42.39975,
+    "lon": -71.11637
+   },
+   "durationMin": 5.99,
+   "distanceKm": 2.64,
+   "listUsd": 10.93,
+   "shownUsd": 9.58
+  },
+  {
+   "id": 85,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.39337,
+    "lon": -71.07795
+   },
+   "dropoff": {
+    "lat": 42.35501,
+    "lon": -71.0511
+   },
+   "durationMin": 7.04,
+   "distanceKm": 6.222,
+   "listUsd": 28.94,
+   "shownUsd": 17.2
+  },
+  {
+   "id": 86,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.34572,
+    "lon": -71.07931
+   },
+   "dropoff": {
+    "lat": 42.37842,
+    "lon": -71.09794
+   },
+   "durationMin": 11,
+   "distanceKm": 4.805,
+   "listUsd": 25.95,
+   "shownUsd": 25.67
+  },
+  {
+   "id": 87,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.3142,
+    "lon": -71.1281
+   },
+   "dropoff": {
+    "lat": 42.36109,
+    "lon": -71.06209
+   },
+   "durationMin": 16.72,
+   "distanceKm": 9.559,
+   "listUsd": 38.94,
+   "shownUsd": 27.06
+  },
+  {
+   "id": 88,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.39182,
+    "lon": -71.11847
+   },
+   "dropoff": {
+    "lat": 42.37315,
+    "lon": -71.05245
+   },
+   "durationMin": 13.36,
+   "distanceKm": 9.356,
+   "listUsd": 28.94,
+   "shownUsd": 21.49
+  },
+  {
+   "id": 89,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.31399,
+    "lon": -71.1229
+   },
+   "dropoff": {
+    "lat": 42.31175,
+    "lon": -71.0765
+   },
+   "durationMin": 11,
+   "distanceKm": 5.106,
+   "listUsd": 16.95,
+   "shownUsd": 16.67
+  },
+  {
+   "id": 90,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.34624,
+    "lon": -71.08432
+   },
+   "dropoff": {
+    "lat": 42.37738,
+    "lon": -71.08694
+   },
+   "durationMin": 11.03,
+   "distanceKm": 5.654,
+   "listUsd": 29.95,
+   "shownUsd": 29.67
+  },
+  {
+   "id": 91,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.32856,
+    "lon": -71.0951
+   },
+   "dropoff": {
+    "lat": 42.37475,
+    "lon": -71.13254
+   },
+   "durationMin": 13.8,
+   "distanceKm": 8.59,
+   "listUsd": 25.95,
+   "shownUsd": 20.54
+  },
+  {
+   "id": 92,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.38186,
+    "lon": -71.10556
+   },
+   "dropoff": {
+    "lat": 42.33038,
+    "lon": -71.0887
+   },
+   "durationMin": 16.64,
+   "distanceKm": 7.252,
+   "listUsd": 37.95,
+   "shownUsd": 37.67
+  },
+  {
+   "id": 93,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.39206,
+    "lon": -71.11027
+   },
+   "dropoff": {
+    "lat": 42.37825,
+    "lon": -71.13359
+   },
+   "durationMin": 9.51,
+   "distanceKm": 3.932,
+   "listUsd": 17.94,
+   "shownUsd": 12.36
+  },
+  {
+   "id": 94,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.36452,
+    "lon": -71.1208
+   },
+   "dropoff": {
+    "lat": 42.39367,
+    "lon": -71.1352
+   },
+   "durationMin": 10.7,
+   "distanceKm": 6.197,
+   "listUsd": 23.94,
+   "shownUsd": 23.66
+  },
+  {
+   "id": 95,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.3116,
+    "lon": -71.08294
+   },
+   "dropoff": {
+    "lat": 42.37475,
+    "lon": -71.13254
+   },
+   "durationMin": 17.69,
+   "distanceKm": 10.86,
+   "listUsd": 27.96,
+   "shownUsd": 27.68
+  },
+  {
+   "id": 96,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.36058,
+    "lon": -71.07088
+   },
+   "dropoff": {
+    "lat": 42.34032,
+    "lon": -71.07848
+   },
+   "durationMin": 6.26,
+   "distanceKm": 2.823,
+   "listUsd": 24.95,
+   "shownUsd": 23.17
+  },
+  {
+   "id": 97,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.36873,
+    "lon": -71.09038
+   },
+   "dropoff": {
+    "lat": 42.3294,
+    "lon": -71.09406
+   },
+   "durationMin": 12.38,
+   "distanceKm": 5.792,
+   "listUsd": 27.95,
+   "shownUsd": 27.67
+  },
+  {
+   "id": 98,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.35558,
+    "lon": -71.10308
+   },
+   "dropoff": {
+    "lat": 42.3458,
+    "lon": -71.11884
+   },
+   "durationMin": 5.75,
+   "distanceKm": 2.535,
+   "listUsd": 15.94,
+   "shownUsd": 15.66
+  },
+  {
+   "id": 99,
+   "quotedAtLocal": "2026-11-18 17:31",
+   "pickup": {
+    "lat": 42.36487,
+    "lon": -71.10918
+   },
+   "dropoff": {
+    "lat": 42.3148,
+    "lon": -71.06733
+   },
+   "durationMin": 14.46,
+   "distanceKm": 9.265,
+   "listUsd": 28.94,
+   "shownUsd": 28.66
+  },
+  {
+   "id": 100,
+   "quotedAtLocal": "2026-11-18 17:32",
+   "pickup": {
+    "lat": 42.38206,
+    "lon": -71.06449
+   },
+   "dropoff": {
+    "lat": 42.36743,
+    "lon": -71.13126
+   },
+   "durationMin": 14.09,
+   "distanceKm": 7.963,
+   "listUsd": 25.96,
+   "shownUsd": 23.11
+  },
+  {
+   "id": 101,
+   "quotedAtLocal": "2026-11-18 17:32",
+   "pickup": {
+    "lat": 42.31464,
+    "lon": -71.08695
+   },
+   "dropoff": {
+    "lat": 42.39569,
+    "lon": -71.0824
+   },
+   "durationMin": 18.03,
+   "distanceKm": 12.694,
+   "listUsd": 29.96,
+   "shownUsd": 29.68
+  },
+  {
+   "id": 102,
+   "quotedAtLocal": "2026-11-18 17:32",
+   "pickup": {
+    "lat": 42.34846,
+    "lon": -71.07899
+   },
+   "dropoff": {
+    "lat": 42.33965,
+    "lon": -71.13489
+   },
+   "durationMin": 8.47,
+   "distanceKm": 5.297,
+   "listUsd": 22.96,
+   "shownUsd": 22.68
+  },
+  {
+   "id": 103,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.31944,
+    "lon": -71.13867
+   },
+   "dropoff": {
+    "lat": 42.33529,
+    "lon": -71.10812
+   },
+   "durationMin": 6.4,
+   "distanceKm": 4.084,
+   "listUsd": 16.95,
+   "shownUsd": 12.5
+  },
+  {
+   "id": 104,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.34102,
+    "lon": -71.09833
+   },
+   "dropoff": {
+    "lat": 42.3588,
+    "lon": -71.10053
+   },
+   "durationMin": 6.19,
+   "distanceKm": 3.173,
+   "listUsd": 24.94,
+   "shownUsd": 23.32
+  },
+  {
+   "id": 105,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.37571,
+    "lon": -71.0612
+   },
+   "dropoff": {
+    "lat": 42.39633,
+    "lon": -71.09586
+   },
+   "durationMin": 6.69,
+   "distanceKm": 4.574,
+   "listUsd": 17.94,
+   "shownUsd": 17.66
+  },
+  {
+   "id": 106,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.35172,
+    "lon": -71.12238
+   },
+   "dropoff": {
+    "lat": 42.34853,
+    "lon": -71.06933
+   },
+   "durationMin": 9.05,
+   "distanceKm": 5.443,
+   "listUsd": 22.94,
+   "shownUsd": 16.99
+  },
+  {
+   "id": 107,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.39614,
+    "lon": -71.09028
+   },
+   "dropoff": {
+    "lat": 42.31531,
+    "lon": -71.07385
+   },
+   "durationMin": 14.64,
+   "distanceKm": 11.571,
+   "listUsd": 29.93,
+   "shownUsd": 29.65
+  },
+  {
+   "id": 108,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.33733,
+    "lon": -71.07923
+   },
+   "dropoff": {
+    "lat": 42.32578,
+    "lon": -71.06083
+   },
+   "durationMin": 5.19,
+   "distanceKm": 2.932,
+   "listUsd": 14.94,
+   "shownUsd": 12.46
+  },
+  {
+   "id": 109,
+   "quotedAtLocal": "2026-11-18 17:33",
+   "pickup": {
+    "lat": 42.39874,
+    "lon": -71.13197
+   },
+   "dropoff": {
+    "lat": 42.36742,
+    "lon": -71.04769
+   },
+   "durationMin": 17.78,
+   "distanceKm": 13.6,
+   "listUsd": 35.96,
+   "shownUsd": 24.98
+  }
+ ]
+}

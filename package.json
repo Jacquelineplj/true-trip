@@ -1,0 +1,33 @@
+{
+  "name": "truetrip",
+  "version": "0.5.18",
+  "description": "TrueTrip MVP: true trip cost (room + parking/rides + travel time) and cross-platform ratings for Booking.com results",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "cli": "node cli/truetrip.js",
+    "demo": "node cli/truetrip.js --hotels fixtures/boston-cards.json --anchors \"MIT Media Lab, 75 Amherst St, Cambridge MA; Boston Convention and Exhibition Center\" --mode drive",
+    "server": "node cli/server.js",
+    "test:browser": "node scripts/browser.mjs",
+    "test:economy-browser": "node scripts/test-economy-browser.mjs",
+    "test:location-browser": "node scripts/test-booking-location-browser.mjs",
+    "test:live": "node scripts/validate-live.mjs",
+    "evaluate:parking": "node scripts/evaluate-parking.mjs",
+    "test:tax-browser": "node scripts/test-hotel-taxes.mjs",
+    "test:openai": "node scripts/test-openai.mjs",
+    "test:parking-estimate-browser": "node scripts/test-parking-estimate-browser.mjs",
+    "test:startup-browser": "node scripts/test-startup-browser.mjs",
+    "test:search-state-browser": "node scripts/test-search-state-browser.mjs",
+    "test:manual-search-browser": "node scripts/test-manual-search-browser.mjs",
+    "test:session-dates-browser": "node scripts/test-session-dates-browser.mjs",
+    "test:tax-recovery-browser": "node scripts/test-tax-recovery-browser.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "^1.58.0"
+  }
+}

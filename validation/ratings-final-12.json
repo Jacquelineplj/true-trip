@@ -1,0 +1,1707 @@
+{
+  "at": "2026-11-17T22:13:27.212Z",
+  "method": "Fresh final GPT-mini searched ratings with one focused recovery when only one platform is supported; not independently page-fetched.",
+  "elapsedMs": 18265,
+  "total": 12,
+  "google": 11,
+  "tripadvisor": 12,
+  "rows": [
+    {
+      "name": "Hampton Inn Boston Logan Airport",
+      "elapsedMs": 4373,
+      "result": {
+        "google": {
+          "rating": 3.7,
+          "reviews": 3348,
+          "url": "https://www.google.us/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgLEgcI6g8QCBgMGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceUrl": "https://www.google.us/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgLEgcI6g8QCBgMGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceQuote": "\"Google review summary: 3.7 out of 5 stars based on 3,348 reviews.\"",
+          "matchedName": "Hampton Inn Boston-Logan Airport",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 3.9,
+          "reviews": 2147,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g41785-d217547-Reviews-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g41785-d217547-Reviews-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "\"3.9 out of 5 bubbles (2,147 reviews)\"",
+          "matchedName": "Hampton Inn Boston-Logan Airport",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9136,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 244,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9380
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g41785-d217547-zft1-Hampton_Inn_Boston_Logan_Airport.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g41785-d217547-Reviews-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g41785-d217547-Reviews-or20-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g41785-d217547-Reviews-or40-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.us/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgLEgcI6g8QCBgMGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIj6vP-dXp1rcHGgsvZy8xdGo0ajFsNBAB?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIj6vP-dXp1rcHGgsvZy8xdGo0ajFsNBAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgOEgcI6g8QBRgPGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?gsas=1&ts=Gj8KIRIfCg0vZy8xMWZrNG03OWMwOg5IYXJ2YXJkIFNxdWFyZRIaEhQKBwjqDxACGA8SBwjqDxACGBAYATICEAAqBQoDCgET&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIj6vP-dXp1rcHGgsvZy8xdGo0ajFsNBAB?rp=OAHCAhwiGg0AABpDEhMI0p2dgdnGlgMVSt_CBB2lIAvq&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?ap=ugEGcHJpY2Vz&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g41785-d217547-Reviews-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Review-g41785-d217547-Reviews-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Feature-g41785-d217547-zft1-Hampton_Inn_Boston_Logan_Airport.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.sv/travel/hotels/entity/ChcIj6vP-dXp1rcHGgsvZy8xdGo0ajFsNBAB?ap=MAA&gl=us&gsas=1&hl=en&rp=OAFIAsICHCIaDQAAJUMSEwjj5uWh-OmOAxX9h6sHHVo_OFQ&ts=CAESCgoCCAMKAggDEAAaUQozEi8yJDB4ODllMzcxMGE1MDI0Yjk2OToweDcxMTg3Y2Y4NzJlNTNjMDoHRXZlcmV0dBoAEhoSFAoHCOkPEAgYBBIHCOkPEAgYBRgBMgIQACoJCgU6A1VTRBoA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?rp=OAHCAhwiGg0AAJFDEhMIxfehjrbYlQMVcaHCCB1w2QNy&ts=CAEaIgoCGgASHBIUCgcI6g8QChgWEgcI6g8QChgXGAEyAhAAOAEqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcIj6vP-dXp1rcHGgsvZy8xdGo0ajFsNBAB?rp=OAHCAhwiGg0AANhCEhMI2czSp6DbjgMV86DCCB0ywyRJ&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgNEgcI6g8QCBgOGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.hn/travel/hotels/entity/ChcIj6vP-dXp1rcHGgsvZy8xdGo0ajFsNBAB?ap=ugEGcHJpY2Vz&gl=hn&gsas=1&hl=en&rp=OAE&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AAFNDEhMInp2SwYvSlgMVnUvOAB2HqDKU&ts=CAEaIAoCGgASGhIUCgcI6g8QCRgaEgcI6g8QChgDGAcyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?gl=us&gsas=1&hl=en&rp=OAHCAgIiAA&ts=CAEaIAoCGgASGhIUCgcI6g8QCRgKEgcI6g8QCRgLGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/ChcIj6vP-dXp1rcHGgsvZy8xdGo0ajFsNBAB?gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AAEZDEhMIg92nyKOolgMVFxatBh09VBB4&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgfEgcI6g8QCRgBGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.in/Hotel_Feature-g41785-d217547-zft9165-Hampton_Inn_Boston_Logan_Airport.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g41785-d217547-Reviews-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.bd/travel/hotels/entity/CgoIj6vP-dXp1rcHEAE?ap=MAA&gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AAA1DEhMInbiYuZerkAMVKyPUAR22vyU1&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ca/Hotel_Review-g41785-d217547-Reviews-Hampton_Inn_Boston_Logan_Airport-Revere_Massachusetts.html?utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Omni Boston Hotel at the Seaport",
+      "elapsedMs": 4186,
+      "result": {
+        "google": {
+          "rating": 4.2,
+          "reviews": 2334,
+          "url": "https://www.google.us/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?ap=ugEGcHJpY2Vz&utm_source=openai",
+          "sourceUrl": "https://www.google.us/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?ap=ugEGcHJpY2Vz&utm_source=openai",
+          "sourceQuote": "Google reviews: 4.2 out of 5 (2,334 reviews)",
+          "matchedName": "Omni Boston Hotel at the Seaport",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 4.6,
+          "reviews": 3088,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "Tripadvisor reviews: 4.6 out of 5 (3,088 reviews)",
+          "matchedName": "Omni Boston Hotel at the Seaport",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9140,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 175,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9315
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-or60-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-or10-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-or20-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-or50-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d23469598-Reviews-or150-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.ph/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.gr/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.us/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?ap=ugEGcHJpY2Vz&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoIt8zX2rCI0KvFARoNL2cvMTFmN3A5OW01cBAB?rp=OAHCAhwiGg0AADlDEhMIoarwmMuLlQMV0hFECB1xLCFv&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?rp=OAHCAhwiGg0AAHlDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?rp=OAHCAhwiGg0AgIhDEhMIoarwmMuLlQMV0hFECB1xLCFv&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?rp=OAHCAhwiGg0AACBDEhMI1MDe09uAlgMV-yatBh1bMALg&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgDEgcI6g8QCBgEGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?rp=OAHCAhwiGg0AABpDEhMI0p2dgdnGlgMVSt_CBB2lIAvq&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?gsas=1&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?rp=OAHCAhwiGg0AADhDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsIt8zX2rCI0KvFARAB?rp=OAHCAhwiGg0AAD1DEhMI7aGIuIeJlQMV4pzuAR3g1Q0u&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgQEgcI6g8QBhgRGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoIt8zX2rCI0KvFARoNL2cvMTFmN3A5OW01cBAB?rp=OAHCAhwiGg0AAFFDEhMI0KfQlcKjlgMV8BGtBh1f2Aah&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoIt8zX2rCI0KvFARoNL2cvMTFmN3A5OW01cBAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoIt8zX2rCI0KvFARoNL2cvMTFmN3A5OW01cBAB?gsas=1&ts=Gj8KIRIfCg0vZy8xMWZrNG03OWMwOg5IYXJ2YXJkIFNxdWFyZRIaEhQKBwjqDxACGA8SBwjqDxACGBAYATICEAAqBQoDCgET&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ca/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html?utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hilton Boston Logan Airport",
+      "elapsedMs": 11388,
+      "result": {
+        "google": {
+          "rating": 4.1,
+          "reviews": 3920,
+          "url": "https://www.google.com/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceQuote": "4.1\n3,920 reviews",
+          "matchedName": "Hilton Boston Logan Airport",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 3.9,
+          "reviews": 4824,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "3.9 of 5 bubbles (4,824 reviews)",
+          "matchedName": "Hilton Boston Logan Airport",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9134,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 144,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9278
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d34377584-Reviews-Hilton_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or2480-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or10-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or30-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or50-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or130-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or120-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?gsas=1&ts=GkwKLhIsCgkvbS8wMjEzYno6H0lzYWJlbGxhIFN0ZXdhcnQgR2FyZG5lciBNdXNldW0SGhIUCgcI6g8QAhgPEgcI6g8QAhgQGAEyAhAAKgUKAwoBEw&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?ap=MAA&rp=SAI&ts=GjMKMRIvMiUweDg5ZTM2NTJkMGQzZDMxMWI6MHg3ODdjYmYyNDAxNjJlOGEwOgZCb3N0b24&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.nl/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.za/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.sv/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?ap=MAA&gl=us&gsas=1&hl=en&rp=OAFIAsICHCIaDQAA_EISEwjhxu6FzeqOAxXev6sHHZ5IMqg&ts=CAESCgoCCAMKAggDEAAaUQozEi8yJDB4ODllMzcxMGE1MDI0Yjk2OToweDcxMTg3Y2Y4NzJlNTNjMDoHRXZlcmV0dBoAEhoSFAoHCOkPEAgYBBIHCOkPEAgYBRgBMgIQACoJCgU6A1VTRBoA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?gl=us&gsas=1&hl=en&rp=OAHCAgIiAA&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?gl=us&gsas=1&hl=en&rp=OAHCAgIiAA&ts=CAEaIgoCGgASHBIUCgcI6g8QChgLEgcI6g8QChgQGAUyAhAAOAEqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?ap=ugEGcHJpY2Vz&gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AAEZDEhMIg92nyKOolgMVFxatBh09VBB4&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgUEgcI6g8QCBgVGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AADJDEhMI--rsgeirlgMVtCg1Bx1WDRYa&ts=CAEaIAoCGgASGhIUCgcI6g8QCRgbEgcI6g8QCRgeGAMyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhwiGg0AAGFDEhMIw_mPlffmlQMVlwCHAx0legMN&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhwiGg0AAMZCEhMI07vLiNmIiwMVWPVLAx2QsjtO&ts=CAEaIgoCGgASHBIUCgcI6g8QCBgPEgcI6g8QCBgTGAQyAhAAOAEqCQoFOgNVU0QaAA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhwiGg0AAAhDEhMIvKq7lqXjlgMVVb8DAB2wjTt4&ts=CAESCgoCCAMKAggDEAAaIAoCGgASGhIUCgcI6g8QCxgLEgcI6g8QCxgPGAQyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d34377584-Reviews-Hilton_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or2480-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or10-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or50-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or120-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or130-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d120988-Reviews-or30-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?gsas=1&ts=GkwKLhIsCgkvbS8wMjEzYno6H0lzYWJlbGxhIFN0ZXdhcnQgR2FyZG5lciBNdXNldW0SGhIUCgcI6g8QAhgPEgcI6g8QAhgQGAEyAhAAKgUKAwoBEw&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhwiGg0AAD1DEhMI7aGIuIeJlQMV4pzuAR3g1Q0u&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgQEgcI6g8QBhgRGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.sv/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?ap=MAA&gl=us&gsas=1&hl=en&rp=OAFIAsICHCIaDQAA_EISEwjhxu6FzeqOAxXev6sHHZ5IMqg&ts=CAESCgoCCAMKAggDEAAaUQozEi8yJDB4ODllMzcxMGE1MDI0Yjk2OToweDcxMTg3Y2Y4NzJlNTNjMDoHRXZlcmV0dBoAEhoSFAoHCOkPEAgYBBIHCOkPEAgYBRgBMgIQACoJCgU6A1VTRBoA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.nl/Hotel_Review-g60745-d120988-Reviews-Hilton_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?gl=us&gsas=1&hl=en&rp=OAHCAgIiAA&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?ap=ugEGcHJpY2Vz&gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AAEZDEhMIg92nyKOolgMVFxatBh09VBB4&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgUEgcI6g8QCBgVGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/ChcIraC8-Jv8xeY_GgsvZy8xdGRrYzIwaxAB?gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AADJDEhMI--rsgeirlgMVtCg1Bx1WDRYa&ts=CAEaIAoCGgASGhIUCgcI6g8QCRgbEgcI6g8QCRgeGAMyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhwiGg0AAGFDEhMIw_mPlffmlQMVlwCHAx0legMN&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhwiGg0AAMZCEhMI07vLiNmIiwMVWPVLAx2QsjtO&ts=CAEaIgoCGgASHBIUCgcI6g8QCBgPEgcI6g8QCBgTGAQyAhAAOAEqCQoFOgNVU0QaAA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhwiGg0AAAhDEhMIvKq7lqXjlgMVVb8DAB2wjTt4&ts=CAESCgoCCAMKAggDEAAaIAoCGgASGhIUCgcI6g8QCxgLEgcI6g8QCxgPGAQyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhwiGg0AAAFDEhMIotTT8JLmiwMV1MTCBB3iLhfq&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.co.ke/travel/hotels/entity/CgoIraC8-Jv8xeY_EAE?rp=OAHCAhciFRITCNGn5pei9ogDFbaN7gEd0tAkgA&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          }
+        ],
+        "recoveryAttempts": 1
+      }
+    },
+    {
+      "name": "The Westin Copley Place, Boston",
+      "elapsedMs": 7813,
+      "result": {
+        "google": {
+          "rating": 4.4,
+          "reviews": 4120,
+          "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceQuote": "4.4\n4,120 reviews",
+          "matchedName": "The Westin Copley Place, Boston",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 4.2,
+          "reviews": 5174,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "\"4.2 of 5 bubbles (5,174 reviews)\"",
+          "matchedName": "The Westin Copley Place, Boston",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9142,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 280,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9422
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-or20-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-or40-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AADhDEhMI1MDe09uAlgMV-yatBh1bMALg&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgOEgcI6g8QBRgPGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?gsas=1&ts=Gj8KIRIfCg0vZy8xMWZrNG03OWMwOg5IYXJ2YXJkIFNxdWFyZRIaEhQKBwjqDxACGA8SBwjqDxACGBAYATICEAAqBQoDCgET&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgDEgcI6g8QCBgEGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d89617-Reviews-or4570-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&rp=OAHCAhwiGg0AAEVDEhMIjvCY_sCSjQMVqbJ_BB0sKhys&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAO5CEhMIq4yHzrORjgMVEE8tBB03ZSng&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?q=Back+Bay&ts=CAEaIgoCGgASHBIUCgcI6g8QBRgPEgcI6g8QBRgVGAYyAhAAOAEqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAJJDEhMI5eafwLb2lQMVLxXUAR2-VjGg&ts=CAESCgoCCAMKAggDEAAaIAoCGgASGhIUCgcI6g8QCRgUEgcI6g8QCRgXGAMyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.in/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ca/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.sv/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=MAA&gl=us&gsas=1&hl=en&rp=OAFIAsICHCIaDQAAIkMSEwj-ktrcr9qOAxVOqasHHaHtOW0&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-or4650-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-or20-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-or40-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AADhDEhMI1MDe09uAlgMV-yatBh1bMALg&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgOEgcI6g8QBRgPGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?gsas=1&ts=Gj8KIRIfCg0vZy8xMWZrNG03OWMwOg5IYXJ2YXJkIFNxdWFyZRIaEhQKBwjqDxACGA8SBwjqDxACGBAYATICEAAqBQoDCgET&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgDEgcI6g8QCBgEGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=MAA&rp=SAI&ts=CAESABpYCjoSNjIlMHg4OWUzNjU2ZGU5NzNiZmZkOjB4NDVjNmQwMzY1NTgzMGQxYzoNTWFzc2FjaHVzZXR0cxoAEhoSFAoHCOUPEAQYFxIHCOUPEAQYGBgBMgIQACoJCgU6A1VTRBoA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?gl=us&gsas=1&hl=en&rp=OAHCAgIiAA&ts=CAEaIgoCGgASHBIUCgcI6g8QChgLEgcI6g8QChgQGAUyAhAAOAEqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=ugEGcHJpY2Vz&rp=OAHCAhwiGg0AAEVDEhMIjvCY_sCSjQMVqbJ_BB0sKhys&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?rp=OAHCAhwiGg0AAO5CEhMIq4yHzrORjgMVEE8tBB03ZSng&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.sv/travel/hotels/entity/ChcImcqWlNmvn8x9GgsvZy8xdGRxdmsxaBAB?ap=MAA&gl=us&gsas=1&hl=en&rp=OAFIAsICHCIaDQAAIkMSEwj-ktrcr9qOAxVOqasHHaHtOW0&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          }
+        ],
+        "recoveryAttempts": 1
+      }
+    },
+    {
+      "name": "Hilton Garden Inn Boston Logan Airport",
+      "elapsedMs": 3646,
+      "result": {
+        "google": {
+          "rating": 4.4,
+          "reviews": 2313,
+          "url": "https://www.google.com/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?rp=OAHCAhwiGg0AAHlDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?rp=OAHCAhwiGg0AAHlDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceQuote": "\"4.4 out of 5 stars (2,313 reviews)\"",
+          "matchedName": "Hilton Garden Inn Boston Logan Airport",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 4.5,
+          "reviews": 1658,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d8142646-Reviews-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d8142646-Reviews-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "\"4.5 out of 5 bubbles (1,658 reviews)\"",
+          "matchedName": "Hilton Garden Inn Boston Logan Airport",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9138,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 285,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9423
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d8142646-Reviews-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d8142646-Reviews-or10-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d8142646-Reviews-or1030-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g60745-d8142646-zft1-Hilton_Garden_Inn_Boston_Logan_Airport.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d8142646-Reviews-or20-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d8142646-Reviews-or30-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Hilton-Garden-Inn-Boston-Logan-Airport.h11501234.Hotel-Information?affcid=US.DIRECT.PHG.1100l427453.1100l68075&affdtl=PHG..&afflid=&clickref=&my_ad=AFF.US.DIRECT.PHG.1100l427453.1100l68075&ref_id=&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?rp=OAHCAhwiGg0AAHlDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgbEgcI6g8QCBgcGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?rp=OAHCAhwiGg0AADVDEhMI0p2dgdnGlgMVSt_CBB2lIAvq&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgfEgcI6g8QCRgBGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?rp=OAHCAhwiGg0AABdDEhMI0KfQlcKjlgMV8BGtBh1f2Aah&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d8142646-Reviews-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.nl/Hotel_Review-g60745-d8142646-Reviews-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ca/Hotel_Review-g60745-d8142646-Reviews-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Review-g60745-d8142646-Reviews-Hilton_Garden_Inn_Boston_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.us/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.gg/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.sv/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?ap=MAA&gl=us&gsas=1&hl=en&rp=OAFIAsICHCIaDQAAQEMSEwjbxN-Bvp2QAxVzjasHHYNeDN0&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.sv/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?ap=MAA&gl=us&gsas=1&hl=en&rp=SAI&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.gh/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.bd/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB/prices?ap=MAA&gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AgNdDEhMIzZiw65SrkAMV-KADAB1X6SSd&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChoI2-66o-WFo-CaARoNL2cvMTFiODA2bXNrORAB?rp=OAHCAhciFRITCOi-srPurY4DFZ5AbwQddmcs0w&ts=CAEaBAoCGgAqCQoFOgNVU0QaAA&utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "citizenM Boston Back Bay",
+      "elapsedMs": 3363,
+      "result": {
+        "google": {
+          "rating": 4.3,
+          "reviews": 636,
+          "url": "https://www.google.com/travel/hotels/entity/ChoI3dno77uWzYGPARoNL2cvMTFsNW55c3Y2bBAB?utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/ChoI3dno77uWzYGPARoNL2cvMTFsNW55c3Y2bBAB?utm_source=openai",
+          "sourceQuote": "\"4.3\nVery good | 636 reviews\"",
+          "matchedName": "citizenM Boston Back Bay",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 4.2,
+          "reviews": 359,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d27701846-Reviews-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d27701846-Reviews-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "\"4.2\n4.2 of 5 bubbles\n(359 reviews)\"",
+          "matchedName": "citizenM Boston Back Bay",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9136,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 201,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9337
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g60745-d27701846-zft1-CitizenM_Boston_Back_Bay.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d27701846-Reviews-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d27701846-Reviews-or50-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d27701846-Reviews-or10-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d27701846-Reviews-or40-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g60745-d27701846-zft9166-CitizenM_Boston_Back_Bay.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d27701846-Reviews-or20-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoI3dno77uWzYGPARoNL2cvMTFsNW55c3Y2bBAB?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChoI3dno77uWzYGPARoNL2cvMTFsNW55c3Y2bBAB?rp=OAHCAhwiGg0AAHhDEhMI5tP-ufaBlgMVOQutBh0dDhEw&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgDEgcI6g8QCBgEGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d27701846-Reviews-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d27701846-Reviews-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.fr/Hotel_Review-g60745-d27701846-Reviews-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co/Hotel_Review-g60745-d27701846-Reviews-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-CitizenM-Boston-Back-Bay.h96998829.Hotel-Information?msockid=3bdc8a26fadc6ae62f279cf7fbca6b1d&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.br/Hotel_Review-g60745-d27701846-Reviews-CitizenM_Boston_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://reviews.birdeye.com/citizenm-boston-back-bay-171635133835808?utm_source=openai"
+          },
+          {
+            "url": "https://www.booking.com/hotel/us/citizenm-boston-back-bay.html?msockid=26e6af3146466d950dbab9e247686c8f&utm_source=openai"
+          },
+          {
+            "url": "https://www.hotels.com/ho3104962528/citizenm-boston-back-bay-boston-united-states-of-america/?utm_source=openai"
+          },
+          {
+            "url": "https://www.orbitz.com/Boston-Hotels-CitizenM-Boston-Back-Bay.h96998829.Hotel-Information?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChoI3dno77uWzYGPARoNL2cvMTFsNW55c3Y2bBAB?rp=OAHCAhwiGg0AAOZCEhMIqJHekrzflQMVVfZLAx2cOzfp&ts=CAEaIgoCGgASHBIUCgcI6g8QCBgREgcI6g8QCBgUGAMyAhAAOAEqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChoI3dno77uWzYGPARoNL2cvMTFsNW55c3Y2bBAB?rp=OAHCAhwiGg0AAGFDEhMIxfehjrbYlQMVcaHCCB1w2QNy&ts=CAEaIgoCGgASHBIUCgcI6g8QCBgJEgcI6g8QCBgNGAQyAhAAOAEqCQoFOgNVU0QaAA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChoI3dno77uWzYGPARoNL2cvMTFsNW55c3Y2bBAB?q=Back+Bay&qs=OAA&ts=CAEaIgoCGgASHBIUCgcI6g8QCRgUEgcI6g8QCRgYGAQyAhAAOAEqBAoAGgA&utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleTree by Hilton Hotel Boston Bayside",
+      "elapsedMs": 3665,
+      "result": {
+        "google": {
+          "rating": 3.8,
+          "reviews": 1921,
+          "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceQuote": "3.8\nGood | 1,921 reviews",
+          "matchedName": "DoubleTree by Hilton Hotel Boston Bayside",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 3.8,
+          "reviews": 2413,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d94368-Reviews-or490-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d94368-Reviews-or490-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "3.8\n3.8 of 5 bubbles\n(2,412 reviews)",
+          "matchedName": "DoubleTree by Hilton Hotel Boston Bayside",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9140,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 245,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9385
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d94368-Reviews-or490-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d94368-Reviews-or40-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d94368-Reviews-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.booking.com/hotel/us/doubletree-club-bayside.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?ap=ugEGcHJpY2Vz&rp=OAHCAhwiGg0AAJJDEhMInajN_dyClQMVAKarBx2trQea&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ/prices?ap=ugEGcHJpY2Vz&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?gsas=1&ts=GjoKHBIaCgsvZy8xdGx0bmN0NjoLUm93ZXMgV2hhcmYSGhIUCgcI6g8QAhgPEgcI6g8QAhgQGAEyAhAAKgUKAwoBBg&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/boston-hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?rp=OAHCAhwiGg0AAFRDEhMI1v_Bp_X-lAMV8a-rBx2qbyew&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgPEgcI6g8QBhgQGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?gsas=1&ts=GkwKLhIsCgkvbS8wMjEzYno6H0lzYWJlbGxhIFN0ZXdhcnQgR2FyZG5lciBNdXNldW0SGhIUCgcI6g8QAhgPEgcI6g8QAhgQGAEyAhAAKgUKAwoBEw&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?ap=MAA&rp=OAFIAg&ts=CAESABpYCjoSNjIlMHg4OWUzNjU2ZGU5NzNiZmZkOjB4NDVjNmQwMzY1NTgzMGQxYzoNTWFzc2FjaHVzZXR0cxoAEhoSFAoHCOUPEAQYBRIHCOUPEAQYBhgBMgIQACoPCgsoAUoCIAE6A1VTRBoA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?rp=OAHCAhwiGg0AAOZCEhMIoarwmMuLlQMV0hFECB1xLCFv&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?rp=OAHCAhwiGg0AAB9DEhMI0KfQlcKjlgMV8BGtBh1f2Aah&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?ap=MAA&rp=SAI&ts=CAESABpYCjoSNjIlMHg4OWUzNjU2ZGU5NzNiZmZkOjB4NDVjNmQwMzY1NTgzMGQxYzoNTWFzc2FjaHVzZXR0cxoAEhoSFAoHCOUPEAQYFxIHCOUPEAQYGBgBMgIQACoJCgU6A1VTRBoA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d94368-Reviews-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.in/Hotel_Review-g60745-d94368-Reviews-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ca/Hotel_Review-g60745-d94368-Reviews-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-DoubleTree-By-Hilton-Hotel-Boston-Bayside.h296419.Hotel-Information?affcid=US.DIRECT.PHG.1101l412890.1100l68075&affdtl=PHG..&afflid=&clickref=&my_ad=AFF.US.DIRECT.PHG.1101l412890.1100l68075&ref_id=&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.my/Hotel_Review-g60745-d94368-Reviews-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.nz/Hotel_Review-g60745-d94368-Reviews-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.hn/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?gl=hn&gsas=1&hl=en&rp=OAE&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Review-g60745-d94368-Reviews-DoubleTree_by_Hilton_Boston_Bayside-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChgIveXI08aO79rcARoLL2cvMXRkd3IyencQAQ?rp=OAHCAhwiGg0AgIFDEhMI1sbNqdTniAMVI3J_AB24cQaT&ts=CAEaIgoCGgASHBIUCgcI6g8QChgLEgcI6g8QChgMGAEyAhAAOAEqCQoFOgNVU0QaAA&utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Embassy Suites Boston at Logan Airport",
+      "elapsedMs": 3851,
+      "result": {
+        "google": {
+          "rating": 4.1,
+          "reviews": 3350,
+          "url": "https://www.google.com/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceQuote": "Google review summary: 4.1 out of 5 (3,350 reviews)",
+          "matchedName": "Embassy Suites Boston at Logan Airport",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 3.9,
+          "reviews": 3260,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d268205-Reviews-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d268205-Reviews-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "Embassy Suites by Hilton Boston at Logan Airport: 3.9 out of 5 (3,260 reviews)",
+          "matchedName": "Embassy Suites Boston at Logan Airport",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9138,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 297,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9435
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d268205-Reviews-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d268205-Reviews-or40-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d268205-Reviews-or2040-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d268205-Reviews-or30-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d268205-Reviews-or20-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d268205-Reviews-or10-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.booking.com/hotel/us/embassy-boston-logan.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d268205-Reviews-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?rp=OAHCAhwiGg0AAFZDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?ap=MAA&rp=OAFIAg&ts=CAESABpYCjoSNjIlMHg4OWUzNjU2ZGU5NzNiZmZkOjB4NDVjNmQwMzY1NTgzMGQxYzoNTWFzc2FjaHVzZXR0cxoAEhoSFAoHCOUPEAQYBRIHCOUPEAQYBhgBMgIQACoPCgsoAUoCIAE6A1VTRBoA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d268205-Reviews-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.za/Hotel_Review-g60745-d268205-Reviews-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d268205-Reviews-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Review-g60745-d268205-Reviews-Embassy_Suites_by_Hilton_Boston_at_Logan_Airport-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.mx/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AAPhCEhMIjLj85-KplgMV5QStBh1JiSp9&ts=CAEaIAoCGgASGhIUCgcI6g8QChgSEgcI6g8QChgYGAYyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.au/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.au/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?ap=ugEGcHJpY2Vz&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.bz/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.co.ke/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?rp=OAHCAhwiGg0AAMRCEhMIlZ_xgciolgMV2x68AR2W2QsK&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgbEgcI6g8QCBgcGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?rp=OAHCAhwiGg0AAMRCEhMIn9yF0uLsiwMVCjWtBh13NgLt&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?rp=OAHCAhwiGg0AABRDEhMIxfehjrbYlQMVcaHCCB1w2QNy&ts=CAEaIgoCGgASHBIUCgcI6g8QCRgIEgcI6g8QCRgNGAUyAhAAOAEqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?rp=OAHCAhwiGg0AAOJCEhMIq4yHzrORjgMVEE8tBB03ZSng&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?rp=OAHCAhwiGg0AAAJDEhMI39KY-quQlwMVm8hLAx1FiC7o&ts=CAESCgoCCAMKAggDEAAaIAoCGgASGhIUCgcI6g8QCxgZEgcI6g8QCxgcGAMyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.bd/travel/hotels/entity/ChkI5fnBysLevfmyARoML2cvMWhjMF9oNndiEAE?ap=MAA&gl=us&gsas=1&hl=en&rp=OAHCAhwiGg0AAB1DEhMIt62A-5CrhgMVrUarAh2XOwzp&ts=CAESCgoCCAMKAggDEAAaXQo_EjsyJTB4ODllMzcwODE0NGI0MjM2NToweDY1YTcwOWE0Yzc2NDBiMzM6EkZpbmFuY2lhbCBEaXN0cmljdBoAEhoSFAoHCOkPEAsYCxIHCOkPEAsYDBgBMgIQACoJCgU6A1VTRBoA&utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleTree by Hilton Hotel Boston - Downtown",
+      "elapsedMs": 3648,
+      "result": {
+        "google": {
+          "rating": 4.1,
+          "reviews": 2615,
+          "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?rp=OAHCAhwiGg0AADpDEhMIq_ffq8LblAMV1oNaBR0YXRxm&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgcEgcI6g8QBRgdGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?rp=OAHCAhwiGg0AADpDEhMIq_ffq8LblAMV1oNaBR0YXRxm&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgcEgcI6g8QBRgdGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai",
+          "sourceQuote": "\"4.1 Very good | 2,617 reviews\"",
+          "matchedName": "DoubleTree by Hilton Hotel Boston - Downtown",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 4,
+          "reviews": 2365,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217550-Reviews-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d217550-Reviews-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "\"4.0 4 of 5 bubbles (2,365 reviews)\"",
+          "matchedName": "DoubleTree by Hilton Hotel Boston - Downtown",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9140,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 270,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9410
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217550-Reviews-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g60745-d217550-zft9656-Doubletree_By_Hilton_Hotel_Boston_Downtown.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217550-Reviews-or30-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217550-Reviews-or1890-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217550-Reviews-or20-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217550-Reviews-or1860-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217550-Reviews-or10-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?rp=OAHCAhwiGg0AADpDEhMIq_ffq8LblAMV1oNaBR0YXRxm&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgcEgcI6g8QBRgdGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?rp=OAHCAhwiGg0AABlDEhMI1MDe09uAlgMV-yatBh1bMALg&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgKEgcI6g8QCBgLGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgI1tLA-L3agcSJARoLL2cvMXRxOGtrZjAQAQ?rp=OAHCAhwiGg0AgIhDEhMIoarwmMuLlQMV0hFECB1xLCFv&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?rp=OAHCAhwiGg0AAFRDEhMI1v_Bp_X-lAMV8a-rBx2qbyew&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgPEgcI6g8QBhgQGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?rp=OAHCAhwiGg0AADhDEhMI1MDe09uAlgMV-yatBh1bMALg&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?ts=CAEaIAoCGgASGhIUCgcI6g8QCRgKEgcI6g8QCRgLGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/boston-hotels/entity/ChgI1tLA-L3agcSJARoLL2cvMXRxOGtrZjAQAQ?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?ts=CAEaIAoCGgASGhIUCgcI6g8QBhgPEgcI6g8QBhgQGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgI1tLA-L3agcSJARoLL2cvMXRxOGtrZjAQAQ?rp=OAHCAhwiGg0AAHhDEhMI5tP-ufaBlgMVOQutBh0dDhEw&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgDEgcI6g8QCBgEGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgsI1tLA-L3agcSJARAB?rp=OAHCAhwiGg0AABVDEhMIsqiC0-yMlQMVnrWrBx0gngxg&ts=CAEaIAoCGgASGhIUCgcI6g8QBhgREgcI6g8QBhgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgI1tLA-L3agcSJARoLL2cvMXRxOGtrZjAQAQ?gsas=1&ts=GjoKHBIaCgsvZy8xdGx0bmN0NjoLUm93ZXMgV2hhcmYSGhIUCgcI6g8QAhgPEgcI6g8QAhgQGAEyAhAAKgUKAwoBBg&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d217550-Reviews-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d217550-Reviews-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d217550-Reviews-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Review-g60745-d217550-Reviews-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.nl/Hotel_Review-g60745-d217550-Reviews-Doubletree_By_Hilton_Hotel_Boston_Downtown-Boston_Massachusetts.html?utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Atlas Hotel Boston Cambridge",
+      "elapsedMs": 2945,
+      "result": {
+        "google": {
+          "rating": 4.3,
+          "reviews": 95,
+          "url": "https://www.google.com/travel/hotels/entity/ChkIx5_Vv_v8vdNxGg0vZy8xMXh2djIyN2pxEAE?utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/ChkIx5_Vv_v8vdNxGg0vZy8xMXh2djIyN2pxEAE?utm_source=openai",
+          "sourceQuote": "\"4.3\nVery good | 95 reviews\"",
+          "matchedName": "The Atlas Hotel Boston Cambridge",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 4.8,
+          "reviews": 58,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "\"4.8\n4.8 of 5 bubbles\n(58 reviews)\"",
+          "matchedName": "The Atlas Hotel Boston Cambridge",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9134,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 203,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9337
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d33958047-Reviews-or10-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g60745-d33958047-zft1-The_Atlas_Hotel.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d33958047-Reviews-or20-The_Atlas_Hotel-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g60745-d33958047-zft9165-The_Atlas_Hotel_Boston_Cambridge.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Feature-g60745-d33958047-zft1-The_Atlas_Hotel_Boston_Cambridge.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChkIx5_Vv_v8vdNxGg0vZy8xMXh2djIyN2pxEAE?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChkIx5_Vv_v8vdNxGg0vZy8xMXh2djIyN2pxEAE?gsas=1&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.br/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-The-Atlas-Hotel.h118784552.Hotel-Information?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.mx/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.pt/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.tr/Hotel_Review-g60745-d33958047-Reviews-The_Atlas_Hotel_Boston_Cambridge-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.hotwire.com/Boston-Hotels-The-Atlas-Hotel.h118784552.Hotel-Information?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.ng/travel/hotels/entity/ChkIx5_Vv_v8vdNxGg0vZy8xMXh2djIyN2pxEAE?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChkIx5_Vv_v8vdNxGg0vZy8xMXh2djIyN2pxEAE?rp=OAHCAhwiGg0AALZCEhMIztOx8OfclQMVp6DCCB2AYCW9&ts=CAEaIgoCGgASHBIUCgcI6g8QChgXEgcI6g8QChgYGAEyAhAAOAEqCQoFOgNVU0QaAA&utm_source=openai"
+          },
+          {
+            "url": "https://www.booking.com/hotel/us/the-atlas.html?came_from_hotel_review=1&keep_landing=1&utm_source=openai"
+          },
+          {
+            "url": "https://www.booking.com/hotel/us/the-atlas.tl.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.booking.com/hotel/us/the-atlas.pl.html?utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wyndham Boston Beacon Hill",
+      "elapsedMs": 3030,
+      "result": {
+        "google": {
+          "rating": 3.7,
+          "reviews": 2609,
+          "url": "https://www.google.com/travel/hotels/entity/CgoI-s6J_e3p3KwWEAE?utm_source=openai",
+          "sourceUrl": "https://www.google.com/travel/hotels/entity/CgoI-s6J_e3p3KwWEAE?utm_source=openai",
+          "sourceQuote": "\"3.7\nGood | 2,609 reviews\"",
+          "matchedName": "Wyndham Boston Beacon Hill",
+          "source": "llm-search (unverified)",
+          "via": "Google Travel",
+          "confidence": "high"
+        },
+        "tripadvisor": {
+          "rating": 3.7,
+          "reviews": 3128,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "\"3.7\n3.7 of 5 bubbles\n(3,128 reviews)\"",
+          "matchedName": "Wyndham Boston Beacon Hill",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": null,
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9134,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 191,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9325
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-or1290-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-or30-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-or1960-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-or40-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-or20-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d217546-Reviews-or2430-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g60745-d217546-zft1-Wyndham_Boston_Beacon_Hill.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.trip.com/hotels/boston-hotel-detail-2193546/wyndham-boston-beacon-hill/review.html?utm_source=openai"
+          },
+          {
+            "url": "https://us.trip.com/hotels/boston-hotel-detail-2193546/wyndham-boston-beacon-hill/review.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/CgoI-s6J_e3p3KwWEAE?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgI-s6J_e3p3KwWGgwvZy8xMjYxODBwdjgQAQ?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChgI-s6J_e3p3KwWGgwvZy8xMjYxODBwdjgQAQ?gsas=1&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d217546-Reviews-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripster.com/detail/wyndham-beacon-hill?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.us/travel/hotels/entity/ChgI-s6J_e3p3KwWGgwvZy8xMjYxODBwdjgQAQ?ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.us/travel/hotels/entity/ChgI-s6J_e3p3KwWGgwvZy8xMjYxODBwdjgQAQ?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgLEgcI6g8QCBgMGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.us/travel/hotels/entity/ChgI-s6J_e3p3KwWGgwvZy8xMjYxODBwdjgQAQ?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6A8QBhgEEgcI6A8QBhgFGAEyAhAAKgQKABoA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.us/travel/hotels/entity/ChgI-s6J_e3p3KwWGgwvZy8xMjYxODBwdjgQAQ?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.us/travel/hotels/entity/ChgI-s6J_e3p3KwWGgwvZy8xMjYxODBwdjgQAQ?ap=ugEGcHJpY2Vz&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d217546-Reviews-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.au/Hotel_Review-g60745-d217546-Reviews-Wyndham_Boston_Beacon_Hill-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.klook.com/en-AE/hotels/detail/439437-wyndham-boston-beacon-hill/?utm_source=openai"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hotel AKA Back Bay",
+      "elapsedMs": 6778,
+      "result": {
+        "google": null,
+        "tripadvisor": {
+          "rating": 4.6,
+          "reviews": 2846,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai",
+          "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai",
+          "sourceQuote": "4.6 of 5 bubbles (2,846 reviews)",
+          "matchedName": "Hotel AKA Back Bay",
+          "source": "llm-search (unverified)",
+          "via": null,
+          "confidence": "high"
+        },
+        "rejections": {
+          "google": "No supported 1–5 rating found",
+          "tripadvisor": null
+        },
+        "costUsd": null,
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini-2024-07-18",
+          "usage": {
+            "input_tokens": 9132,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cache_write_tokens_details": {
+                "ttl_12h_tokens": 0,
+                "ttl_30m_tokens": 0
+              },
+              "cached_tokens": 0
+            },
+            "output_tokens": 105,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9237
+          },
+          "webSearchCalls": 1
+        },
+        "citations": [],
+        "sources": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or30-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or300-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or2050-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or330-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or1700-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or660-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or40-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.sg/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.my/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AgIdDEhMIxcTz65qulAMV1aGrBx3rYA9N&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgLEgcI6g8QBRgMGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?ap=ugEGcHJpY2Vz&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgOEgcI6g8QBRgPGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAFFDEhMI0KfQlcKjlgMV8BGtBh1f2Aah&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAFhDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?gsas=1&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?ap=MAA&rp=SAI&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB/prices?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.ph/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAN5CEhMI9b_byIuKiAMVbkNvBB3VETB6&ts=CAEaIgoCGgASHBIUCgcI6g8QAxgSEgcI6g8QAxgWGAQyAhAAOAEqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AACdDEhMI8rf37pjmlQMVIgCHAx1ezioD&ts=CAEaIgoCGgASHBIUCgcI6g8QCRgGEgcI6g8QCRgMGAYyAhAAOAEqCQoFOgNVU0QaAA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAPpCEhMIzavkkqK7lwMVcxC4Bx2nXxj5&ts=CAEaBAoCGgAqBAoAGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.jm/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?ts=CAEaIgoCGgASHBIUCgcI6g8QChgYEgcI6g8QChgfGAcyAhAAOAEqCQoFOgNVU0QaAA&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or30-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or300-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or330-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or2050-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or660-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or40-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-or1700-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.ie/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AgIdDEhMIxcTz65qulAMV1aGrBx3rYA9N&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgLEgcI6g8QBRgMGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAFFDEhMI0KfQlcKjlgMV8BGtBh1f2Aah&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgREgcI6g8QCBgSGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAFhDEhMI3qmepPLNlAMV6r6rBx2iUhyl&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgaEgcI6g8QBRgbGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?gsas=1&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?ap=MAA&rp=SAI&ts=CAESABpaCjwSOjIlMHg4OWUzNzA4MzIyODE3YzBiOjB4OWZkY2YwN2U1MTAyYjQ0YzoRRG93bnRvd24gQ3Jvc3NpbmcSGhIUCgcI5Q8QAxgeEgcI5Q8QAxgfGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.expedia.com/Boston-Hotels-Hotel-AKA-Back-Bay.h1070718.Hotel-Information?equalTargetTab=tab-0&utm_source=openai"
+          },
+          {
+            "url": "https://www.tripadvisor.com.my/Hotel_Review-g60745-d321151-Reviews-Hotel_AKA_Back_Bay-Boston_Massachusetts.html?utm_source=openai"
+          },
+          {
+            "url": "https://www.google.gg/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?ts=CAEaIAoCGgASGhIUCgcI6g8QCBgKEgcI6g8QCBgLGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.co.ke/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAAhDEhMI5c7T1-SqlgMVBvO4CB2NACRp&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgbEgcI6g8QCBgcGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.co.ke/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAMRCEhMIlZ_xgciolgMV2x68AR2W2QsK&ts=CAEaIAoCGgASGhIUCgcI6g8QCBgbEgcI6g8QCBgcGAEyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.ng/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AgL1DEhMImfDK05iplgMVGAfJAh1hxgk_&ts=CAESCgoCCAMKAggDEAAaIAoCGgASGhIUCgcI6g8QChgaEgcI6g8QCxgBGAYyAhAAKgkKBToDVVNEGgA&utm_source=openai"
+          },
+          {
+            "url": "https://www.google.com.ng/travel/hotels/entity/ChcIiYys4cib3dp6GgsvZy8xdGRkYncwZxAB?rp=OAHCAhwiGg0AAApDEhMIifj8jbL3igMVNdpLAx0tYicM&ts=CAEaIgoCGgASHBIUCgcI6g8QBhgREgcI6g8QBhgTGAIyAhAAOAEqCQoFOgNVU0QaAA&utm_source=openai"
+          }
+        ],
+        "recoveryAttempts": 1
+      }
+    }
+  ]
+}

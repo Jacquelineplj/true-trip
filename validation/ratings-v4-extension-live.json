@@ -1,0 +1,204 @@
+{
+  "startedAt": "2026-11-17T22:16:30.791Z",
+  "live": true,
+  "undated": false,
+  "targetCards": 12,
+  "ratings": true,
+  "checks": [
+    "MV3 service worker loaded; real extension storage configured",
+    "25 cards read with name, price, hotel URL",
+    "At most one TrueTrip block per hotel card",
+    "12 real provider results rendered by installed extension",
+    "Sort puts enriched cards first and assigns three ranks",
+    "Card and banner restored after DOM replacement; sort still works",
+    "Restore original Booking order after sorting and DOM replacement",
+    "No extra tabs created in extension browser during tax lookups"
+  ],
+  "enrichmentReadyMs": 16442,
+  "taxesReadyMs": 16442,
+  "ratingCoverage": {
+    "google": 11,
+    "tripadvisor": 11,
+    "googleTravel": 11
+  },
+  "extraUserBrowserTabs": 0,
+  "blocks": [
+    "\n      Added by TrueTrip\n      \n      Parking: $30/night x 1 = $30 (self; GPT web search) source\n      Rides to your anchors: estimated $70-$131, about 0.8 h total travel (MIT Media Lab: 10 min · Boston Convention and Exhibition Center: 12 min)\n      Ratings: Booking 7.6 · Google 3.7 (via Google Travel) ↗ · Tripadvisor 3.9 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $60/night x 1 = $60 (self; GPT web search) source\n      Rides to your anchors: estimated $43-$81, about 0.4 h total travel (MIT Media Lab: 10 min · Boston Convention and Exhibition Center: 1 min)\n      Ratings: Booking 8.7 · Google 4.2 (via Google Travel) ↗ · Tripadvisor 4.6 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $27/night x 1 = $27 (self; GPT web search) source\n      Rides to your anchors: estimated $66-$124, about 0.7 h total travel (MIT Media Lab: 14 min · Boston Convention and Exhibition Center: 7 min)\n      Ratings: Booking 7.9 · Google 3.8 (via Google Travel) ↗ · Tripadvisor 3.8 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $70/night x 1 = $70 (valet; GPT web search) source\n      Rides to your anchors: estimated $47-$89, about 0.5 h total travel (MIT Media Lab: 7 min · Boston Convention and Exhibition Center: 8 min)\n      Ratings: Booking 8.5 · Google 4.4 (via Google Travel) ↗ · Tripadvisor 4.2 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $58/night x 1 = $58 (self; GPT web search) source\n      Rides to your anchors: estimated $63-$118, about 0.7 h total travel (MIT Media Lab: 13 min · Boston Convention and Exhibition Center: 8 min)\n      Ratings: Booking 8.3 · Google 4.1 (via Google Travel) ↗ · Tripadvisor 3.9 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: estimated off-site $48.50/night × 1 = $48.50 (no on-site parking; average of 10 valid hotel quotes in this search)\n      Rides to your anchors: estimated $47-$88, about 0.5 h total travel (MIT Media Lab: 7 min · Boston Convention and Exhibition Center: 7 min)\n      Ratings: Booking 8.4 · Google n/a · Tripadvisor n/a\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $25/night x 1 = $25 (self; GPT web search) source\n      Rides to your anchors: estimated $72-$136, about 0.8 h total travel (MIT Media Lab: 13 min · Boston Convention and Exhibition Center: 11 min)\n      Ratings: Booking 8.6 · Google 4.4 (via Google Travel) ↗ · Tripadvisor 4.5 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $60/night x 1 = $60 (valet; GPT web search) source\n      Rides to your anchors: estimated $44-$83, about 0.4 h total travel (MIT Media Lab: 11 min · Boston Convention and Exhibition Center: 2 min)\n      Ratings: Booking 8.8 · Google 4.5 (via Google Travel) ↗ · Tripadvisor 4.6 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: estimated off-site $48.50/night × 1 = $48.50 (no on-site parking; average of 10 valid hotel quotes in this search)\n      Rides to your anchors: estimated $73-$137, about 0.7 h total travel (MIT Media Lab: 10 min · Boston Convention and Exhibition Center: 12 min)\n      Ratings: Booking 8.7 · Google 4.3 (via Google Travel) ↗ · Tripadvisor 4.2 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $60/night x 1 = $60 (valet; GPT web search) source\n      Rides to your anchors: estimated $59-$111, about 0.6 h total travel (MIT Media Lab: 11 min · Boston Convention and Exhibition Center: 8 min)\n      Ratings: Booking 8.3 · Google 4.1 (via Google Travel) ↗ · Tripadvisor 3.9 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $65/night x 1 = $65 (valet; GPT web search) source\n      Rides to your anchors: estimated $45-$85, about 0.5 h total travel (MIT Media Lab: 8 min · Boston Convention and Exhibition Center: 6 min)\n      Ratings: Booking 8.4 · Google 4.1 (via Google Travel) ↗ · Tripadvisor 4 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message",
+    "\n      Added by TrueTrip\n      \n      Parking: $30/night x 1 = $30 (self; GPT web search) source\n      Rides to your anchors: estimated $52-$99, about 0.6 h total travel (MIT Media Lab: 9 min · Boston Convention and Exhibition Center: 8 min)\n      Ratings: Booking 7.6 · Google 3.8 (via Google Travel) ↗ · Tripadvisor 3.7 ↗ (via LLM search, unverified)\n      True trip cost (drive): incomplete (unknown: taxes and fees)\n      \n      unknown message"
+  ],
+  "statusText": "12 hotels · anchors: MIT Media Lab, Boston Convention and Exhibition Center · drive · $20/h",
+  "passed": true,
+  "elapsedMs": 18396,
+  "requests": [
+    {
+      "endpoint": "/health",
+      "startedAt": "2026-11-17T22:16:32.965Z",
+      "startedMs": 1794953792971,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 7
+    },
+    {
+      "endpoint": "/health",
+      "startedAt": "2026-11-17T22:16:38.071Z",
+      "startedMs": 1794953798071,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 1
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.078Z",
+      "startedMs": 1794953798078,
+      "hotel": "Hampton Inn Boston Logan Airport",
+      "status": 200,
+      "durationMs": 6
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.079Z",
+      "startedMs": 1794953798079,
+      "hotel": "Omni Boston Hotel at the Seaport",
+      "status": 200,
+      "durationMs": 8
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.079Z",
+      "startedMs": 1794953798079,
+      "hotel": "DoubleTree by Hilton Hotel Boston Bayside",
+      "status": 200,
+      "durationMs": 11
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.080Z",
+      "startedMs": 1794953798080,
+      "hotel": "The Westin Copley Place, Boston",
+      "status": 200,
+      "durationMs": 13
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.088Z",
+      "startedMs": 1794953798088,
+      "hotel": "Hilton Boston Logan Airport",
+      "status": 200,
+      "durationMs": 3
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.089Z",
+      "startedMs": 1794953798089,
+      "hotel": "Staypineapple, A Delightful Hotel, South End",
+      "status": 200,
+      "durationMs": 4901
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.092Z",
+      "startedMs": 1794953798092,
+      "hotel": "Hilton Garden Inn Boston Logan Airport",
+      "status": 200,
+      "durationMs": 3458
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.094Z",
+      "startedMs": 1794953798094,
+      "hotel": "Hyatt Place Boston/Seaport District",
+      "status": 200,
+      "durationMs": 4910
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:38.101Z",
+      "startedMs": 1794953798101,
+      "hotel": "citizenM Boston Back Bay",
+      "status": 200,
+      "durationMs": 3432
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:16:38.252Z",
+      "startedMs": 1794953798252,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 3
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:41.536Z",
+      "startedMs": 1794953801536,
+      "hotel": "Embassy Suites Boston at Logan Airport",
+      "status": 200,
+      "durationMs": 2588
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:41.552Z",
+      "startedMs": 1794953801552,
+      "hotel": "DoubleTree by Hilton Hotel Boston - Downtown",
+      "status": 200,
+      "durationMs": 2138
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:16:41.705Z",
+      "startedMs": 1794953801705,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 3
+    },
+    {
+      "endpoint": "/enrich-one",
+      "startedAt": "2026-11-17T22:16:42.992Z",
+      "startedMs": 1794953802992,
+      "hotel": "Hampton Inn & Suites Boston Crosstown Center",
+      "status": 200,
+      "durationMs": 3721
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:16:43.157Z",
+      "startedMs": 1794953803157,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 5
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:16:43.847Z",
+      "startedMs": 1794953803847,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 7
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:16:44.278Z",
+      "startedMs": 1794953804278,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 6
+    },
+    {
+      "endpoint": "/notes",
+      "startedAt": "2026-11-17T22:16:46.871Z",
+      "startedMs": 1794953806871,
+      "hotel": null,
+      "status": 200,
+      "durationMs": 17
+    }
+  ]
+}
